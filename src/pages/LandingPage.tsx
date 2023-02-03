@@ -1,4 +1,3 @@
-
 import React from "react";
 import Glimpse from "@/components/Glimpse";
 import Calender from "@/components/Calender"
