@@ -1,17 +1,18 @@
 
-.calSec{
-    width: 100%;
-    margin-top: 10vh;
-    margin-bottom: -45vh;
-  }
   .caldesign img{
+    width: 12vw;
+    height: 25vw;
     position: relative;
-    top: -30vh;
+    top: 20vh;
   }
   .calMain{
     background-image: url(../assests/Group1_bg_1.png);
   height: max-content;
     padding: 30px 0px 20px 0px;
+    width: 100%;
+    margin-top: 10vh;
+    margin-bottom: -45vh;
+    height: max-content;
   }
   .calHeader{
     position: relative;
@@ -42,13 +43,12 @@
     margin-top: 30px;
   }
   .events{
-    margin-top: 30px;
     display: flex;
     flex-direction: column;
   }
   .eventbar1{
     background-color: #397CA1;
-    width: 25vw;
+    width: 22vw;
     height: 8vh;
     border-radius: 12px;
     display: flex;
@@ -58,15 +58,18 @@
   }
   .subbar{
     width:6px;
-    margin-left: 17px;
     border-radius: 18px;
     height: 6vh;
-    margin-top: 6px;
+    position: relative;
+    left: 10px;
+    top: 10px;
   }
   .callogo{
     width: 70px;
     height: 70px;
-    padding-left: 10px;
+    position: relative;
+    left: 20px;
+    top: 5px;
   }
   .des{
     margin-left: 40px;
