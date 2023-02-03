@@ -43,7 +43,7 @@
 }
 .img1Container{
     position: relative;
-    bottom: -200px;
+    bottom: -20vh;
     right: 200px;
 }
 .img1Container img{
