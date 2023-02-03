@@ -1,37 +1,22 @@
-
-.mainContainer{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-.homepage{
+.container1 {
     background-image: url(../assests/sec1bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-}
-.sec1{
-    padding: 0;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    background-size: cover;
-}
-.container-1 {
-    padding-top: 0px;
     width: 100%;
+    height: 100vh;
     display: flex;
-    justify-content: flex-start;
     color: black;
-    margin-left: 100px;
+    justify-content: space-between;
 }
 .info{
-    padding-top: 150px;
-    width: 40%;
-    color: blue;
+    position: relative;
+    top:35vh;
+    width:40%;
 }
 .info h1{
     text-align: left;
-    margin-bottom: 15px;
+    margin: 10px 0px 10px 5vw;
     font-size: 2.6vw;
 }
 .info span{
@@ -39,12 +24,14 @@
     color: rgba(32, 117, 144);
 }
 .info p{
+    margin: 10px 0px 10px 5vw;
     line-height: 1.75em;
     font-size: 1vw;
     color:grey;
 }
 .btnContainer button{
-    margin-top: 13px;
+    
+    margin: 10px 0px 10px 5vw;
     color: white;
     background-color: #207590;
     font-size: 1.3vw;
@@ -55,17 +42,14 @@
     cursor: pointer;
 }
 .img1Container{
-    display: flex;
-    flex-direction: row;
-    margin-left: 8px;
-    justify-content: center;
-    align-content: center;
-    padding-top: 2px;
+    position: relative;
+    bottom: -200px;
+    right: 200px;
 }
 .img1Container img{
-    width: 37vw;
+    width: 35vw;
+    height: 35vw;
     position: relative;
-    left: 39%;
 }
 @media screen and (max-width: 1100px) {
     .info{

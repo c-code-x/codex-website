@@ -1,37 +1,36 @@
-
-
 .footcontainer{
-    margin-top: 50px;
     width: 100%;
     height: 400px;
     background-color: #0A4456;
     display: flex;
     padding-top: 100px;
-
 }
 .logo{
     position: relative;
     top: -50px;
-    margin-left: 140px;
+    margin-left: 8vw;
 }
 .logo img{
     width: 240px;
+    height: 150px;
 }
 .logo p{
     color: white;
 }
 .row{
-    margin-left: 200px;
+    margin-left: 10vw;
 }
 .row ul{
     list-style: none;
 }
 .row h3{
     font-weight: 700;
+    font-size: 25px;
     color: white;
     margin-bottom: 20px;
 }
 .row li{
+    font-size: 15px;
     margin-bottom: 7px;
 }
 .row a{
@@ -42,6 +41,39 @@
     margin-left: 100px;
 }
 .social h3{
+    font-size: 25px;
     color: white;
     margin-bottom: 15px;
 }
+.ss_media_logo{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+.footr{
+    width: 100%;
+    height: 35px;
+    background-color: #267D98;
+    display: flex;
+    flex-direction: row;
+  
+  }
+  .footr{
+    color: white;
+    font-size: 17px;
+    padding-top: 5px;
+    justify-content: space-between;
+  }
+  .footr_1{
+    display: flex;
+  }
+  .foot1{
+    margin-left: 45px;
+  }
+  .foot2{
+    margin-left: 30PX;
+  }
+  .foot3{
+  margin-right: 50px;
+  }
+  

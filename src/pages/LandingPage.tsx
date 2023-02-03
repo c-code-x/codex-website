@@ -2,6 +2,7 @@
 import React from "react";
 import Glimpse from "@/components/Glimpse";
 import Calender from "@/components/Calender"
+import Footer from "@/components/Footer";
 
 
 const LandingPage = () => {
@@ -9,6 +10,7 @@ const LandingPage = () => {
     <div>
         <Glimpse/>
         <Calender/>
+        <Footer/>
     </div>
     )
 }
