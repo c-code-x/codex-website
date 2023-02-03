@@ -1,12 +1,14 @@
 import { NextPage } from "next";
 import React from "react";
-
+import LandingPage from "@/pages/LandingPage";
+import NavBar from "@/components/NavBar";
+import Footer from "@/components/Footer";
 
 const Home:NextPage=()=>{
     return (
-        <h1>
-            Hello team
-        </h1>
+        <div>
+           <LandingPage/>
+        </div>
     )
 }
 
