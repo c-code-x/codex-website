@@ -3,10 +3,10 @@ import React from "react";
 import LandingPage from "@/pages/LandingPage";
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
-
+import styles from '../styles/Body.module.css'
 const Home:NextPage=()=>{
     return (
-        <div>
+        <div className={styles.body}>
            <LandingPage/>
         </div>
     )
