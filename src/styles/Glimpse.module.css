@@ -1,0 +1,99 @@
+
+.mainContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.homepage{
+    background-image: url(../assests/sec1bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.sec1{
+    padding: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-size: cover;
+}
+.container-1 {
+    padding-top: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    color: black;
+    margin-left: 100px;
+}
+.info{
+    padding-top: 150px;
+    width: 40%;
+    color: blue;
+}
+.info h1{
+    text-align: left;
+    margin-bottom: 15px;
+    font-size: 2.6vw;
+}
+.info span{
+    font-size: 3.2vw;
+    color: rgba(32, 117, 144);
+}
+.info p{
+    line-height: 1.75em;
+    font-size: 1vw;
+    color:grey;
+}
+.btnContainer button{
+    margin-top: 13px;
+    color: white;
+    background-color: #207590;
+    font-size: 1.3vw;
+    padding: 15px 20px 15px 20px;
+    border-radius: 10px;
+    border-width: 2px;
+    border:none;
+    cursor: pointer;
+}
+.img1Container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 8px;
+    justify-content: center;
+    align-content: center;
+    padding-top: 2px;
+}
+.img1Container img{
+    width: 37vw;
+    position: relative;
+    left: 39%;
+}
+@media screen and (max-width: 1100px) {
+    .info{
+        padding-top: 4vh;
+        width: 45%;
+    }
+    .info h1{
+        font-size: 3vw;
+    }
+    .info span{
+        font-size: 3.2vw;
+    }
+    .info p{
+        font-size: 1.2vw;
+    }
+}
+@media screen and (max-width: 900px) {
+    .info{
+        padding-top: 5vh;
+        width: 45%;
+    }
+    .info h1{
+        font-size: 3vw;
+    }
+    .info span{
+        font-size: 3.2vw;
+    }
+    .info p{
+        font-size: 1.2vw;
+    }
+}

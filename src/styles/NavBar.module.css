@@ -1,0 +1,23 @@
+.nav{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.navactive {
+    background: rgba(0, 0, 0, 0.4);
+    transition: background-color 1.5s ease;
+}
+.nav_box1 img{
+    width: 60px;
+    margin: 20px;
+}
+.nav_box2{
+    display: flex;
+}
+.nav_box2 p{
+    margin: 20px;
+    color: white;
+    font-size: 2vw;
+    font-family: Inter;
+}
