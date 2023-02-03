@@ -3,11 +3,7 @@ import saly from'../assests/Saly-10_1.png'
 import Image from "next/image";
 export default function Glimpse(){
     return(
-        <div className={styles.homepage}>
-            <section className={styles.sec1}>
-                <div className={styles.mainContainer}>
                     <div className={styles.container1}>
-                        <div></div>
                         <div className={styles.info}>
                             <h1>Hello, We are <span className={styles.typed}>CODEX</span></h1>
                             <p>
@@ -24,8 +20,5 @@ export default function Glimpse(){
                             <Image src={saly} alt='saly'/>
                         </div>
                     </div>
-                </div>
-            </section>
-        </div>
     )
 }

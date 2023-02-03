@@ -4,7 +4,7 @@ import styles2 from '../styles/EventDate.module.css';
 import bg from '../assests/sec2bg.png';
 import icon from '../assests/calendarimg.png';
 import subbar from '../assests/subeventbar.png';
-import Calendar from 'react-calendar'
+import Calendar from 'react-calendar';
 import Image from "next/image";
 export default function EventDate(){
     const [value, onChange] = useState(new Date());
@@ -30,9 +30,9 @@ export default function EventDate(){
                             data.map((item)=>{
                                 return(
                                     <div className={styles2.eventbar1}>
-                                        <Image src={subbar} alt='logo' className='subbar'/>
-                                        <Image src={icon} alt='calendar-logo'  className='callogo'/>
-                                        <div className='des'>
+                                        <Image src={subbar} alt='logo' className={styles2.subbar}/>
+                                        <Image src={icon} alt='calendar-logo'  className={styles2.callogo}/>
+                                        <div className={styles2.des}>
                                             <h4>{item.date}</h4>
                                             <p>{item.event}</p>
                                         </div>

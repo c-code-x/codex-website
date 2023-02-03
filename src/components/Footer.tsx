@@ -1,11 +1,11 @@
 import styles from '../styles/Footer.module.css'
 import logo from '../assests/codexlogo.png';
-import twit from '../assests/twiiter.webp';
-import whtapp from '../assests/whatsapp.webp';
-import face from '../assests/Facebook.webp';
-import insta from '../assests/instagram.webp';
-import utube from '../assests/youtube.png';
 import Image from "next/image";
+import twit from '../assests/whatsapp.png'
+import face from '../assests/facebook.png'
+import whtapp from '../assests/whatsapp.png'
+import insta from '../assests/instagram.png'
+import utube from '../assests/youtube.png'
 export default function Footer(){
     return(
         <div>
@@ -48,14 +48,21 @@ export default function Footer(){
                 <div className={styles.social}>
                     <h3>Follow</h3>
                     <div>
-                        <a href='#'><Image className={styles.twit} src={twit} alt='twitter' /></a>
-                        <a href='#'><Image src={face} alt='facebook'/></a>
-                        <a href='#'><Image src={whtapp} alt='whatsapp'/></a>
-                        <a href='#'><Image src={insta} alt='instagram'/></a>
-                        <a href='#'><Image className={styles.yout} src={utube} alt='youtube'/></a>
+                        <a href='#'><Image className={styles.ss_media_logo} src={twit} alt='twitter' /></a>
+                        <a href='#'><Image className={styles.ss_media_logo} src={face} alt='facebook'/></a>
+                        <a href='#'><Image className={styles.ss_media_logo} src={whtapp} alt='whatsapp'/></a>
+                        <a href='#'><Image className={styles.ss_media_logo} src={insta} alt='instagram'/></a>
+                        <a href='#'><Image className={styles.ss_media_logo} src={utube} alt='youtube'/></a>
                     </div>
                 </div>
             </div>
+            <div className={styles.footr}>
+                <div className={styles.footr_1}>
+                    <div className={styles.foot1}>Terms& Conditions</div>
+                    <div className={styles.foot2}>Back to Top</div>
+                </div>
+                <div className={styles.foot3}>©2022 CodeX. All Rights reserved.</div>
+                </div>
         </div>
     )
 }
