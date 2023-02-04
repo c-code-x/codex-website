@@ -8,7 +8,16 @@ import bars from '../assests/bars-solid.svg'
 
 const NavBar = () => {
     const [animate, setAnimate] = useState(false)
+    const [screen , setScreen] = useState(1001)
+    const [state, setState] = useState("none")
+    const changeState = ()=>{
+        state=="none"? setState("block"):setState("none");
+    }
     useEffect(()=>{
+        if((window.innerWidth) <= 1000)
+        {
+            setScreen(window.innerWidth)
+        }
         const changeColor = ()=>{
             if(window.scrollY>400)
                 setAnimate(true)
@@ -16,6 +25,7 @@ const NavBar = () => {
                 setAnimate(false)
         }
         window.addEventListener('scroll',changeColor)
+        window.addEventListener("resize", ()=>{setScreen(window.innerWidth)})
     },[])
 
     return(
@@ -24,7 +34,7 @@ const NavBar = () => {
                 <Image className={"logo_nav"} src={logo} alt="logo" />
             </div>
             <div className={"nav_box2"}>
-                <ul className={"navlink"}>
+                <ul className={"navlink"} style={{display: (screen<=1000)?state:"block"}}>
                     <li><Link className={"link"} href={"#"}>Home</Link></li>
                     <li><Link className={"link"} href={"#"}>About</Link></li>
                     <li><Link className={"link"} href={"#"}>Members</Link></li>
@@ -33,7 +43,7 @@ const NavBar = () => {
 
             </div>
             <div className={"linkbtn"}>
-                <Link href={"#"} ><Image className={"mobbtn"} src={bars} alt={"f"}/></Link>
+                <button onClick={changeState} style={{background:"none", border: "none"}}><Image className={"mobbtn"} src={bars} alt={"f"}/></button>
             </div>
         </div>
     );

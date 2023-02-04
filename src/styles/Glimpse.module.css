@@ -30,7 +30,7 @@
     color:grey;
 }
 .btnContainer button{
-    
+
     margin: 10px 0px 10px 5vw;
     color: white;
     background-color: #207590;
@@ -51,14 +51,14 @@
     height: 35vw;
     position: relative;
 }
-@media only screen and (min-width: 1px) and (max-width: 1100px) {
+@media (max-width: 1100px) {
     .container1 {
         background-image: url(../assests/sec1bg.png);
         background-size: cover;
         background-repeat: no-repeat;
         background-size: 100% 100%;
         width: 100%;
-        height: 60vh;
+        height: 80vh;
         display: flex;
         color: black;
         justify-content: space-between;
@@ -76,5 +76,51 @@
     }
     .info p{
         font-size: 1.2vw;
+    }
+}
+@media (max-width:560px){
+    .container1 {
+        background-image: url(../assests/bg_img123.png);
+        width: 100%;
+        height: 70vh;
+        border: 1px solid black;
+    }
+    .info{
+        position: relative;
+        top:15vh;
+        width:50%;
+    }
+    .info h1{
+        text-align: left;
+        margin: 10px 0px 10px 5vw;
+        font-size: 5.8vw;
+    }
+    .info span{
+        font-size: 5.8vw;
+        color: rgba(32, 117, 144);
+    }
+    .info p{
+        margin: 10px 0px 10px 5vw;
+        line-height: 1.75em;
+        font-size: 2.3vw;
+        color:grey;
+    }
+    .btnContainer button{
+        margin: 5px 0px 5px 5vw;
+        font-size: 3.5vw;
+        padding: 10px 15px 10px 15px;
+        position: relative;
+        left: 35vw;
+        top:15vh;
+    }
+    .img1Container{
+        position: relative;
+        bottom: -30vh;
+        right: 0vw;
+    }
+    .img1Container img{
+        width: 55vw;
+        height: 55vw;
+        position: relative;
     }
 }
