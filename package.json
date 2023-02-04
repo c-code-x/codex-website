@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fortawesome/free-regular-svg-icons": "^6.2.1",
+    "@fortawesome/free-solid-svg-icons": "^6.2.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@next/font": "13.1.2",
     "@types/node": "18.11.18",
     "@types/react": "18.0.26",
@@ -17,6 +20,7 @@
     "eslint-config-next": "13.1.2",
     "next": "13.1.2",
     "react": "18.2.0",
+    "react-alice-carousel": "^2.7.0",
     "react-calendar": "^4.0.0",
     "react-dom": "18.2.0",
     "styled-components.macro": "^1.0.0",

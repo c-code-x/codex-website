@@ -1,23 +1,37 @@
-.nav{
-    position: fixed;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-.navactive {
-    background: rgba(0, 0, 0, 0.4);
-    transition: background-color 1.5s ease;
-}
-.nav_box1 img{
-    width: 60px;
+.logo{
     margin: 20px;
+    position: relative;
+    height: 34.30769348144531px;
+    width: 38.30986022949219px;
+    left: 10px;
+    top: -10px;
+
+
 }
 .nav_box2{
     display: flex;
+    position: relative;
+    left: -50px;
 }
-.nav_box2 p{
-    margin: 20px;
+.link{
+    margin: 15px;
+    text-decoration: none;
     color: white;
-    font-size: 2vw;
+    font-size: 1vw;
     font-family: Inter;
 }
+.linkbtn{
+    margin: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 1vw;
+    font-family: Inter;
+    display: none;
+}
+.nav_box1{
+    height: 30%;
+}
+.navlinks{
+
+}
+
