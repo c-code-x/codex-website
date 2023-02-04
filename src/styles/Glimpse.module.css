@@ -44,7 +44,7 @@
 .img1Container{
     position: relative;
     bottom: -20vh;
-    right: 200px;
+    right: 10vw;
 }
 .img1Container img{
     width: 35vw;

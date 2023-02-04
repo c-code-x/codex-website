@@ -1,0 +1,48 @@
+.page{
+    height: 100vh;
+    width: 100%;
+}
+.container{
+
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 8px #888888;
+    height: 40%;
+    width: 75%;
+}
+.header{
+    color: #207590;
+    font-weight: bolder;
+    font-size: 50px;
+    position: relative;
+    top: 50px;
+}
+
+.info{
+    font-family: Inter;
+    font-weight: bolder;
+    position: relative;
+    top: 60px;
+    color: #888888;
+}
+.button{
+    position: relative;
+    top: 75px;
+    box-shadow: 2px 10px 10px white;
+    border-radius: 20px;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background: #207590;
+    font-weight: bolder;
+}
