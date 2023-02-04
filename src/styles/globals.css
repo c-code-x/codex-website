@@ -6,6 +6,25 @@
     sans-serif;;
     box-sizing: border-box;
 }
+
+.nav{
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 8%;
+  background: none;
+}
+.navactive {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 10%;
+  z-index: 9;
+  background-color: rgb(58, 136, 181);
+  transition: background-color 1.5s ease;
+}
 .body{
     width: 100%;
     overflow: hidden;
@@ -135,4 +154,85 @@
   .react-calendar--selectRange .react-calendar__tile--hover {
     background-color: #e6e6e6;
   }
-  
+
+  /*Nav Bar css for responsiveness*/
+.logo{
+  margin: 20px;
+  position: relative;
+  height: 34.30769348144531px;
+  width: 38.30986022949219px;
+  left: 10px;
+  top: -10px;
+
+
+}
+.nav_box2{
+  display: flex;
+  position: relative;
+  left: -50px;
+}
+.link{
+  margin: 15px;
+  text-decoration: none;
+  color: white;
+  font-size: 1vw;
+  font-family: Inter;
+}
+.linkbtn{
+  margin: 15px;
+  text-decoration: none;
+  color: white;
+  font-size: 1vw;
+  font-family: Inter;
+  display: none;
+}
+.nav_box1{
+  height: 30%;
+}
+ul {
+  list-style: none;
+  float: right;
+}
+li{
+  display: inline-block;
+  line-height: 45px;
+
+}
+
+
+@media screen and (max-width: 1000px) {
+  ul {
+    position: fixed;
+    list-style: none;
+    float: right;
+    background: #0A4456;
+    align-items: center;
+    width: 60vw;
+    height: 100vh;
+  }
+  li {
+    display: block;
+    line-height: 45px;
+    margin: 50px;
+
+  }
+  .linkbtn
+  {
+    display: block;
+    width: 10%;
+  }
+  .mobbtn{
+    position: relative;
+    top: -10px;
+    width: 100%;
+    height: 30px;
+  }
+
+  .nav_box2{
+    display: block;
+    width: 10%;
+    height: 100%;
+    position: relative;
+    left: 500px;
+  }
+}

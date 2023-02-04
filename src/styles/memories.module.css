@@ -1,0 +1,24 @@
+.alice-carousel{
+    position: absolute;
+}
+.maincontainer_mem{
+    width: 99%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 150px;
+    height: 750px;
+}
+.maincontainer_mem h1{
+    text-align: center;
+    font-size: 2.5vw;
+    position: relative;
+    left: -30px;
+}
+.maincontainer_mem h1 span{
+    color: #0A4456;
+}
+.mem_images{
+    width: 100%;
+    height: 50%;
+}
