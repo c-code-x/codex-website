@@ -21,7 +21,7 @@ const NavBar = () => {
     return(
         <div className= {animate?"navactive":"nav"}>
             <div className={"nav_box1"}>
-                <Image className={"logo"} src={logo} alt="logo" />
+                <Image className={"logo_nav"} src={logo} alt="logo" />
             </div>
             <div className={"nav_box2"}>
                 <ul className={"navlink"}>

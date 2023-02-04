@@ -31,7 +31,6 @@
 }
 .react-calendar {
     position: relative;
-    margin-left: 9vw;
     top:-50px;
     width: 330px;
     height: max-content;
@@ -85,7 +84,7 @@
   .react-calendar__navigation button {
     min-width: 44px;
     background: none;
-    font-size: 25px;
+    font-size: 1.5vw;
     color: white;
   }
   
@@ -93,7 +92,7 @@
     text-align: center;
     text-transform: uppercase;
     font-weight: bolder;
-    font-size: 12px;
+    font-size: 0.8vw;
     color: #3A88B5;
   }
   .react-calendar__month-view__weekdays__weekday {
@@ -111,7 +110,7 @@
   .react-calendar__year-view .react-calendar__tile,
   .react-calendar__decade-view .react-calendar__tile,
   .react-calendar__century-view .react-calendar__tile {
-    padding: 2em 0.5em;
+    padding: 1.3vw 0.5vw;
   }
   .react-calendar__tile {
     max-width: 100%;
@@ -154,17 +153,196 @@
   .react-calendar--selectRange .react-calendar__tile--hover {
     background-color: #e6e6e6;
   }
+  /* Footer */
+  footer{
+    width: 100%;
+    background: #083847;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    text-decoration: none;
+  }
+  footer .content{
+    max-width: 1350px;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  footer .content p,a{
+    color: #fff;
+    text-decoration: none;
+  }
+  footer .content .box{
+    transition: all 0.4s ease;
+  }
+   footer .content .topic{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 16px;
+  
+  }
+  footer .content p{
+    text-align: justify;
+  }
+  .logo{
+      position: relative;
+      top: -70px;
+  }
+  .logo img{
+      position: relative;
+      bottom: -30px;
+      width: 240px;
+      height: 150px;
+  }
+  .logo p{
+      color: white;
+      margin: 10px;
+  }
+  footer .content .lower .topic{
+    margin: 0px 0 20px 0;
+  }
+  footer .content .lower a{
+    font-size: 15px;
+  }
+  footer .content .middle{
+    padding-left: 50px;
+  }
+  footer .content .middle a{
+    line-height: 32px;
+    font-size: 15px;
+    margin: 10px 0px;
+  }
+  footer .content .media-icons a{
+    font-size: 16px;
+    height: 45px;
+    width: 45px;
+    display: inline-block;
+    text-align: center;
+    line-height: 43px;
+    border-radius: 5px;
+    margin: 0px 5px 0px 0px;
+    transition: all 0.3s ease;
+  }
+  footer .content .media-icons a img {
+    width: 40px;
+    height: 40px;
+  }
+  .content .media-icons a:hover{
+    border-color: #eb2f06;
+  }
+  footer .bottom{
+    width: 100%;
+    text-align: right;
+    color: #d9d9d9;
+    padding: 0 40px 5px 0;
+  }
+  footer .bottom a{
+    color: #eb2f06;
+  }
+  footer a{
+    transition: all 0.3s ease;
+  }
+  footer a:hover{
+    color: #eb2f06;
+  }
+  .footr{
+      width: 100%;
+      background-color: #267D98;
+      display: flex;
+    
+    }
+    .footr{
+      color: white;
+      font-size: 15px;
+      padding: 5px;
+      justify-content: space-between;
+    }
+    .footr_1{
+      display: flex;
+    }
+    .foot1{
+      margin-left: 45px;
+    }
+    .foot2{
+      margin-left: 30PX;
+    }
+    .foot3{
+    margin-right: 50px;
+    }
+  @media (max-width:1100px) {
+    footer .content .middle{
+      padding-left: 50px;
+    }
+  }
+  @media (max-width:950px){
+    footer .content .box{
+      width: 70%;
+    }
+    footer .content{
+      display: block;
+      position: relative;
+      top: -80px;
+    }
+    footer .content .middle{
+      padding: 0px;
+      margin-bottom: 40px;
+    }
+    .content .right{
+      margin-top: 40px;
+    }
+    .logo{
+      position: relative;
+      top: 0px;
+      left: -10px;
+  }
+  .logo img{
+      position: relative;
+      bottom: -30px;
+      width: 240px;
+      height: 150px;
+  }
+  .logo p{
+      color: white;
+      margin: 10px;
+  }
+  .footr{
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+    justify-content: space-between;
+  }
+  .foot1{
+    margin-left: 10px;
+  }
+  .foot2{
+    display: none;
+  }
+  .foot3{
+    margin-right: 30px;
+    }
+  }
+  @media (max-width:560px){
+    footer{
+      position: relative;
+    }
+    footer .content{
+      display: block;
+    }
+    footer .content .box{
+      width: 100%;
+      margin-top: 30px;
+    }
+    footer .content .middle{
+      padding-left: 0;
+    }
+  }
 
-  /*Nav Bar css for responsiveness*/
-.logo{
-  margin: 20px;
-  position: relative;
-  height: 34.30769348144531px;
-  width: 38.30986022949219px;
-  left: 10px;
-  top: -10px;
-
-
+/*Nav Bar css for responsiveness*/
+.logo_nav{
+  width: 60px;
+  height: 60px;
 }
 .nav_box2{
   display: flex;
