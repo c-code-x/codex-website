@@ -1,10 +1,9 @@
 import React from "react";
 import Glimpse from "@/components/Glimpse";
 import Calender from "@/components/Calender"
-import Faqs from "@/components/FAQs";
 import Footer1 from "@/components/Footer1";
 import NavBar from "@/components/NavBar";
-import Memories from "@/components/memories";
+import FAQ from "@/components/FAQ";
 
 
 const LandingPage = () => {
@@ -13,6 +12,7 @@ const LandingPage = () => {
         <NavBar/>
         <Glimpse/>
         <Calender/>
+        <FAQ/>
         <Footer1/>
     </div>
     )
