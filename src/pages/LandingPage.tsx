@@ -1,8 +1,8 @@
 import React from "react";
 import Glimpse from "@/components/Glimpse";
 import Calender from "@/components/Calender"
-import Footer from "@/components/Footer";
 import Faqs from "@/components/FAQs";
+import Footer1 from "@/components/Footer1";
 
 
 const LandingPage = () => {
@@ -10,7 +10,7 @@ const LandingPage = () => {
     <div>
         <Glimpse/>
         <Calender/>
-        <Footer/>
+        <Footer1/>
     </div>
     )
 }
