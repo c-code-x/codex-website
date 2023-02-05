@@ -1,4 +1,6 @@
 .container1 {
+    
+    transition: all 0.3s linear 0s;
     background-image: url(../assests/sec1bg.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -51,14 +53,14 @@
     height: 35vw;
     position: relative;
 }
-@media only screen and (min-width: 1px) and (max-width: 1100px) {
+@media (max-width: 1100px) {
     .container1 {
         background-image: url(../assests/sec1bg.png);
         background-size: cover;
         background-repeat: no-repeat;
         background-size: 100% 100%;
         width: 100%;
-        height: 60vh;
+        height: 80vh;
         display: flex;
         color: black;
         justify-content: space-between;
@@ -77,4 +79,129 @@
     .info p{
         font-size: 1.2vw;
     }
+}
+@media (max-width:700px){
+    .container1 {
+        background-image: url(../assests/bg_img123.png);
+        width: 100%;
+        height: 60vh;
+    }
+    .btnContainer button{
+        margin: 10px 0px 10px 5vw;
+        color: white;
+        background-color: #207590;
+        font-size: 2vw;
+        padding: 10px 20px 10px 20px;
+        border-radius: 10px;
+        border-width: 2px;
+        border:none;
+        cursor: pointer;
+    }
+    .info{
+        top:15vh;
+        width:40%;
+    }
+    .info h1{
+        text-align: left;
+        font-size: 3.8vw;
+    }
+    .info span{
+        font-size: 3.8vw;
+    }
+    .info p{
+        margin: 10px 0px 10px 5vw;
+        line-height: 1.55em;
+        font-size:1.8vw;
+        color:grey;
+    }
+    .img1Container{
+        position: relative;
+        bottom: -20vh;
+        right: 10vw;
+    }
+    .img1Container img{
+        width: 42vw;
+        height: 42vw;
+        position: relative;
+    }
+}
+@media (max-width:560px){
+    .container1 {
+        background-image: url(../assests/bg_img123.png);
+        width: 100%;
+        height: 70vh;
+    }
+    .info{
+        position: relative;
+        top:15vh;
+        width:50%;
+    }
+    .info h1{
+        text-align: left;
+        margin: 10px 0px 10px 5vw;
+        font-size: 5.8vw;
+    }
+    .info span{
+        font-size: 5.8vw;
+        color: rgba(32, 117, 144);
+    }
+    .info p{
+        margin: 10px 0px 10px 5vw;
+        line-height: 1.75em;
+        font-size: 2.3vw;
+        color:grey;
+    }
+    .btnContainer button{
+        margin: 5px 0px 5px 5vw;
+        font-size: 3.5vw;
+        padding: 10px 15px 10px 15px;
+        position: relative;
+        left: 32vw;
+        top:15vh;
+    }
+    .img1Container{
+        position: relative;
+        bottom: -30vh;
+        right: 0vw;
+    }
+    .img1Container img{
+        width: 55vw;
+        height: 55vw;
+        position: relative;
+    }
+}
+@media (max-height:450px){
+ .container1{
+    height: 100%;
+ }
+ .img1Container{
+    position: relative;
+    bottom: 0vh;
+    right: 0vw;
+}
+.img1Container img{
+    width: 46vw;
+    height: 46vw;
+    position: relative;
+}
+.info{
+    width:55%;
+}
+.info h1{
+    text-align: left;
+    font-size: 3.5vw;
+}
+.info p{
+    font-size:1.4vw;
+}.btnContainer button{
+    margin: 10px 0px 10px 5vw;
+    color: white;
+    background-color: #207590;
+    font-size: 2vw;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    border-width: 2px;
+    border:none;
+    cursor: pointer;
+}
 }
