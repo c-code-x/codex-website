@@ -114,7 +114,9 @@
     }
     }
     @media (max-height:1000px){
-      
+      .resourcespage{
+        width: 90%;
+      }
     }
   @media screen and (max-width:700px){
     .leftimg{
