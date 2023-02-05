@@ -6,6 +6,7 @@ import NavBar from "@/components/NavBar";
 import Memories from "@/components/memories";
 import Resources from "@/components/Resources"
 import FAQ from "@/components/FAQ";
+import Feedback from "@/components/Feedback";
 
 const LandingPage = () => {
     return(
@@ -16,6 +17,7 @@ const LandingPage = () => {
         <Resources/>
         <FAQ/>
         <Memories/>
+        <Feedback/>
         <Footer/>
     </div>
     )
