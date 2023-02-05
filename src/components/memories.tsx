@@ -3,15 +3,11 @@ import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 import styles from '../styles/memories.module.css';
 import img1 from '../assests/mem_img1.png'
-import img2 from '../assests/memories/1 (1).jpg'
-import img3 from '../assests/memories/2.jpg'
-import img4 from '../assests/memories/3.jpg'
-import img5 from '../assests/memories/4.jpg'
-import img6 from '../assests/memories/5.jpg'
-import img7 from '../assests/memories/6.jpg'
-import img8 from '../assests/memories/7.jpg'
-import img9 from '../assests/memories/8.jpg'
-import img10 from '../assests/memories/9.jpg'
+import img2 from '../assests/memories/mem1.png'
+import img3 from '../assests/memories/mem2.png'
+import img4 from '../assests/memories/mem3.png'
+import img5 from '../assests/memories/mem4.png'
+import img6 from '../assests/memories/mem5.png'
 import Image from "next/image";
 import dynamic from "next/dynamic";
 const Memories=()=>{
@@ -24,15 +20,11 @@ const Memories=()=>{
     };
     const items = [
         <Image key={1} alt={"1"} className={styles.mem_images} src={img1} onDragStart={handleDragStart} role="presentation" />,
-        <Image key={2} alt={"2"} className={styles.mem_images} src={img1} onDragStart={handleDragStart} role="presentation" />,
-        <Image key={3} alt={"3"} className={styles.mem_images} src={img1} onDragStart={handleDragStart} role="presentation" />,
-        <Image key={4} alt={"4"} className={styles.mem_images} src={img1} onDragStart={handleDragStart} role="presentation" />,
-        <Image key={5} alt={"5"} className={styles.mem_images} src={img1} onDragStart={handleDragStart} role="presentation" />,
-        <Image key={6} alt={"6"} className={styles.mem_images} src={img1} onDragStart={handleDragStart} role="presentation" />,
-        <Image key={7} alt={"6"} className={styles.mem_images} src={img1} onDragStart={handleDragStart} role="presentation" />,
-        <Image key={8} alt={"6"} className={styles.mem_images} src={img1} onDragStart={handleDragStart} role="presentation" />,
-        <Image key={9} alt={"6"} className={styles.mem_images} src={img1} onDragStart={handleDragStart} role="presentation" />,
-        <Image key={10} alt={"6"} className={styles.mem_images} src={img1} onDragStart={handleDragStart} role="presentation" />
+        <Image key={2} alt={"2"} className={styles.mem_images} src={img2} onDragStart={handleDragStart} role="presentation" />,
+        <Image key={3} alt={"3"} className={styles.mem_images} src={img3} onDragStart={handleDragStart} role="presentation" />,
+        <Image key={4} alt={"4"} className={styles.mem_images} src={img4} onDragStart={handleDragStart} role="presentation" />,
+        <Image key={5} alt={"5"} className={styles.mem_images} src={img5} onDragStart={handleDragStart} role="presentation" />,
+        <Image key={6} alt={"6"} className={styles.mem_images} src={img6} onDragStart={handleDragStart} role="presentation" />
 
 
 
