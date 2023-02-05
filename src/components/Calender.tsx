@@ -29,7 +29,7 @@ export default function EventDate(){
                         {
                             data.map((item)=>{
                                 return(
-                                    <div key={"1"} className={styles2.eventbar1}>
+                                    <div className={styles2.eventbar1}>
                                         <Image src={subbar} alt='logo' className={styles2.subbar}/>
                                         <Image src={icon} alt='calendar-logo'  className={styles2.callogo}/>
                                         <div className={styles2.des}>

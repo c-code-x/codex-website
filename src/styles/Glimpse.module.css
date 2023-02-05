@@ -32,7 +32,7 @@
     color:grey;
 }
 .btnContainer button{
-
+    
     margin: 10px 0px 10px 5vw;
     color: white;
     background-color: #207590;
@@ -80,7 +80,6 @@
         font-size: 1.2vw;
     }
 }
-<<<<<<< HEAD
 @media (max-width:700px){
     .container1 {
         background-image: url(../assests/bg_img123.png);
@@ -126,17 +125,11 @@
         position: relative;
     }
 }
-=======
->>>>>>> 351b1610bf58207d554e840065fd4f91e326e670
 @media (max-width:560px){
     .container1 {
         background-image: url(../assests/bg_img123.png);
         width: 100%;
         height: 70vh;
-<<<<<<< HEAD
-=======
-        border: 1px solid black;
->>>>>>> 351b1610bf58207d554e840065fd4f91e326e670
     }
     .info{
         position: relative;
@@ -163,11 +156,7 @@
         font-size: 3.5vw;
         padding: 10px 15px 10px 15px;
         position: relative;
-<<<<<<< HEAD
         left: 32vw;
-=======
-        left: 35vw;
->>>>>>> 351b1610bf58207d554e840065fd4f91e326e670
         top:15vh;
     }
     .img1Container{
@@ -180,7 +169,6 @@
         height: 55vw;
         position: relative;
     }
-<<<<<<< HEAD
 }
 @media (max-height:450px){
  .container1{
@@ -216,6 +204,4 @@
     border:none;
     cursor: pointer;
 }
-=======
->>>>>>> 351b1610bf58207d554e840065fd4f91e326e670
 }
