@@ -90,10 +90,12 @@
     }
     .eventsSec{
       width: 60%;
+      scale: 0.9;
     }
   }@media (max-width:1200px){
     .eventsSec{
       width: 65%;
+      scale: 1;
     }
     .eventbar1{
       width:340px;
@@ -133,6 +135,10 @@
       width: 40px;
       height: 40px;
     }
+    .calHeader img{
+      width: 80px;
+      height: 80px;
+    }
   }@media (max-width:800px){
     .eventsSec{
       width: 80%;
@@ -146,26 +152,25 @@
     .eventbar1 p{
       font-size: 1.8vw;
     }
-    
-  .calHeader h1{
-    color: #0D4050;
+    .calHeader h1{
     margin-right: 20px;
     font-size: 3vw;
     margin-bottom: 60px;
   }
   .subbar{
     width:6px;
-    border-radius: 18px;
     height: 80%;
-    position: relative;
-    left: 10px;
-    top: 5px;
   }
   .callogo{
     width: 40px;
     height: 40px;
   }
-  }@media (max-width:550px){
+  .calHeader img{
+    width: 70px;
+    height: 70px;
+  }
+  }
+  @media (max-width:550px){
     .eventsSec{
      flex-direction: column-reverse;
     }
@@ -180,8 +185,7 @@
       margin-bottom: 10px;
       font-size: 12px;
     }
-    
-  .calHeader h1{
+    .calHeader h1{
     color: #0D4050;
     margin-right: 20px;
     font-size: 6vw;
@@ -198,5 +202,9 @@
   .cal{
     margin-left: auto;
     margin-right: auto;
+  }
+  .calHeader img{
+    width: 70px;
+    height: 70px;
   }
   }
