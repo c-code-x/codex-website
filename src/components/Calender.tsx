@@ -45,9 +45,9 @@ export default function EventDate(){
                     </div>
                 </div>
             </div>
-            <div className={styles2.caldesign}>
+            {/* <div className={styles2.caldesign}>
                 <Image src={bg} alt='bg2'/>
-            </div>
+            </div> */}
         </div>
     )
 }

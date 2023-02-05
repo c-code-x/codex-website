@@ -46,20 +46,20 @@
   }
   .leftimg{
     position:absolute;
-    bottom: -600px;
+    bottom: -1300px;
     left: 160px;
     display: block;
   }
   .rightimg{
-    display: block;
     position: absolute;
     right: 160px;
-    bottom: -400px;
+    bottom: -1000px;
   }
 
 @media screen and (max-width:1400px){
 .resourcespage{
     width: 75%;
+    scale: 0.8;
   }
   .viewmore{
     width: 35vw;
@@ -72,18 +72,18 @@
     font-size: 22px;
   }
   .leftimg{
-    bottom: -600px;
+    bottom: -1200px;
     left: 50px;
   }
   .rightimg{
     right: 50px;
-    bottom: -400px;
+    bottom: -1000px;
   }
 }
   @media screen and (max-width:1200px){
     .leftimg{
       position:absolute;
-      bottom: -40%;
+      bottom: -120%;
       left: 30px;
     }
     .leftimg img,.rightimg img{
@@ -93,10 +93,11 @@
     .rightimg{
       position: absolute;
       right: 20px;
-      bottom: -10%;
+      bottom: -100%;
     } 
     .resourcespage{
       width: 80%;
+      scale: 0.9;
     }
     .rscheader h1{
       font-size: 28px;
@@ -117,17 +118,17 @@
   @media screen and (max-width:700px){
     .leftimg{
       position:absolute;
-      bottom: -200px;
+      bottom: -90%;
       left: 30px;
     }
     .leftimg img,.rightimg img{
       width: 60px;
-      height: 60px;
+      height: 60x;
     }
     .rightimg{
       position: absolute;
       right: 20px;
-      bottom: -100px;
+      bottom: -60%;
     }  
     .resourcespage{
       width: 70%;

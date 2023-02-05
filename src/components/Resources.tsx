@@ -21,7 +21,7 @@ export default function Resources(){
     image:"../assests/cp_img.png"
   }]
   return(
-    <section>
+    <div className={styles.resoucespage_entire}>
       <div className={styles.resourcespage}>
         <div className={styles.rscheader}>
           <h1>Resources</h1>
@@ -40,13 +40,13 @@ export default function Resources(){
         </div>
           
       </div>
-      <div className={styles.leftimg}>
+      {/* <div className={styles.leftimg}>
             <Image src={cone} alt='coneimg'/>
           </div>
       <div className={styles.rightimg}>
             <Image src={wand} alt='wandimg'/>
-          </div>
-    </section>
+        </div> */}
+    </div>
     
   )
 }
