@@ -1,0 +1,302 @@
+.feedback{
+    display: flex;
+    flex-direction: column;
+}
+.askinG_feedback{
+    text-align: center;
+}
+.feedback_card{
+    display: flex;
+    flex-direction: row;
+    box-shadow: 5px 10px 15px  rgba(127, 127, 127, 0.49);
+    border-radius: 14px;
+    width: 700px;
+    height: max-content;
+    margin:20px auto 40px auto;
+    z-index: 3;
+    background-color: white;
+    justify-content: space-between;
+    position: relative;
+}
+.feedback_inputs_box{
+    position: relative;
+    z-index: 3;
+    overflow: hidden;
+    width:75%;
+}
+
+.feedback_input_box_header{
+    font-size: 12px;
+    position: relative;
+    top: 20px;
+    margin-left: 20px;
+}
+.feedback_input_box_header h1{
+    color: #0D4050;
+}
+.feedback_input_box_image1{
+    width: 10%;
+    height: 10%;
+    margin-right: 20px;
+}
+.feedback_inputs_box_input1 , .input2, .input3, .input4{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    margin: 0px 10% 20px 0px;
+}
+.input5{
+    width: 80%;
+}
+
+.feedback_inputs_box_form{
+    width: 100%;
+    margin: 14% 10px 10px 30px;
+}
+.feedback_inputs_box_form_1,.feedback_inputs_box_form_2
+{
+    display: flex;
+}
+.namelabel , .branchlabel, .emaillabel, .phnolabel ,.querylabel{
+    position: relative;
+    top: -15px;
+}
+.feedback_contact_box{
+    position: relative;
+    border-radius: 0px 14px 14px 0px;
+    width: 35%;
+    background-image: url(../assests/gradient143.png);
+    background-size: cover;
+    color: white;
+}
+.feedback_contact_box_head{
+    font-size: 24px;
+    position: relative;
+    top: 20px;
+    margin: 10px;
+}
+.feedback_contact_box_mail{
+    text-decoration: none;
+    color: white;
+    font-size: 0.8vw;
+    margin: 10px 0px 0px 30px;
+    display: flex;
+}
+.feedback_contact_box_mail img,.feedback_contact_box_phone img{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+.feedback_contact_box_phone{
+    font-size: 0.8vw;
+    margin: 30px 0px 5px 30px;
+}
+.withpng{
+    width: 100%;
+    display: flex;
+}
+.feedback_submitbtn{
+    background: none;
+    border: none;
+    position: relative;
+    top: 30px;
+    cursor: pointer;
+}
+.feedback_submitbtn img{
+    width: 50px;
+    height: 50px;
+}
+.feedback_inputs_box_name,.feedback_inputs_box_email,.feedback_inputs_box_branch,.feedback_inputs_box_phno{
+    width: 100%;
+    border:none;
+    border-bottom: 1px solid grey;
+    outline: none;
+}
+.feedback_inputs_box_query{
+    width: 100%;
+    border:none;
+    border-bottom: 1px solid grey;
+    outline: none;
+}
+.saly38{
+    width: 500px;
+    height: auto;
+    position: relative;
+    bottom: 0px;
+}
+@media (max-width:1400px){
+    .askinG_feedback{
+        font-size: 1.4vw;
+        position: relative;
+        top: -50px;
+        text-align: center;
+    }
+    .feedback_card{
+        width: 650px;
+        scale: 1;
+        margin:-40px auto 40px auto;
+    }
+    .feedback_contact_box_phone{
+        font-size: 1vw;
+    }
+    .feedback_contact_box_mail{
+        font-size: 1vw;
+    }
+    .namelabel , .branchlabel, .emaillabel, .phnolabel ,.querylabel{
+        top: -12px;
+        font-size: 1vw;
+    }
+    .feedback_input_box_header{
+        font-size: 1vw;
+    }
+    .feedback_contact_box_head{
+        font-size: 1.4vw;
+    }
+}
+@media (max-width:1200px){
+    .askinG_feedback{
+        font-size: 1.4vw;
+        position: relative;
+        top:20px;
+        text-align: center;
+    }
+    .feedback_card{
+        width: 620px;
+        scale: 1;
+        margin:40px auto 40px auto;
+    }
+    .feedback_contact_box_phone{
+        font-size: 1vw;
+    }
+    .feedback_contact_box_mail{
+        font-size: 1.2vw;
+    }
+    .namelabel , .branchlabel, .emaillabel, .phnolabel ,.querylabel{
+        top: -12px;
+        font-size: 1.2vw;
+    }
+    .feedback_input_box_header{
+        font-size: 1.2vw;
+    }
+    .feedback_contact_box_head{
+        font-size: 1.6vw;
+    }
+}
+@media (max-width:1000px){
+    .askinG_feedback{
+        font-size: 1.7vw;
+        top:12vw;
+    }
+    .feedback_card{
+        width: 600px;
+        margin:15vw auto 40px auto;
+    }
+    .namelabel , .branchlabel, .emaillabel, .phnolabel ,.querylabel{
+       font-size: 1.7vw;
+    }
+}
+@media (max-width:700px){
+    .feedback_card{
+        width: 480px;
+        margin:18vw auto 40px auto;
+    }
+    .askinG_feedback{
+        font-size: 12px;
+        top:15vw;
+    }
+    .namelabel , .branchlabel, .emaillabel, .phnolabel ,.querylabel{
+        font-size: 12px;
+     }
+}
+@media (max-width:550px){
+    .feedback_card{
+        width: 95%;
+    }
+    .feedback_inputs_box{
+        width:65%;
+    }
+    
+    .feedback_input_box_header{
+        font-size: 10px;
+        top: 10px;
+    }
+    .feedback_inputs_box_input1 , .input2, .input3, .input4{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+        margin: 0px 10% 20px 0px;
+    }
+    .input5{
+        width: 80%;
+    }
+    
+    .feedback_inputs_box_form{
+        width: 100%;
+        margin: 14% 10px 10px 20px;
+    }
+    .feedback_inputs_box_form_1,.feedback_inputs_box_form_2
+    {
+        display: block;
+    }
+    .namelabel , .branchlabel, .emaillabel, .phnolabel ,.querylabel{
+        position: relative;
+        top: -15px;
+        font-size: 12px;
+    }
+    .feedback_contact_box{
+        position: relative;
+        border-radius: 0px 14px 14px 0px;
+        width: 45%;
+        background-image: url(../assests/gradient143.png);
+        background-size: cover;
+        color: white;
+    }
+    .feedback_contact_box_head{
+        font-size: 15px;
+        top: 20px;
+        margin: 10px 10px 40px 10px;
+    }
+    .feedback_contact_box_mail{
+        text-decoration: none;
+        color: white;
+        font-size: 10px;
+        margin: 10px 0px 0px 10px;
+        display: flex;
+    }
+    .feedback_contact_box_mail img,.feedback_contact_box_phone img{
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+    }
+    .feedback_contact_box_phone{
+        font-size:10px;
+        margin: 30px 0px 5px 10px;
+    }
+    .withpng{
+        width: 100%;
+        display: flex;
+    }
+    .feedback_submitbtn{
+        background: none;
+        border: none;
+        position: relative;
+        top: 30px;
+        left: -20px;
+        cursor: pointer;
+    }
+    .feedback_submitbtn img{
+        width: 40px;
+        height: 40px;
+    }
+    .feedback_inputs_box_name,.feedback_inputs_box_email,.feedback_inputs_box_branch,.feedback_inputs_box_phno{
+        width: 80%;
+    }
+    .feedback_inputs_box_query{
+        width: 80%;
+        border:none;
+        border-bottom: 1px solid grey;
+        outline: none;
+    }
+}

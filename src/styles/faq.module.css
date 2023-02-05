@@ -64,7 +64,8 @@
         font-size: 24px;
     }
     .faqcontainer{
-        margin: 0vh 0px 0px 0px;}
+        margin: 0vh 0px 0px 0px;
+    }
 }
 @media (max-width:540px){
     .faqlayout{
