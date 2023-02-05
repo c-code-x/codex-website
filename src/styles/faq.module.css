@@ -1,7 +1,6 @@
 .faqcontainer{
     margin: 10vh 0px 0px 0px;
-    transition: all 0.3s linear 0s;
-    
+    transition: all 0.3s linear 0s;   
 }
 .faqcontainer h1{
     text-align: center;
@@ -32,11 +31,15 @@
 @media (max-width:1400px){
     .faqlayout{
         width: 70vw;
+        scale: 0.8;
     }
+    .faqcontainer{
+        margin: 4vh 0px 0px 0px;}
 }
 @media (max-width:1200px){
     .faqlayout{
         width: 75vw;
+        
     }
 }
 @media (max-width:900px){
@@ -52,6 +55,7 @@
 @media (max-width:700px){
     .faqlayout{
         width: 85vw;
+        scale: 1;
     }
     .faqcontainer p{
         font-size: 15px;
@@ -59,6 +63,8 @@
     .faqcontainer h1{
         font-size: 24px;
     }
+    .faqcontainer{
+        margin: 0vh 0px 0px 0px;}
 }
 @media (max-width:540px){
     .faqlayout{

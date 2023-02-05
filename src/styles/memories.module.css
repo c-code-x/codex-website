@@ -4,6 +4,7 @@
 .maincontainer_mem{
     width: 99%;
     overflow: hidden;
+    margin-top: -100px;
     margin-left: auto;
     margin-right: auto;
     position: relative;
