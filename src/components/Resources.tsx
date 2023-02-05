@@ -29,14 +29,16 @@ export default function Resources(){
         <div className={styles.rlayout}>
          {data.map((item)=>{
             return(
-            <div className={styles.viewBx}><Resource heading={item.heading} 
+            <div className={styles.viewBx}><Resource  heading={item.heading}
                       description={item.description}
                       image={front}
                       desg={rec}/></div>);
            })}
+          <a href={"/UnderConstruction"}>
           <div className={styles.viewmore}>
             <h2>View More</h2>
           </div>
+          </a>
         </div>
           
       </div>
