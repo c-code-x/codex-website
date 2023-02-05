@@ -139,6 +139,47 @@
   .react-calendar--selectRange .react-calendar__tile--hover {
     background-color: #e6e6e6;
   }
+@media (max-width:1400px){
+    .react-calendar {
+        top:-60px;
+        width: 300px;
+        height: 370px;
+    }
+    .react-calendar__navigation {
+      top: -30px;
+      left: -31px;
+      width: 300px;
+      height: 100px;
+      border-radius: 20px 20px 0px 0px;
+    }
+    .react-calendar__navigation button {
+      min-width: 44px;
+      background: none;
+      font-size: 1.3vw;
+      color: white;
+    }
+}
+@media (max-width:1200px){
+  .react-calendar {
+      top:-60px;
+      width: 280px;
+      height: 370px;
+  }
+  .react-calendar__navigation {
+    top: -30px;
+    left: -31px;
+    width: 280px;
+    height: 100px;
+    border-radius: 20px 20px 0px 0px;
+  }
+  .react-calendar__navigation button {
+    min-width: 44px;
+    background: none;
+    font-size: 1.3vw;
+    color: white;
+  }
+}
+  /*calender end*/
   /* Footer */
   footer{
     width: 100%;

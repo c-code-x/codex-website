@@ -4,12 +4,13 @@ import styles from '../styles/Feedback.module.css';
 import mail from '../assests/gmail.png'
 import tele from '../assests/telephone.png'
 import Image from "next/image";
+import saly38 from '../assests/Saly_38_1.png'
 const Feedback = () => {
     const handleSubmit = () => {
         console.log("Underdev")
     }
     return (
-        <div>
+        <div className={styles.feedback}>
             <p className={styles.askinG_feedback}>Willing to learn and work on projects with us?</p>
         <div className={styles.feedback_card}>
             <div className={styles.feedback_inputs_box}>
@@ -55,6 +56,7 @@ const Feedback = () => {
                 <a className={styles.feedback_contact_box_mail} href={"mailto: codex_sig@gitam.in"} ><Image src={mail} alt="mail"/> codex_sig@gitam.in</a>
             </div>
         </div>
+        {/* <Image className={styles.saly38} src={saly38} alt="saly_38_1"/> */}
         </div>
     );
 }

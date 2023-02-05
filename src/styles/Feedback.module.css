@@ -1,3 +1,7 @@
+.feedback{
+    display: flex;
+    flex-direction: column;
+}
 .askinG_feedback{
     text-align: center;
 }
@@ -12,6 +16,7 @@
     z-index: 3;
     background-color: white;
     justify-content: space-between;
+    position: relative;
 }
 .feedback_inputs_box{
     position: relative;
@@ -113,6 +118,12 @@
     border:none;
     border-bottom: 1px solid grey;
     outline: none;
+}
+.saly38{
+    width: 500px;
+    height: auto;
+    position: relative;
+    bottom: 0px;
 }
 @media (max-width:1400px){
     .askinG_feedback{
