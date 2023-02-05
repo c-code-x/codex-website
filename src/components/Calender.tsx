@@ -18,7 +18,7 @@ export default function EventDate(){
     }]
     console.log(data);
     return(
-        <div className={styles2.calSec}>
+        <div className={styles2.calSec}  >
             <div className={styles2.calMain}>
                 <div className={styles2.calHeader}>
                     <div><h1>Our Event Calendar</h1></div>

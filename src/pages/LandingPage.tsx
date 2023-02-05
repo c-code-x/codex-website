@@ -1,7 +1,7 @@
 import React from "react";
 import Glimpse from "@/components/Glimpse";
 import Calender from "@/components/Calender"
-import Footer1 from "@/components/Footer1";
+import Footer from "@/components/Footer";
 import NavBar from "@/components/NavBar";
 import Memories from "@/components/memories";
 import Resources from "@/components/Resources"
@@ -16,7 +16,7 @@ const LandingPage = () => {
         <Resources/>
         <FAQ/>
         <Memories/>
-        <Footer1/>
+        <Footer/>
     </div>
     )
 }
