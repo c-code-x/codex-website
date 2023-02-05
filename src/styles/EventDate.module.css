@@ -3,6 +3,7 @@
     height: 25vw;
     position: relative;
     top: 20vh;
+  z-index: 0;
   }
   .calMain{
     display: block;
