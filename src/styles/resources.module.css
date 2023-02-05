@@ -1,0 +1,209 @@
+.resourcespage{
+    transition: all 0.3s linear 0s;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+  }
+  .rscheader h1{
+    font-size: 35px;
+    text-align: center;
+    color: #0F3D4B;
+    margin: 20px;
+  }
+  .rlayout{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .viewmore{
+    background-image: url(../assests/gradient112.png);
+    background-size: cover;
+    background-position-x: -10px;
+    background-position-y: -10px;
+    background-size: 120% 120%;
+    width: 28vw;
+    height: 275px;
+    box-shadow: 2px 5px 10px #1a394959;
+    border-radius: 20px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .viewmore h2{
+    color: white;
+    text-align: center;
+    transition: all 0.15s linear 0s;
+  }
+  .viewmore:hover .viewmore h2{
+    font-size: 28px;
+  }
+  .leftimg{
+    position:absolute;
+    bottom: -600px;
+    left: 160px;
+    display: block;
+  }
+  .rightimg{
+    display: block;
+    position: absolute;
+    right: 160px;
+    bottom: -400px;
+  }
+
+@media screen and (max-width:1400px){
+.resourcespage{
+    width: 75%;
+  }
+  .viewmore{
+    width: 35vw;
+    height: 275px;
+  }
+  .viewmore h2{
+    font-size: 20px;
+  }
+  .viewmore:hover .viewmore h2{
+    font-size: 22px;
+  }
+  .leftimg{
+    bottom: -600px;
+    left: 50px;
+  }
+  .rightimg{
+    right: 50px;
+    bottom: -400px;
+  }
+}
+  @media screen and (max-width:1200px){
+    .leftimg{
+      position:absolute;
+      bottom: -40%;
+      left: 30px;
+    }
+    .leftimg img,.rightimg img{
+      width: 80px;
+      height: 80px;
+    }
+    .rightimg{
+      position: absolute;
+      right: 20px;
+      bottom: -10%;
+    } 
+    .resourcespage{
+      width: 80%;
+    }
+    .rscheader h1{
+      font-size: 28px;
+      margin: 15px;
+    }
+    .rlayout{
+      width: 100%;
+      justify-content:safe;
+    }
+    .viewmore{
+      width: 38vw;
+      height: 230px;  
+    }
+    }
+    @media (max-height:1000px){
+      
+    }
+  @media screen and (max-width:700px){
+    .leftimg{
+      position:absolute;
+      bottom: -200px;
+      left: 30px;
+    }
+    .leftimg img,.rightimg img{
+      width: 60px;
+      height: 60px;
+    }
+    .rightimg{
+      position: absolute;
+      right: 20px;
+      bottom: -100px;
+    }  
+    .resourcespage{
+      width: 70%;
+    }
+    
+    .rscheader h1{
+      font-size: 2px;
+      margin: 15px;
+    }
+    .rlayout{
+      width: 100%;
+      justify-content:safe;
+    }
+    .viewmore{
+      width: 100%;
+      height: 200px;
+    }
+    }
+  @media screen and (max-width:550px){
+  .leftimg,.rightimg{
+    display: none;
+  }
+  .resourcespage{
+    width: 100%;
+  }
+  
+  .rscheader h1{
+    font-size: 20px;
+    margin: 15px;
+  }
+  .rlayout{
+    width: 100%;
+    justify-content:safe;
+  }
+  .viewmore{
+    width: 100%;
+    height: 200px;
+  }
+  .viewmore h2{
+    font-size: 15px;
+  }
+  }
+  
+@media (max-height:450px){
+  .resourcespage{
+    width: 90%;
+  }
+  .rscheader h1{
+    font-size: 25px;
+  }
+  .viewmore{
+    background-image: url(../assests/gradient112.png);
+    background-size: cover;
+    background-position-x: -10px;
+    background-position-y: -10px;
+    background-size: 120% 120%;
+    width: 42vw;
+    height: 200px;
+    box-shadow: 2px 5px 10px #1a394959;
+    border-radius: 20px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .viewmore h2{
+    color: white;
+    text-align: center;
+    transition: all 0.15s linear 0s;
+  }
+  .viewmore:hover .viewmore h2{
+    font-size: 28px;
+  }
+  .leftimg,.rightimg{
+   display: none;
+  }
+
+}

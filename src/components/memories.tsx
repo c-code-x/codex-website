@@ -2,15 +2,16 @@ import React from 'react';
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 import styles from '../styles/memories.module.css';
-import 'react-alice-carousel/lib/alice-carousel.css';
 import img1 from '../assests/mem_img1.png'
 import Image from "next/image";
-export default function Memories(){
+import dynamic from "next/dynamic";
+const Memories=()=>{
     const handleDragStart = (e : any) => e.preventDefault();
     const responsive = {
         0: { items: 1 },
         568: { items: 2 },
-        1024: { items: 3 },
+        1200: { items: 3 },
+         
     };
     const items = [
         <Image key={1} alt={"1"} className={styles.mem_images} src={img1} onDragStart={handleDragStart} role="presentation" />,
@@ -25,8 +26,14 @@ export default function Memories(){
             <div className={styles.head_mem}>
                 <h1>Our <span>Memories</span></h1>
             </div>
-            <AliceCarousel mouseTracking items={items}  responsive={responsive}
-                           controlsStrategy={styles.alternate}/>
+            <AliceCarousel autoPlay infinite
+                           animationType="fadeout"
+                           autoPlayInterval={1000}
+                           animationDuration={1000}
+                           mouseTracking items={items}  responsive={responsive}
+                           controlsStrategy={styles.alternate} />
+                           
         </div>
     )
 }
+export default dynamic (() => Promise.resolve(Memories), {ssr: false})

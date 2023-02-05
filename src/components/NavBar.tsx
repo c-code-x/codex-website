@@ -3,8 +3,8 @@ import styles from '../styles/NavBar.module.css'
 import logo from '../assests/logo_1.png'
 import Image from "next/image";
 import Link from "next/link";
-import bars from '../assests/bars-solid.svg'
-
+import bar from '../assests/burger.png';
+import arrow from '../assests/rightarrow.png';
 
 const NavBar = () => {
     const [animate, setAnimate] = useState(false)
@@ -14,7 +14,7 @@ const NavBar = () => {
         state=="none"? setState("block"):setState("none");
     }
     useEffect(()=>{
-        if((window.innerWidth) <= 1000)
+        if((window.innerWidth) <= 800)
         {
             setScreen(window.innerWidth)
         }
@@ -34,16 +34,16 @@ const NavBar = () => {
                 <Image className={"logo_nav"} src={logo} alt="logo" />
             </div>
             <div className={"nav_box2"}>
-                <ul className={"navlink"} style={{display: (screen<=1000)?state:"block"}}>
-                    <li><Link className={"link"} href={"#"}>Home</Link></li>
-                    <li><Link className={"link"} href={"#"}>About</Link></li>
-                    <li><Link className={"link"} href={"#"}>Members</Link></li>
-                    <li><Link className={"link"} href={"#"}>Resources</Link></li>
+                <ul className={"navlink"} style={{display: (screen<=800)?state:"block"}}>
+                    <li className="li_nav"><Link className={"link"} href={"#"}>Home</Link></li>
+                    <li className="li_nav"><Link className={"link"} href={"#"}>About</Link></li>
+                    <li className="li_nav"><Link className={"link"} href={"#"}>Members</Link></li>
+                    <li className="li_nav"><Link className={"link"} href={"#"}>Resources</Link></li>
                 </ul>
 
             </div>
             <div className={"linkbtn"}>
-                <button onClick={changeState} style={{background:"none", border: "none"}}><Image className={"mobbtn"} src={bars} alt={"f"}/></button>
+                <button onClick={changeState} style={{background:"none", border: "none"}}><Image className={"mobbtn"} src={state=="block"?arrow:bar} alt={"f"}/></button>
             </div>
         </div>
     );
