@@ -144,7 +144,7 @@
       justify-content:safe;
     }
     .viewmore{
-      width: 100%;
+      width: 68vw;
       height: 200px;
     }
     }
@@ -165,7 +165,7 @@
     justify-content:safe;
   }
   .viewmore{
-    width: 100%;
+    width: 100vw;
     height: 200px;
   }
   .viewmore h2{
