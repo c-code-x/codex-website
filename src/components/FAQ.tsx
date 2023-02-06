@@ -6,7 +6,7 @@ import FAQcomp from "@/components/FAQcomp";
 const FAQ = () => {
     return(
         <div className={styles.faqcontainer}>
-            <h1>FAQ'S</h1>
+            <h1>FAQ&apos;S</h1>
             <p className={styles.tag}>These are some of the frequently asked question on CODEX</p>
             <div className= {styles.faqlayout}>
                 {questions.map((item, index)=>{
