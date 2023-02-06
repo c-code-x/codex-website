@@ -57,7 +57,6 @@ const Feedback = () => {
         axios.post("https://sheet.best/api/sheets/5dd8217a-5d4d-41cf-8a60-064536aeb051",Data).then((res)=>{  });
         notify_success();
         reconvertor;
-        location.reload();
     }
     else{
         notify_failure();

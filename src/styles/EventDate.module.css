@@ -52,7 +52,8 @@
     display: flex;
     flex-direction: row;
     margin-bottom: 25px;
-    box-shadow: 0 0 12px 2px rgba(255, 255, 255, 0.514);
+    box-shadow: 3px 5px 10px rgba(128, 128, 128, 0.537);
+    padding-bottom: 5px;
   }
   .subbar{
     width:6px;
