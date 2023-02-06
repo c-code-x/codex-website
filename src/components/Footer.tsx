@@ -6,6 +6,12 @@ import insta from '../assests/instagram.png'
 import utube from '../assests/youtube1.png'
 import Link from "next/link";
 export default function Footer(){
+  const goToTop = () => {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+    });
+};
     return(
         <div>
             <footer>
@@ -52,7 +58,7 @@ export default function Footer(){
    <div className="footr">
     <div className="footr_1">
         <div className="foot1">Terms& Conditions</div>
-        <div className="foot2">Back to Top</div>
+        <div className="foot2" onClick={goToTop}>Back to Top</div>
     </div>
     <div className="foot3"><p>Copyright © 2023 <Link href="/LandingPage">CodeX</Link> All rights reserved</p></div>
 </div>
