@@ -16,7 +16,6 @@ export default function EventDate(){
         date:"December 15,2022",
         event:"python workshop workshop"
     }]
-    console.log(data);
     return(
         <div className={styles2.calSec}  >
             <div className={styles2.calMain}>
@@ -27,9 +26,9 @@ export default function EventDate(){
                 <div className={styles2.eventsSec}>
                     <div className={styles2.events}>
                         {
-                            data.map((item)=>{
+                            data.map((item, index)=>{
                                 return(
-                                    <div className={styles2.eventbar1}>
+                                    <div key={index} className={styles2.eventbar1}>
                                         <Image src={subbar} alt='logo' className={styles2.subbar}/>
                                         <Image src={icon} alt='calendar-logo'  className={styles2.callogo}/>
                                         <div className={styles2.des}>
