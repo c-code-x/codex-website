@@ -105,7 +105,6 @@ const Feedback = () => {
             </div>
             <div className={styles.feedback_contact_box}>
                 <h1 className={styles.feedback_contact_box_head}>Contact Information</h1>
-                <p className={styles.feedback_contact_box_phone}><Image src={tele} alt="mail"/> +91 7439163646 </p>
                 <a className={styles.feedback_contact_box_mail} href={"mailto: codex_sig@gitam.in"} ><Image src={mail} alt="mail"/> codex_sig@gitam.in</a>
             </div>
         </div>

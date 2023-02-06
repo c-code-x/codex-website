@@ -40,9 +40,6 @@ export default function Footer(){
     </div>
      <div className="lower">
         <div className="topic">Contact us</div>
-        <div className="phone">
-          <a className='contact_num' href="tel:+91 74391 63656"><i className="fas fa-phone-volume"></i>+91 74391 63656</a>
-        </div>
         <div className="email">
           <a className='contact_num' href="mailto: codex_sig@gitam.in"><i className="fas fa-envelope"></i>codex_sig@gitam.in</a>
         </div>
@@ -62,7 +59,7 @@ export default function Footer(){
         <div className="foot1">Terms& Conditions</div>
         <div className="foot2" onClick={goToTop}>Back to Top</div>
     </div>
-    <div className="foot3"><p>Copyright © 2023 <Link href="/LandingPage">CodeX</Link> All rights reserved</p></div>
+    {/*<div className="foot3"><p>Copyright © 2023 <Link href="/LandingPage">CodeX</Link> All rights reserved</p></div>*/}
 </div>
  </footer>
         </div>
