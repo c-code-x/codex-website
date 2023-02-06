@@ -5,17 +5,47 @@ import mail from '../assests/gmail.png'
 import tele from '../assests/telephone.png'
 import Image from "next/image";
 import saly38 from '../assests/Saly_38_1.png'
-import React, {useState} from "react";
+import React, {useEffect, useState} from "react";
 import axios from "axios";
+import { ToastContainer,toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 const Feedback = () => {
+    const notify_success=()=>{
+        toast.success('Message sent successfully!', {
+            position: "bottom-right",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "colored",
+            });
+    }
+    const notify_failure=()=>{
+        toast.warning('Please enter all the fields!', {
+            position: "bottom-right",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "colored",
+            });
+    }
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [phno, setPhno] = useState("");
     const [branch, setBranch] = useState("");
     const [message, setMessage] = useState("")
-
+    const reconvertor=()=>{  
+        
+            setName("");
+        }
     const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-        e.preventDefault()
+        e.preventDefault();
+        if(name!="" && email!="" && phno!="" && branch!="" && message!=""){
         const Data = {
             Name : name,
             Email : email,
@@ -24,16 +54,14 @@ const Feedback = () => {
             Message : message,
             Timestamp : new Date().toDateString()
         }
-        axios.post("https://sheet.best/api/sheets/5dd8217a-5d4d-41cf-8a60-064536aeb051",Data).then((res)=>{
-            alert("FEEDBACK SENT")
-            setPhno("")
-            setMessage("")
-            setName("")
-            setEmail("")
-            setBranch("")
-        })
-
-
+        axios.post("https://sheet.best/api/sheets/5dd8217a-5d4d-41cf-8a60-064536aeb051",Data).then((res)=>{  });
+        notify_success();
+        reconvertor;
+        location.reload();
+    }
+    else{
+        notify_failure();
+    }
     }
     return (
         <div className={styles.feedback}>
@@ -82,6 +110,18 @@ const Feedback = () => {
                 <a className={styles.feedback_contact_box_mail} href={"mailto: codex_sig@gitam.in"} ><Image src={mail} alt="mail"/> codex_sig@gitam.in</a>
             </div>
         </div>
+        <ToastContainer
+position="bottom-right"
+autoClose={5000}
+hideProgressBar={false}
+newestOnTop={false}
+closeOnClick
+rtl={false}
+pauseOnFocusLoss
+draggable
+pauseOnHover
+theme="colored"
+/>
         {/* <Image className={styles.saly38} src={saly38} alt="saly_38_1"/> */}
         </div>
     );
