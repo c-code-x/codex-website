@@ -59,7 +59,24 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-size: 100% 100%;
-        width: 100%;
+        position: relative;
+        left: 20px;
+        width: 100vw;
+        height: 80vh;
+        display: flex;
+        color: black;
+        justify-content: space-between;
+    }
+}
+@media (max-width: 950px) {
+    .container1 {
+        background-image: url(../assests/sec1bg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        position: relative;
+        left: 30px;
+        width: 100vw;
         height: 80vh;
         display: flex;
         color: black;
@@ -83,7 +100,7 @@
 @media (max-width:700px){
     .container1 {
         background-image: url(../assests/bg_img123.png);
-        width: 100%;
+        width: 100vw;
         height: 60vh;
     }
     .btnContainer button{
@@ -96,6 +113,7 @@
         border-width: 2px;
         border:none;
         cursor: pointer;
+        z-index: 1;
     }
     .info{
         top:15vh;
@@ -128,7 +146,7 @@
 @media (max-width:560px){
     .container1 {
         background-image: url(../assests/bg_img123.png);
-        width: 100%;
+        width: 100vw;
         height: 70vh;
     }
     .info{
@@ -156,8 +174,7 @@
         font-size: 3.5vw;
         padding: 10px 15px 10px 15px;
         position: relative;
-        left: 32vw;
-        top:15vh;
+        z-index: 1;
     }
     .img1Container{
         position: relative;

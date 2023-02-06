@@ -2,6 +2,8 @@ import Image from "next/image";
 import styles from '../styles/underconstruction.module.css';
 import underconstruction from '../assests/underconstruction.png';
 import Link from "next/link";
+import Preloader from "@/components/Preloader";
+import {useState} from "react";
 const Underconst=()=>{
  return (
     <div className={styles.under_const}>
