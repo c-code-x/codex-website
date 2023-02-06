@@ -200,21 +200,29 @@
 @media (max-width:500px){
   .react-calendar {
     width: 240px;
-    height: 330px;
-    border-radius: 10px;
+    height: 360px;
+    border-radius: 15px;
 }
 .react-calendar__navigation {
   width: 240px;
   height: 80px;
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 15px 15px 0px 0px;
 }
   .react-calendar__navigation button {
     font-size: 15px;
   }
   .react-calendar__month-view__weekdays {
     font-size: 2.4vw;
+    position: relative;
+    top: -20px;
   }
-}
+  
+  .react-calendar__year-view .react-calendar__tile,
+  .react-calendar__decade-view .react-calendar__tile,
+  .react-calendar__century-view .react-calendar__tile {
+    padding: 3.3vw 0.3vw;
+  }
+  }
   /*calender end*/
   /* Footer */
   footer{
@@ -330,6 +338,7 @@
     }
     .foot2{
       margin-left: 30PX;
+      cursor: pointer;
     }
     .foot3{
     margin-right: 50px;
