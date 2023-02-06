@@ -2,12 +2,13 @@ import styles from '../styles/Glimpse.module.css'
 import saly from'../assests/Saly-10_1.png'
 import Image from "next/image";
 import Calender from "@/components/Calender"
-import { useRef } from "react";
+import {MouseEventHandler, useRef} from "react";
 import { Calendar } from 'react-calendar';
 const Glimpse=()=>{
     
 const calendar =useRef(null);
-    const scrollDown=(ref)=>{
+    const scrollDown: MouseEventHandler<HTMLDivElement>=(ref)=>{
+        console.log(ref)
         window.scrollTo({
             top: ref.current.offsetTop,
             behavior:'smooth',

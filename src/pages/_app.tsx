@@ -4,6 +4,7 @@ import dynamic from "next/dynamic";
 import {Router} from "next/router";
 import {useEffect, useState} from "react";
 import Preloader from "@/components/Preloader";
+import Head from "next/head";
 const App=({ Component, pageProps }: AppProps)=> {
    //  const [Loading, setLoading] = useState(false)
    //
@@ -18,10 +19,7 @@ const App=({ Component, pageProps }: AppProps)=> {
     return (
   <div>
       {/*{Loading && <Preloader/>}*/}
-   <head>
-    <title>CodeX</title>
-   </head>
   <Component {...pageProps} />
   </div>);
 }
-export default dynamic (() => Promise.resolve(App),{ssr:false})
+export default App;
