@@ -1,4 +1,5 @@
 import logo from '../assests/codexlogo.png';
+import {useRouter} from "next/router";
 import Image from "next/image";
 import git from '../assests/github1.png'
 import disc from '../assests/discordlogo.png'
@@ -12,6 +13,7 @@ export default function Footer(){
         behavior: "smooth",
     });
 };
+    const router = useRouter()
     return(
         <div>
             <footer>

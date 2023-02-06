@@ -1,0 +1,8 @@
+.preloader{
+    width: 1280px;
+    height: 100vh;
+    background-image: url(../assests/preloader.gif);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position-y:-50vh ;
+}
