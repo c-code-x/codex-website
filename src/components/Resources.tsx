@@ -27,9 +27,11 @@ export default function Resources(){
           <h1>Resources</h1>
         </div>
         <div className={styles.rlayout}>
-         {data.map((item)=>{
+         {data.map((item,index)=>{
             return(
-            <div className={styles.viewBx}><Resource  heading={item.heading}
+            <div key={index} className={styles.viewBx}><Resource
+
+                heading={item.heading}
                       description={item.description}
                       image={front}
                       desg={rec}/></div>);

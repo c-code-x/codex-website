@@ -1,7 +1,6 @@
 import styles from '../styles/resource.module.css'
 import Image from "next/image";
 const Resource =(props:any)=>{
-    console.log(props.image);
     return(
         <a href={"/UnderConstruction"}>
     <div className={styles.box} >
