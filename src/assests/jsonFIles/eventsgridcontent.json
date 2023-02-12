@@ -1,0 +1,22 @@
+[
+  {
+    "eventnames": [{
+      "title": "Introduction to C Programming",
+      "description": "The club took the initiative to introduce and make individuals perfect in C language through the workshop."
+    },
+      {
+        "title": "CODEX Code against time ",
+        "description": "The CODEX coding competition introduced pupils to competitive programming and organized them to use reasoning to decipher codes."
+      },
+
+      {
+        "title": "CODIFY Code to design",
+        "description": "The introduction of to web development is a simpler way through our workshops."
+      },
+      {
+        "title": "Snapchat lens studio workshop",
+        "description": "A workshop on building your own, collaboratively constructed snap lens was held."
+      }
+    ]
+  }
+]
