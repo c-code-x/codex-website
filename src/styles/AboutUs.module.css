@@ -1,0 +1,151 @@
+.abtheader{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(270deg, #186DAF 0%, #22A4BC 100%);
+    width: 100vw;
+    height: 25vh;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.abtheadertxt{
+    text-align: center;
+    position: relative;
+    top: 15vh;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.abtsubdiv1{
+    display: flex;
+    width: 100vw;
+    height: 18vh;
+    text-align: center;
+    justify-content: center;
+}
+.guyimg{
+    width: max-content;
+    height: 144px;
+    position: relative;
+    top: -1vh;
+}
+.abtsubdiv1header{
+    display: flex;
+    position: relative;
+    top: 10vh;
+    font-size: 28px;
+    font-weight: bold;
+    color: #0D4050;
+    width: 100%;
+    height: 100%;
+}
+.conesimg{
+    position: relative;
+    z-index: -1;
+    right: 28vw;
+}
+.ssmdiv{
+    display: grid;
+    gap: 3rem;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    width: 100vw;
+    height: 23vh;
+    background-color: #F4FCFF;
+}
+.abtsubdiv2{
+    display: flex;
+    justify-content: space-between;
+}
+.aboutus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+}
+.abtmem{
+    width: 380px;
+    height: auto;
+    margin: 20px;
+    box-shadow: 0px 4px 10px 1px rgba(121, 166, 180, 0.63);
+    border-radius: 10px;
+}
+.abtsubdiv3{
+    width: 30%;
+
+}
+.abtcontent{
+    font-size: 13px;
+    color: #515151;
+}
+.abtheading{
+    font-size: 28px;
+    font-weight: bold;
+    color: #0D4050;
+    margin: 3px;
+}
+.wanttojoin{
+    margin: 4px;
+    border: none;
+    background-color: #267D98;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+.wanttojoin:hover{
+    cursor: pointer;
+}
+
+.eventgrid{
+    margin: 10px auto 10px auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 53%;
+}
+.events{
+    text-align: center;
+    margin: 20px auto 10px auto;
+    position: relative;
+}
+.eventheader{
+    font-size: 28px;
+    font-weight: 700;
+    color: #0A4456;
+}
+.bg{
+    background: #EFFBFF;
+    height: 70vh;
+    width: 100vw;
+    z-index: -1;
+    position: absolute;
+    top: 100px;
+
+}
+.viewmore{
+    border: none;
+    border-radius: 6px;
+    padding: 10px 15px 10px 15px;
+    background: #207590;
+    color: white;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+.viewmore:hover{
+    cursor: pointer;
+}
+.light{
+    position: absolute;
+    left: 85vw;
+    top: 540px
+}
+.side1{
+    position: absolute;
+    top: 43vh;
+    left: 85vw;
+}
+.side2{
+    position: absolute;
+    left: -14vw;
+    width: 432px;
+    height: 432px;
+}
