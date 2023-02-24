@@ -3,6 +3,7 @@
     width: 100%;
     box-sizing: border-box;
 }
+
 .under_const1{
     position: relative;
     top: 20vh;
@@ -34,6 +35,7 @@
 .under_const2 img{
     width: 40vw;
     height: 40vw;
+    z-index: -1;
 }
 .under_const1 button{
     padding: 15px 20px 15px 20px;
@@ -44,11 +46,15 @@
     font-size: 1.4vw;
     margin: 15px;
     cursor: pointer;
+    z-index: 9;
 }
 @media (max-width:1400px){
 
     .under_const1{
         top: 30vh;
+    }
+    .under_const1 button{
+        z-index: 9;
     }
     
     .under_const2{
@@ -66,10 +72,14 @@
         left: 45vw;
         top: 30vh;
     }
+    .under_const1 button{
+        z-index: 9;
+    }
 }@media (max-width:800px){
 
     .under_const1{
-        top: 30vh;
+        top: 20vh;
+        position: relative;
     }
     .under_const2{
         left: 20vw;
@@ -78,12 +88,15 @@
     .under_const2 img{
         width: 80vw;
         height: 80vw;
+        position: relative;
+        z-index: -1;
     }
     .under_const1 button{
         padding: 10px 15px 10px 15px;
         border-radius: 5px;
         font-size: 1.6vw;
         margin: 10px;
+        z-index: 9;
     }
 }
 @media (max-width:550px){
@@ -106,7 +119,7 @@
         letter-spacing: 1.6vw;
     }
     .under_const1{
-        top: 20vh;
+        top: 10vh;
         left: 10vw;
     }
     .under_const2{
@@ -116,9 +129,11 @@
     .under_const2 img{
         width: 100vw;
         height: 100vw;
+        z-index: -1;
     }
     .under_const1 button{
         font-size: 2.4vw;
         margin:10px 5px;
+        z-index: 9;
     }
 }
