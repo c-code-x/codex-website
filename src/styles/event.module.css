@@ -1,13 +1,7 @@
-.images_events_carousel{
-    width: 100%;
-    height: 350px;
-    margin-bottom: 30px;
-    position: relative;    
-}
-.img_evnts{
-    height: max-content;
-    position: relative;
-    top: -80px;
+.top_event_img{
+    margin-top: -10vw;
+    width: 100vw;
+    height: auto;
 }
 .events_page{
     width: 100vw;
@@ -72,7 +66,6 @@ transform: translateY(0px);
 }
 .curosels_enets{
     position: relative;
-    top: -40px;
     background-color: #F4FCFF;
     padding: 30px 0px 50px 0px;
     
@@ -121,6 +114,11 @@ transform: translateY(0px);
     display: none;
 }
 @media (max-width:1400px){
+    .top_event_img{
+        margin-top: -3vw;
+        width: 100vw;
+        height: auto;
+    }
 .event_detailcont{
     width: 60vw;
 }
@@ -186,7 +184,6 @@ transform: translateY(0px);
 }
 .curosels_enets{
     padding: 10px 0px 40px 0px;
-    margin-bottom:-50px ;
 }
 .curosels_enets_h2{
     font-size:20px;
@@ -211,6 +208,11 @@ height: max-content;
 }
 
 @media (max-width:1200px){
+    .top_event_img{
+        margin-top: 0vw;
+        width: 100vw;
+        height: auto;
+    }
     .event_detailcont{
         width: 68vw;
     }
@@ -277,6 +279,11 @@ height: max-content;
 }
         
 @media (max-width:550px){
+    .top_event_img{
+        margin-top: 0vw;
+        width: 100vw;
+        height: auto;
+    }
     .event_detailcont{
         width: 80vw;
         display: block;
@@ -370,7 +377,6 @@ height: max-content;
 }
 .curosels_enets{
     padding: 10px 0px 40px 0px;
-    margin-bottom:-50px ;
 }
 .curosels_enets_h2{
     font-size:20px;

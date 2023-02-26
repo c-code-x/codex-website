@@ -86,7 +86,7 @@ const AboutUs : NextPage = () => {
                     <Events title = {details[2].title} description = {details[2].description} image = {codify}/>
                     <Events title = {details[3].title} description = {details[3].description} image = {snap}/>
                 </div>
-                <Link href={"/UnderConstruction"}><button className={styles.viewmore} >View More</button></Link>
+                <Link href={"/Events"}><button className={styles.viewmore} >View More</button></Link>
                 <Image className={styles.light} alt={""} src={lights}></Image>
 
             </div>

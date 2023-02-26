@@ -11,8 +11,8 @@
   display: none;
 }
 .body{
-    width: 100%;
-    overflow: hidden;
+    width: 100vh;
+    overflow-x: hidden;
 }
 .react-calendar {
     position: relative;
