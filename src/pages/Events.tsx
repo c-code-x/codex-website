@@ -1,4 +1,3 @@
-
 import memory from "../assests/memories/mem_event1.png";
 import Image from "next/image";
 import NavBar from "@/components/NavBar";

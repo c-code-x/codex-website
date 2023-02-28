@@ -50,7 +50,6 @@ const Event_curosel=()=> {
   };
   const detailedevent = useRef<HTMLDivElement>(undefined!);
   const scrollDown = (ref: MutableRefObject<HTMLDivElement>) => {
-    console.log(ref);
     window.scrollTo({
       top: ref.current.offsetTop,
       behavior: "smooth",
