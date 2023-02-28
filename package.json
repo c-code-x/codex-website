@@ -25,7 +25,10 @@
     "react-alice-carousel": "^2.7.0",
     "react-calendar": "^4.0.0",
     "react-dom": "18.2.0",
+    "react-responsive-carousel": "^3.2.23",
+    "react-slick": "^0.29.0",
     "react-toastify": "^9.1.1",
+    "slick-carousel": "^1.8.1",
     "styled-components": "^5.3.6",
     "styled-components.macro": "^1.0.0",
     "typescript": "4.9.4"
