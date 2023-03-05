@@ -22,8 +22,6 @@ import Link from "next/link";
 import lights from "../assests/Lights.png"
 import side1 from "../assests/Untitled-8 1.png"
 import side2 from "../assests/Untitled-8 2.png"
-
-
 const AboutUs : NextPage = () => {
     const details = data[0].eventnames
     const subscribers = Youtube();
