@@ -64,7 +64,7 @@ const Event_curosel=()=> {
         {products?.map((item, index) => {
           return(
             <div className={styles.event_block}>
-            <div className={styles.events_block_imgbx}><img src={`${item.image}`} alt="" /></div>
+            <div className={styles.events_block_imgbx}><Image src={`${item.image}`} alt="" /></div>
             <div className={styles.events_block_content}>
                 <h3>{item.title}</h3>
                 <button onClick={()=>{
@@ -81,13 +81,13 @@ const Event_curosel=()=> {
     <div ref={detailedevent} className={styles.event_detailcont}>
           <div className={styles.event_detailcont1}>
             <h2>{detailedeventcontainer.title}</h2>
-            <div className={styles.display_mobile_img_e}><img  className={styles.display_mobile_img_event} src={`${detailedeventcontainer.image}`} alt=""  /></div>
+            <div className={styles.display_mobile_img_e}><Image  className={styles.display_mobile_img_event} src={`${detailedeventcontainer.image}`} alt=""  /></div>
             <p>{detailedeventcontainer.description}</p>
             <h4>No of Participants:</h4>
             <h3>{detailedeventcontainer.participants}</h3>
           </div>
           <div className={styles.event_detailcont2}>
-            <img src={`${detailedeventcontainer.image}`} alt=""/>
+            <Image src={`${detailedeventcontainer.image}`} alt=""/>
           </div>
     </div>
     </div>

@@ -8,7 +8,7 @@ const Member_block=(props:any)=>{
     return(
         <div className={styles.member_block_cont}>
             <div className={styles.member_block_cont_img_outer}>
-                <img className={styles.member_block_cont_img_inner} src={`${props.img}`} alt=""/>
+                <Image className={styles.member_block_cont_img_inner} src={`${props.img}`} alt=""/>
             </div>
             <h1>{props.name}</h1>
             <h2>{props.role}</h2>
