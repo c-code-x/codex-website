@@ -31,7 +31,7 @@ export default function Footer() {
               <Link href="/LandingPage">Home</Link>
             </div>
             <div>
-              <Link href="/UnderConstruction">About</Link>
+              <Link href="/AboutUs">About</Link>
             </div>
             <div>
               <Link href="/UnderConstruction">Domains</Link>

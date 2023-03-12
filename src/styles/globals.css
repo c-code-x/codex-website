@@ -11,8 +11,8 @@
   display: none;
 }
 .body{
-    width: 100%;
-    overflow: hidden;
+    width: 100vh;
+    overflow-x: hidden;
 }
 .react-calendar {
     position: relative;
@@ -580,7 +580,7 @@
     text-align: center;
     display: block;
     transition:  2.5s ease;
-    line-height: 45px;
+    line-height: 30px;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -642,4 +642,38 @@
     margin: 0.5vw
   }
   
+}
+.slick-slider {
+  padding-left: 0px;
+}
+
+.slick-prev {
+  z-index: 1;
+}
+.slick-next {
+  z-index: 1;
+}
+
+.slick-dots li button:before {
+  color: rgb(88, 88, 88) !important;
+  font-size: 10px !important;
+  margin-top: 10px;
+}
+.slick-dots button {
+}
+
+.slick-dots li.slick-active button:before {
+  color: rgb(0, 0, 0) !important;
+}
+@media (max-width:550px){
+  
+.slick-slider {
+  padding-left: 0px;
+}
+
+.slick-dots li button:before {
+  color: rgb(88, 88, 88) !important;
+  font-size: 8px !important;
+  margin-top: 10px;
+}
 }

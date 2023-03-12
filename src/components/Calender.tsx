@@ -8,13 +8,13 @@ import Calendar from 'react-calendar';
 import Image from "next/image";
 export default function EventDate(){
     const [value, onChange] = useState(new Date());
-    const data=[{date:"December 15,2022",
-        event:"c programming workshop"},{
-        date:"December 15,2022",
-        event:"c++ workshop"
+    const data=[{date:"February 15, 2023",
+        event:"Skill Enhancement Series (episode 1)"},{
+        date:"December 19,2023",
+        event:"WEBEX - WebDev Series"
     },{
-        date:"December 15,2022",
-        event:"python workshop workshop"
+        date:"Comming Soon",
+        event:"HACKATHON"
     }]
     return(
         <div className={styles2.calSec}  >

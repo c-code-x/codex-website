@@ -36,8 +36,8 @@ const NavBar = () => {
             <div className={"nav_box2"}>
                 <ul className={"navlink"} style={{display: (screen<=800)?state:"block"}}>
                     <li className="li_nav"><Link className={"link"} href={"/LandingPage"}>Home</Link></li>
-                    <li className="li_nav"><Link className={"link"} href={"/UnderConstruction"}>About</Link></li>
-                    <li className="li_nav"><Link className={"link"} href={"/UnderConstruction"}>Members</Link></li>
+                    <li className="li_nav"><Link className={"link"} href={"/AboutUs"}>About Us</Link></li>
+                    <li className="li_nav"><Link className={"link"} href={"/Members"}>Members</Link></li>
                     <li className="li_nav"><Link className={"link"} href={"/UnderConstruction"}>Resources</Link></li>
                 </ul>
 
