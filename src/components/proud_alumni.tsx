@@ -54,17 +54,18 @@ const data=[{
         <div className={styles.proud_alumni_codex}>
             <div className={styles.team_codex_div}>
             <h1 className={styles.team_codex_heading}>Proud Alumni of <span>CODEX</span></h1>
-           <div  className={styles.member_blocks_team_codex}>{data.map((item)=>{
-            return(
+           <div  className={styles.member_blocks_team_codex}>{data.map((item,index)=>
             <Member_block img={item.image}
                           name={item.name}
                           role={item.role}
                           description={item.description}
                           insta={item.insta}
                           github={item.github}
-                          linkdin={item.linkdin}/>
-            );
-           })} 
+                          linkdin={item.linkdin}
+                          key={index}
+                          />
+            )
+           }
            </div>
         </div>
         </div>

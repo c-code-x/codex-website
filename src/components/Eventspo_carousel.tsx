@@ -63,7 +63,7 @@ const Event_curosel=()=> {
       <Slider ref={slider} {...settings}>
         {products?.map((item, index) => {
           return(
-            <div className={styles.event_block}>
+            <div className={styles.event_block} key={index}>
             <div className={styles.events_block_imgbx}><Image src={`${item.image}`} alt="" /></div>
             <div className={styles.events_block_content}>
                 <h3>{item.title}</h3>
