@@ -10,7 +10,7 @@ const Underconst=()=>{
         <div className={styles.under_const1}><h1>Oops!</h1>
         <h3>Under construction</h3>
         <p>Be patient</p>
-        <Link href={"/LandingPage"}><button>Go Back</button></Link>
+        <Link href={"/"}><button>Go Back</button></Link>
         </div>
         <div className={styles.under_const2}>
             <Image src={underconstruction} alt=""/>
