@@ -32,7 +32,7 @@ const AboutUs : NextPage = () => {
             <NavBar/>
         </div>
             <div className={styles.abtheadertxt}>
-        <p>Who Are We?</p>
+                <p>Who Are We?</p>
             </div>
         </div>
             <div className={styles.abtsubdiv1}>

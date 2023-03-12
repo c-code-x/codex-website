@@ -29,3 +29,26 @@
     top: 3px;
     margin-top: 3px;
 }
+@media (max-width:550px){
+    .smcard{
+        padding: 3px;
+        top: 0px;
+        width: 28vw;
+        height: 75px;
+        border-radius: 5px;
+    }
+    .smcard img{
+        width: 20px;
+        height: 20px;
+        position: relative;
+        top: 5px;
+        margin: 0px;
+    }
+    .type{
+        color: #676767;
+        font-size: 12px;
+        position:1 relative;
+        top: 3px;
+        margin-top: 3px;
+    }
+}

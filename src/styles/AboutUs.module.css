@@ -393,6 +393,12 @@
 /*800px*/
 /*Done*/
 @media (max-width:800px) {
+    .abtheader{
+        height: 15vh;
+    }
+    .abtheadertxt{
+        font-size: 15px;
+    }
     .eventgrid{
         width: 80%;
         margin-left: 100px;
@@ -513,6 +519,18 @@
 /* 550px */
 /*Done*/
 @media (max-width:550px) {
+    .abtheadertxt{
+        font-size: 15px;
+        top: 10vh;
+    }
+    .abtheader{
+        display: flex;
+        flex-direction: column;
+        background: linear-gradient(270deg, #186DAF 0%, #22A4BC 100%);
+        width: 100vw;
+        height: 15vh;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
     .eventgrid{
         width: 80%;
         margin-left: 100px;
@@ -530,8 +548,8 @@
     }
     .abtsubdiv1header{
         top: 12vh;
-        font-size: 25px;
-        left:-5vh;
+        font-size: 15px;
+        left:0vh;
     }
     .conesimg{
         width: 10vw;
@@ -541,9 +559,8 @@
         left:-4vh;
     }
     .ssmdiv{
-        height: 18vh;
-        gap: 2rem;
-        width: 100vw;
+        gap: 0.3rem;
+        height: max-content;
     }
     .abtsubdiv2{
         flex-direction: column;
