@@ -1,5 +1,4 @@
 import styles from '../styles/resources.module.css'
-import front from '../assests/frontendimg.png';
 import back from '../assests/backendimg.png';
 import competitive from '../assests/runningimg.png';
 import cone from '../assests/Cones.jpg';
@@ -10,15 +9,15 @@ import Image from "next/image";
 export default function Resources(){
   const data=[{heading:"FRONT END DEVELOPMENT",
   description:"Front-end development is generally responsible for the aesthetic of the site. What you see on the screen is the front end, which includes menus, images, and other elements",
-  image:"../assests/fed_img.png"
+  image:"https://user-images.githubusercontent.com/105535366/222947401-0bba30e7-abc7-4b30-bc3d-da2a73401ffd.png"
   },{
     heading:"BACK END DEVELOPMENT",
     description:"Back end development is the process of creating everything that happens behind the scenes of a website or application that the user cannot see." ,
-    image:"../assests/bed_img.png"
+    image:"https://user-images.githubusercontent.com/105535366/222947405-cf335c08-058c-4470-8537-186477959742.png"
   },{
     heading:"COMPETITIVE PROGRAMMING",
     description:"Competitive Programming is a mental sport which enables you to code a given problem under provided constraints" ,
-    image:"../assests/cp_img.png"
+    image:"https://user-images.githubusercontent.com/105535366/222947398-46f4b2c7-19e1-4f17-966c-41bff9eb0f94.png"
   }]
   return(
     <div className={styles.resoucespage_entire}>
@@ -33,7 +32,7 @@ export default function Resources(){
 
                 heading={item.heading}
                       description={item.description}
-                      image={front}
+                      image={item.image}
                       desg={rec}/></div>);
            })}
           <a href={"/UnderConstruction"}>

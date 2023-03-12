@@ -1,0 +1,24 @@
+import Image from "next/image";
+import image from "../assests/members/santosh_img.png";
+import linkdin from "../assests/members/linkdinlogo.png";
+import insta from "../assests/members/instalogo.png";
+import github from "../assests/members/githublogo.png";
+import styles from '../styles/members.module.css';
+const Member_block=(props:any)=>{
+    return(
+        <div className={styles.member_block_cont}>
+            <div className={styles.member_block_cont_img_outer}>
+                <img className={styles.member_block_cont_img_inner} src={`${props.img}`} alt=""/>
+            </div>
+            <h1>{props.name}</h1>
+            <h2>{props.role}</h2>
+            <p>{props.description}</p>
+            <div className={styles.ss_media_member_block}>
+                <a href=""><Image className={styles.member_block_cont_img_socialmedia} src={insta} alt=""/></a>
+                <a href=""><Image className={styles.member_block_cont_img_socialmedia} src={github} alt=""/></a>
+                <a href=""><Image className={styles.member_block_cont_img_socialmedia} src={linkdin} alt=""/></a>
+            </div>
+        </div>
+    );
+};
+export default Member_block;
