@@ -1,26 +1,24 @@
-.logo{
+.logo {
     margin: 20px;
     position: relative;
     height: 34.30769348144531px;
     width: 38.30986022949219px;
     left: 10px;
     top: -10px;
-
-
 }
-.nav_box2{
+.nav_box2 {
     display: flex;
     position: relative;
     left: -50px;
 }
-.link{
+.link {
     margin: 15px;
     text-decoration: none;
     color: white;
     font-size: 1vw;
     font-family: Inter;
 }
-.linkbtn{
+.linkbtn {
     margin: 15px;
     text-decoration: none;
     color: white;
@@ -28,6 +26,6 @@
     font-family: Inter;
     display: none;
 }
-.nav_box1{
+.nav_box1 {
     height: 30%;
 }

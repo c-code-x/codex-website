@@ -1,4 +1,4 @@
-.smcard{
+.smcard {
     position: relative;
     top: 15px;
     display: block;
@@ -9,20 +9,20 @@
     border-radius: 15px;
     background-size: cover;
 }
-.smcard img{
+.smcard img {
     width: 30px;
     height: 30px;
     position: relative;
     top: 15px;
     margin: 10px;
 }
-.count{
-    color: #0A4456;
+.count {
+    color: #0a4456;
     font-weight: bold;
     position: relative;
     top: 8px;
 }
-.type{
+.type {
     color: #676767;
     font-size: 12px;
     position: relative;

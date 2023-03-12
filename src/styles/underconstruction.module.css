@@ -1,43 +1,43 @@
-.under_const{
+.under_const {
     display: flex;
     width: 100%;
     box-sizing: border-box;
 }
 
-.under_const1{
+.under_const1 {
     position: relative;
     top: 20vh;
     left: 20vw;
 }
-.under_const1 h1{
+.under_const1 h1 {
     font-size: 7vw;
     margin: 0px;
-    
+
     color: #0f294d;
 }
-.under_const h3{
+.under_const h3 {
     font-size: 2vw;
     letter-spacing: 0.5vw;
     margin: 0px 0px 0px 15px;
     color: #0f294d;
 }
-.under_const1 p{
+.under_const1 p {
     font-size: 1vw;
     color: #0f294d;
     margin: 10px 0px 0px 15px;
     letter-spacing: 0.5vw;
 }
-.under_const2{
+.under_const2 {
     position: fixed;
     left: 45vw;
     top: 15vh;
 }
-.under_const2 img{
+.under_const2 img {
     width: 40vw;
     height: 40vw;
     z-index: -1;
 }
-.under_const1 button{
+.under_const1 button {
     padding: 15px 20px 15px 20px;
     border-radius: 10px;
     border: none;
@@ -48,50 +48,48 @@
     cursor: pointer;
     z-index: 9;
 }
-@media (max-width:1400px){
-
-    .under_const1{
+@media (max-width: 1400px) {
+    .under_const1 {
         top: 30vh;
     }
-    .under_const1 button{
+    .under_const1 button {
         z-index: 9;
     }
-    
-    .under_const2{
+
+    .under_const2 {
         position: fixed;
         left: 45vw;
         top: 25vh;
     }
 }
-@media (max-width:1200px){
-
-    .under_const1{
+@media (max-width: 1200px) {
+    .under_const1 {
         top: 30vh;
     }
-    .under_const2{
+    .under_const2 {
         left: 45vw;
         top: 30vh;
     }
-    .under_const1 button{
+    .under_const1 button {
         z-index: 9;
     }
-}@media (max-width:800px){
-
-    .under_const1{
+}
+@media (max-width: 800px) {
+    .under_const1 {
         top: 20vh;
         position: relative;
     }
-    .under_const2{
+    .under_const2 {
         left: 20vw;
         top: 35vh;
     }
-    .under_const2 img{
+    .under_const2 img {
         width: 80vw;
         height: 80vw;
         position: relative;
         z-index: -1;
     }
-    .under_const1 button{
+    .under_const1 button {
         padding: 10px 15px 10px 15px;
         border-radius: 5px;
         font-size: 1.6vw;
@@ -99,41 +97,40 @@
         z-index: 9;
     }
 }
-@media (max-width:550px){
-
-    .under_const1 h1{
+@media (max-width: 550px) {
+    .under_const1 h1 {
         font-size: 14vw;
         margin: 0px;
         color: #0f294d;
     }
-    .under_const h3{
+    .under_const h3 {
         font-size: 4vw;
         letter-spacing: 2vw;
         margin: 0px 0px 0px 5px;
         color: #0f294d;
     }
-    .under_const1 p{
+    .under_const1 p {
         font-size: 4vw;
         color: #0f294d;
         margin: 10px 0px 0px 5px;
         letter-spacing: 1.6vw;
     }
-    .under_const1{
+    .under_const1 {
         top: 10vh;
         left: 10vw;
     }
-    .under_const2{
-        left:5vw;
+    .under_const2 {
+        left: 5vw;
         top: 35vh;
     }
-    .under_const2 img{
+    .under_const2 img {
         width: 100vw;
         height: 100vw;
         z-index: -1;
     }
-    .under_const1 button{
+    .under_const1 button {
         font-size: 2.4vw;
-        margin:10px 5px;
+        margin: 10px 5px;
         z-index: 9;
     }
 }

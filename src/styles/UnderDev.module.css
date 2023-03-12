@@ -1,9 +1,8 @@
-.page{
+.page {
     height: 100vh;
     width: 100%;
 }
-.container{
-
+.container {
     background: white;
     display: flex;
     flex-direction: column;
@@ -17,7 +16,7 @@
     height: 40%;
     width: 75%;
 }
-.header{
+.header {
     color: #207590;
     font-weight: bolder;
     font-size: 50px;
@@ -25,14 +24,14 @@
     top: 50px;
 }
 
-.info{
+.info {
     font-family: Inter;
     font-weight: bolder;
     position: relative;
     top: 60px;
     color: #888888;
 }
-.button{
+.button {
     position: relative;
     top: 75px;
     box-shadow: 2px 10px 10px white;

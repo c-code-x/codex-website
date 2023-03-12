@@ -1,22 +1,20 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+        "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     box-sizing: border-box;
 }
-.alice-carousel__dots
-{
-  display: none;
+.alice-carousel__dots {
+    display: none;
 }
-.body{
+.body {
     width: 100vh;
     overflow-x: hidden;
 }
 .react-calendar {
     position: relative;
-    top:-50px;
+    top: -50px;
     width: 330px;
     height: max-content;
     max-width: 100%;
@@ -30,32 +28,32 @@
     line-height: 1px;
     border-color: white;
     box-shadow: 5px 20px 25px rgba(0, 0, 0, 0.253);
-  }
-  .react-calendar--doubleView .react-calendar__viewContainer {
+}
+.react-calendar--doubleView .react-calendar__viewContainer {
     display: flex;
     margin: -0.5em;
-  }
-  .react-calendar--doubleView .react-calendar__viewContainer > * {
+}
+.react-calendar--doubleView .react-calendar__viewContainer > * {
     width: 50%;
     margin: 0.5em;
-  }
-  .react-calendar,
-  .react-calendar *,
-  .react-calendar *:before,
-  .react-calendar *:after {
+}
+.react-calendar,
+.react-calendar *,
+.react-calendar *:before,
+.react-calendar *:after {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-  }
-  .react-calendar button {
+}
+.react-calendar button {
     margin: 0;
     border: 0;
     outline: none;
-  }
-  .react-calendar button:enabled:hover {
+}
+.react-calendar button:enabled:hover {
     cursor: pointer;
-  }
-  .react-calendar__navigation {
+}
+.react-calendar__navigation {
     display: flex;
     height: 120px;
     margin-bottom: 1em;
@@ -65,227 +63,225 @@
     left: -31px;
     width: 330px;
     border-radius: 20px 20px 0px 0px;
-  }
-  .react-calendar__navigation button {
+}
+.react-calendar__navigation button {
     min-width: 44px;
     background: none;
     font-size: 1.5vw;
     color: white;
-  }
-  
-  .react-calendar__month-view__weekdays {
+}
+
+.react-calendar__month-view__weekdays {
     text-align: center;
     text-transform: uppercase;
     font-weight: bolder;
     font-size: 0.8vw;
-    color: #3A88B5;
-  }
-  .react-calendar__month-view__weekdays__weekday {
+    color: #3a88b5;
+}
+.react-calendar__month-view__weekdays__weekday {
     padding: 0.5em;
-  }
-  .react-calendar__month-view__weekNumbers .react-calendar__tile {
+}
+.react-calendar__month-view__weekNumbers .react-calendar__tile {
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 3px;
     font-weight: bold;
-  }
-  
-  
-  .react-calendar__year-view .react-calendar__tile,
-  .react-calendar__decade-view .react-calendar__tile,
-  .react-calendar__century-view .react-calendar__tile {
+}
+
+.react-calendar__year-view .react-calendar__tile,
+.react-calendar__decade-view .react-calendar__tile,
+.react-calendar__century-view .react-calendar__tile {
     padding: 1.3vw 0.5vw;
-  }
-  .react-calendar__tile {
+}
+.react-calendar__tile {
     max-width: 100%;
     padding: 12px 6.6667px;
     background-color: white;
     text-align: center;
     line-height: 14px;
-  }
-  .react-calendar__tile:disabled {
+}
+.react-calendar__tile:disabled {
     background-color: #f0f0f0;
-  }
-  .react-calendar__tile:enabled:hover,
-  .react-calendar__tile:enabled:focus {
-    border:1px solid #207590;
-    
-  }
-  .react-calendar__tile--now {
+}
+.react-calendar__tile:enabled:hover,
+.react-calendar__tile:enabled:focus {
+    border: 1px solid #207590;
+}
+.react-calendar__tile--now {
     color: #133e5763;
-  }
-  .react-calendar__tile--now:enabled:hover,
-  .react-calendar__tile--now:enabled:focus {
+}
+.react-calendar__tile--now:enabled:hover,
+.react-calendar__tile--now:enabled:focus {
     background: #103050;
-  }
-  .react-calendar__tile--hasActive {
+}
+.react-calendar__tile--hasActive {
     color: #0c2946;
-  }
-  .react-calendar__tile--hasActive:enabled:hover,
-  .react-calendar__tile--hasActive:enabled:focus {
+}
+.react-calendar__tile--hasActive:enabled:hover,
+.react-calendar__tile--hasActive:enabled:focus {
     background: #ffffff;
     border: 1px solid #0c2946;
-  }
-  .react-calendar__tile--active {
-    background: #3A88B5;
+}
+.react-calendar__tile--active {
+    background: #3a88b5;
     color: white;
-  }
-  .react-calendar__tile--active:enabled:hover,
-  .react-calendar__tile--active:enabled:focus {
+}
+.react-calendar__tile--active:enabled:hover,
+.react-calendar__tile--active:enabled:focus {
     background: #184674;
-  }
-  .react-calendar--selectRange .react-calendar__tile--hover {
+}
+.react-calendar--selectRange .react-calendar__tile--hover {
     background-color: #e6e6e6;
-  }
-@media (max-width:1400px){
+}
+@media (max-width: 1400px) {
     .react-calendar {
-        top:-60px;
+        top: -60px;
         width: 300px;
         height: 370px;
     }
     .react-calendar__navigation {
-      top: -30px;
-      left: -31px;
-      width: 300px;
-      height: 100px;
-      border-radius: 20px 20px 0px 0px;
+        top: -30px;
+        left: -31px;
+        width: 300px;
+        height: 100px;
+        border-radius: 20px 20px 0px 0px;
     }
     .react-calendar__navigation button {
-      min-width: 44px;
-      background: none;
-      font-size: 1.3vw;
-      color: white;
+        min-width: 44px;
+        background: none;
+        font-size: 1.3vw;
+        color: white;
     }
     .react-calendar__month-view__weekdays {
-      font-size: 1vw;
+        font-size: 1vw;
     }
 }
-@media (max-width:1200px){
-  .react-calendar {
-      top:-60px;
-      width: 280px;
-      height: 370px;
-  }
-  .react-calendar__navigation {
-    top: -30px;
-    left: -31px;
-    width: 280px;
-    height: 100px;
-    border-radius: 20px 20px 0px 0px;
-  }
-  .react-calendar__navigation button {
-    min-width: 44px;
-    background: none;
-    font-size: 1.8vw;
-    color: white;
-  }
-  .react-calendar__month-view__weekdays {
-    font-size: 1.1vw;
-  }
+@media (max-width: 1200px) {
+    .react-calendar {
+        top: -60px;
+        width: 280px;
+        height: 370px;
+    }
+    .react-calendar__navigation {
+        top: -30px;
+        left: -31px;
+        width: 280px;
+        height: 100px;
+        border-radius: 20px 20px 0px 0px;
+    }
+    .react-calendar__navigation button {
+        min-width: 44px;
+        background: none;
+        font-size: 1.8vw;
+        color: white;
+    }
+    .react-calendar__month-view__weekdays {
+        font-size: 1.1vw;
+    }
 }
-@media (max-width:1000px){
-  .react-calendar__navigation button {
-    font-size: 2vw;
-  }
+@media (max-width: 1000px) {
+    .react-calendar__navigation button {
+        font-size: 2vw;
+    }
 }
-@media (max-width:700px){
-  .react-calendar__navigation button {
-    font-size: 2.3vw;
-  }
-  .react-calendar__month-view__weekdays {
-    font-size: 1.4vw;
-  }
+@media (max-width: 700px) {
+    .react-calendar__navigation button {
+        font-size: 2.3vw;
+    }
+    .react-calendar__month-view__weekdays {
+        font-size: 1.4vw;
+    }
 }
-@media (max-width:500px){
-  .react-calendar {
-    width: 240px;
-    height: 360px;
-    border-radius: 15px;
+@media (max-width: 500px) {
+    .react-calendar {
+        width: 240px;
+        height: 360px;
+        border-radius: 15px;
+    }
+    .react-calendar__navigation {
+        width: 240px;
+        height: 80px;
+        border-radius: 15px 15px 0px 0px;
+    }
+    .react-calendar__navigation button {
+        font-size: 15px;
+    }
+    .react-calendar__month-view__weekdays {
+        font-size: 2.4vw;
+        position: relative;
+        top: -20px;
+    }
+
+    .react-calendar__year-view .react-calendar__tile,
+    .react-calendar__decade-view .react-calendar__tile,
+    .react-calendar__century-view .react-calendar__tile {
+        padding: 3.3vw 0.3vw;
+    }
 }
-.react-calendar__navigation {
-  width: 240px;
-  height: 80px;
-  border-radius: 15px 15px 0px 0px;
-}
-  .react-calendar__navigation button {
-    font-size: 15px;
-  }
-  .react-calendar__month-view__weekdays {
-    font-size: 2.4vw;
-    position: relative;
-    top: -20px;
-  }
-  
-  .react-calendar__year-view .react-calendar__tile,
-  .react-calendar__decade-view .react-calendar__tile,
-  .react-calendar__century-view .react-calendar__tile {
-    padding: 3.3vw 0.3vw;
-  }
-  }
-  /*calender end*/
-  /* Footer */
-  footer{
+/*calender end*/
+/* Footer */
+footer {
     width: 100%;
     background: #083847;
     box-sizing: border-box;
-    font-family: 'Poppins',sans-serif;
+    font-family: "Poppins", sans-serif;
     text-decoration: none;
-  }
-  footer .content{
+}
+footer .content {
     max-width: 1350px;
     margin: auto;
     padding: 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-  }
-  footer .content p,a{
+}
+footer .content p,
+a {
     color: #fff;
     text-decoration: none;
-  }
-  footer .content .box{
+}
+footer .content .box {
     transition: all 0.4s ease;
-  }
-   footer .content .topic{
+}
+footer .content .topic {
     font-size: 20px;
     font-weight: 600;
     color: #fff;
     margin-bottom: 16px;
-  
-  }
-  footer .content p{
+}
+footer .content p {
     text-align: justify;
-  }
-  .logo{
-      position: relative;
-      top: -70px;
-  }
-  .logo img{
-      position: relative;
-      bottom: -30px;
-      width: 240px;
-      height: 150px;
-  }
-  .logo p{
-      color: white;
-      margin: 10px;
-  }
-  footer .content .lower .topic{
+}
+.logo {
+    position: relative;
+    top: -70px;
+}
+.logo img {
+    position: relative;
+    bottom: -30px;
+    width: 240px;
+    height: 150px;
+}
+.logo p {
+    color: white;
+    margin: 10px;
+}
+footer .content .lower .topic {
     margin: 0px 0 20px 0;
-  }
-  footer .content .lower a{
+}
+footer .content .lower a {
     font-size: 15px;
-  }
-  footer .content .middle{
+}
+footer .content .middle {
     padding-left: 50px;
-  }
-  footer .content .middle a{
+}
+footer .content .middle a {
     line-height: 32px;
     font-size: 15px;
     margin: 10px 0px;
-  }
-  footer .content .media-icons a{
+}
+footer .content .media-icons a {
     font-size: 16px;
     height: 45px;
     width: 45px;
@@ -295,385 +291,378 @@
     border-radius: 5px;
     margin: 0px 5px 0px 0px;
     transition: all 0.3s ease;
-  }
-  footer .content .media-icons a img {
+}
+footer .content .media-icons a img {
     width: 40px;
     height: 40px;
-  }
-  .content .media-icons a:hover{
+}
+.content .media-icons a:hover {
     border-color: #eb2f06;
-  }
-  footer .bottom{
+}
+footer .bottom {
     width: 100%;
     text-align: right;
     color: #d9d9d9;
     padding: 0 40px 5px 0;
-  }
-  footer .bottom a{
+}
+footer .bottom a {
     color: #eb2f06;
-  }
-  footer a{
+}
+footer a {
     transition: all 0.3s ease;
-  }
-  footer a:hover{
+}
+footer a:hover {
     color: #7fdbff;
-  }
-  .footr{
-      width: 100%;
-      background-color: #267D98;
-      display: flex;
-    
-    }
-    .footr{
-      color: white;
-      font-size: 15px;
-      padding: 5px;
-      justify-content: space-between;
-    }
-    .footr_1{
-      display: flex;
-    }
-    .foot1{
-      margin-left: 45px;
-    }
-    .foot2{
-      margin-left: 30PX;
-      cursor: pointer;
-    }
-    .foot3{
-    margin-right: 50px;
-    }
-    @media (max-width:1400px) {
-      footer .content .middle{
-        padding-left: 40px;
-      }
-      .logo p{
-        font-size: 13px;
-      }
-      
-    footer .content .lower a{
-      font-size: 14px;
-    }
-    footer .content .middle a{
-      font-size: 14px;
-    }
-    }
-
-  @media (max-width:950px){
-    footer .content{
-      justify-content:unset;
-    }
-    footer .content{
-      position: relative;
-    }
-    footer .content .middle{
-      padding: 0px;
-      margin-left: 40px;
-    }
-    footer .content .lower{
-      margin-left: 40px;
-    }
-    .content .right{
-      margin-top: 0px;
-    }
-    .logo{
-      position: relative;
-      top: -40%;
-      left: -10px;
-  }
-  .logo img{
-      position: relative;
-      bottom: -30px;
-      width: 240px;
-      height: 150px;
-  }
-  .logo p{
-      color: white;
-      margin: 5px 10px;
-      font-size: 15px;
-  }
-  .footr{
+}
+.footr {
+    width: 100%;
+    background-color: #267d98;
+    display: flex;
+}
+.footr {
     color: white;
     font-size: 15px;
     padding: 5px;
     justify-content: space-between;
-  }
-  .foot1{
-    margin-left: 10px;
-  }
-  .foot2{
-    display: none;
-  }
-  .foot3{
-    margin-right: 30px;
+}
+.footr_1 {
+    display: flex;
+}
+.foot1 {
+    margin-left: 45px;
+}
+.foot2 {
+    margin-left: 30px;
+    cursor: pointer;
+}
+.foot3 {
+    margin-right: 50px;
+}
+@media (max-width: 1400px) {
+    footer .content .middle {
+        padding-left: 40px;
     }
-    .logo p{
-      font-size: 12px;
+    .logo p {
+        font-size: 13px;
     }
-    
-  footer .content .lower a{
-    font-size: 13px;
-  }
-  footer .content .middle a{
-    font-size: 13px;
-  }
-  }
-  @media (max-width:730px){
-    footer .content .lower{
-      margin-left: 0px;
-    }
-    .content .right{
-      margin-left: 50px;
-    }
-  }
 
-@media (max-width:550px){
-    footer{
-      position: relative;
+    footer .content .lower a {
+        font-size: 14px;
     }
-    footer .content{
-      display: block;
+    footer .content .middle a {
+        font-size: 14px;
     }
-    footer .content .box{
-      width: 100%;
-      margin-top: 30px;
+}
+
+@media (max-width: 950px) {
+    footer .content {
+        justify-content: unset;
     }
-    footer .content .middle{
-      padding-left: 0;
-      margin-left: 0px;
+    footer .content {
+        position: relative;
     }
-    
-   footer .content .topic{
-    font-size: 14px;
-    margin-bottom: 5px;
-  
-  }
-  footer .content .lower{
-    margin-left: 0px;
-  }
-  footer .content .lower .topic{
-    margin: 30px 0 10px 0;
-  }
-  footer .content .lower a{
-    font-size: 12px;
-  }
-  footer .content .middle a{
-    line-height: 20px;
-    font-size: 12px;
-    margin: 10px 0px;
-  }
-  footer .content .media-icons a{
-    height: 35px;
-    width: 35px;
-  }
-  footer .content .media-icons a img {
-    width: 30px;
-    height: 30px;
-  }
-  .content .right{
-    margin-left: 0px;
-  }
-  .footr{
-    font-size: 12px;
+    footer .content .middle {
+        padding: 0px;
+        margin-left: 40px;
     }
-  .foot1{
-    margin-left: 5px;
-  }
-  .foot3{
-    margin-right: 5px;
+    footer .content .lower {
+        margin-left: 40px;
     }
-    .logo img{
-      position: relative;
-      bottom: -10px;
-      width: 170px;
-      height: 120px;
-  }
-  .logo p{
-    font-size: 12px;
-  }
-  }
+    .content .right {
+        margin-top: 0px;
+    }
+    .logo {
+        position: relative;
+        top: -40%;
+        left: -10px;
+    }
+    .logo img {
+        position: relative;
+        bottom: -30px;
+        width: 240px;
+        height: 150px;
+    }
+    .logo p {
+        color: white;
+        margin: 5px 10px;
+        font-size: 15px;
+    }
+    .footr {
+        color: white;
+        font-size: 15px;
+        padding: 5px;
+        justify-content: space-between;
+    }
+    .foot1 {
+        margin-left: 10px;
+    }
+    .foot2 {
+        display: none;
+    }
+    .foot3 {
+        margin-right: 30px;
+    }
+    .logo p {
+        font-size: 12px;
+    }
+
+    footer .content .lower a {
+        font-size: 13px;
+    }
+    footer .content .middle a {
+        font-size: 13px;
+    }
+}
+@media (max-width: 730px) {
+    footer .content .lower {
+        margin-left: 0px;
+    }
+    .content .right {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 550px) {
+    footer {
+        position: relative;
+    }
+    footer .content {
+        display: block;
+    }
+    footer .content .box {
+        width: 100%;
+        margin-top: 30px;
+    }
+    footer .content .middle {
+        padding-left: 0;
+        margin-left: 0px;
+    }
+
+    footer .content .topic {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    footer .content .lower {
+        margin-left: 0px;
+    }
+    footer .content .lower .topic {
+        margin: 30px 0 10px 0;
+    }
+    footer .content .lower a {
+        font-size: 12px;
+    }
+    footer .content .middle a {
+        line-height: 20px;
+        font-size: 12px;
+        margin: 10px 0px;
+    }
+    footer .content .media-icons a {
+        height: 35px;
+        width: 35px;
+    }
+    footer .content .media-icons a img {
+        width: 30px;
+        height: 30px;
+    }
+    .content .right {
+        margin-left: 0px;
+    }
+    .footr {
+        font-size: 12px;
+    }
+    .foot1 {
+        margin-left: 5px;
+    }
+    .foot3 {
+        margin-right: 5px;
+    }
+    .logo img {
+        position: relative;
+        bottom: -10px;
+        width: 170px;
+        height: 120px;
+    }
+    .logo p {
+        font-size: 12px;
+    }
+}
 
 /*Nav Bar css for responsiveness*/
-.nav{
-  position: fixed;
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  height: 10%;
-  z-index: 9;
-  background: none;
-  transition: all 0.4s ease;
+.nav {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 10%;
+    z-index: 9;
+    background: none;
+    transition: all 0.4s ease;
 }
 .navactive {
-  position: fixed;
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  height:70px;
-  z-index: 9;
-  background-color: rgb(58, 136, 181);
-  transition: background-color 1.5s ease;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    z-index: 9;
+    background-color: rgb(58, 136, 181);
+    transition: background-color 1.5s ease;
 }
-.logo_nav{
-  width: 50px;
-  height: 50px;
-  margin: 0.5vw;
+.logo_nav {
+    width: 50px;
+    height: 50px;
+    margin: 0.5vw;
 }
-.nav_box2{
-  display: flex;
-  position: relative;
-  margin: 10px 30px 0px 0px;
+.nav_box2 {
+    display: flex;
+    position: relative;
+    margin: 10px 30px 0px 0px;
 }
-.link{
-  margin: 15px;
-  text-decoration: none;
-  color: white;
+.link {
+    margin: 15px;
+    text-decoration: none;
+    color: white;
 }
-.linkbtn{
-  margin: 5vw;
-  text-decoration: none;
-  color: white;
-  font-family: Inter;
-  display: none;
+.linkbtn {
+    margin: 5vw;
+    text-decoration: none;
+    color: white;
+    font-family: Inter;
+    display: none;
 }
-.nav_box1{
-  height: 30%;
+.nav_box1 {
+    height: 30%;
 }
 .navlink {
-  list-style: none;
-  float: right;
+    list-style: none;
+    float: right;
 }
-.li_nav{
-  display: inline-block;
-  line-height: 35px;
-  font-size: 1vw;
-  transition: all 0.3s linear 0s;
+.li_nav {
+    display: inline-block;
+    line-height: 35px;
+    font-size: 1vw;
+    transition: all 0.3s linear 0s;
 }
-.li_nav:hover{
-  padding-bottom: 5px;
-  border-bottom: 2px solid #ffffff;
+.li_nav:hover {
+    padding-bottom: 5px;
+    border-bottom: 2px solid #ffffff;
 }
 @media screen and (max-width: 1200px) {
-  .li_nav{
-    font-size: 1.4vw;
-  }
+    .li_nav {
+        font-size: 1.4vw;
+    }
 }
 
 @media screen and (max-width: 800px) {
-  .link{
-    font-size: 12px;
-  }
-  .navlink{
-    overflow-x: hidden;
-    position: fixed;
-    right: 0px;
-    list-style: none;
-    float: right;
-    background:rgb(58, 136, 181);;
-    align-items: center;
-    width: 30vw;
-    height: 110vh;
-    top: -10px;
-    padding: 10vh 0vh 0vh 0vh;
-  }
-  .li_nav {
-    text-align: center;
-    display: block;
-    transition:  2.5s ease;
-    line-height: 30px;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 10px;
-    margin: 20px;
-  }
-  .linkbtn
-  {
-    display: block;
-    width: 10%;
-    z-index: 9;
-  }
+    .link {
+        font-size: 12px;
+    }
+    .navlink {
+        overflow-x: hidden;
+        position: fixed;
+        right: 0px;
+        list-style: none;
+        float: right;
+        background: rgb(58, 136, 181);
+        align-items: center;
+        width: 30vw;
+        height: 110vh;
+        top: -10px;
+        padding: 10vh 0vh 0vh 0vh;
+    }
+    .li_nav {
+        text-align: center;
+        display: block;
+        transition: 2.5s ease;
+        line-height: 30px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+        margin: 20px;
+    }
+    .linkbtn {
+        display: block;
+        width: 10%;
+        z-index: 9;
+    }
 
-  .mobbtn{
-    position: relative;
-    top: -2vh;
-    left: 5vw;
-    width: 80%;
-    height: 20px;
-
-  }
-  .logo_nav{
-    width: 40px;
-    height: 40px;
-  
-  }
-  .li_nav:hover{
-    border-bottom: none;
-  }
+    .mobbtn {
+        position: relative;
+        top: -2vh;
+        left: 5vw;
+        width: 80%;
+        height: 20px;
+    }
+    .logo_nav {
+        width: 40px;
+        height: 40px;
+    }
+    .li_nav:hover {
+        border-bottom: none;
+    }
 }
 @media screen and (max-width: 500px) {
-  .mobbtn{
-    top: -1vh;
-    left: 0vw;
-
-  }
-  .navlink{
-    width: 50%;
-  }
-  .navactive{
-    height: 45px;
-  }.logo_nav{
-    width: 30px;
-    height: 30px;
-    margin: 2vw
-  }
+    .mobbtn {
+        top: -1vh;
+        left: 0vw;
+    }
+    .navlink {
+        width: 50%;
+    }
+    .navactive {
+        height: 45px;
+    }
+    .logo_nav {
+        width: 30px;
+        height: 30px;
+        margin: 2vw;
+    }
 }
 @media screen and (max-height: 500px) {
-  .mobbtn{
-    top: -7vh;
-    left: 5vw;
-
-  }
-  .navactive{
-    height: 45px;
-  }.logo_nav{
-    width: 40px;
-    height: 40px;
-    margin: 0.5vw
-  }
-  
+    .mobbtn {
+        top: -7vh;
+        left: 5vw;
+    }
+    .navactive {
+        height: 45px;
+    }
+    .logo_nav {
+        width: 40px;
+        height: 40px;
+        margin: 0.5vw;
+    }
 }
 .slick-slider {
-  padding-left: 0px;
+    padding-left: 0px;
 }
 
 .slick-prev {
-  z-index: 1;
+    z-index: 1;
 }
 .slick-next {
-  z-index: 1;
+    z-index: 1;
 }
 
 .slick-dots li button:before {
-  color: rgb(88, 88, 88) !important;
-  font-size: 10px !important;
-  margin-top: 10px;
+    color: rgb(88, 88, 88) !important;
+    font-size: 10px !important;
+    margin-top: 10px;
 }
 .slick-dots button {
 }
 
 .slick-dots li.slick-active button:before {
-  color: rgb(0, 0, 0) !important;
+    color: rgb(0, 0, 0) !important;
 }
-@media (max-width:550px){
-  
-.slick-slider {
-  padding-left: 0px;
-}
+@media (max-width: 550px) {
+    .slick-slider {
+        padding-left: 0px;
+    }
 
-.slick-dots li button:before {
-  color: rgb(88, 88, 88) !important;
-  font-size: 8px !important;
-  margin-top: 10px;
-}
+    .slick-dots li button:before {
+        color: rgb(88, 88, 88) !important;
+        font-size: 8px !important;
+        margin-top: 10px;
+    }
 }

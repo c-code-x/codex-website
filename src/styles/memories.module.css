@@ -1,7 +1,7 @@
-.alice-carousel{
+.alice-carousel {
     position: absolute;
 }
-.maincontainer_mem{
+.maincontainer_mem {
     width: 99%;
     overflow: hidden;
     margin-top: -100px;
@@ -12,53 +12,53 @@
     height: 80vh;
     z-index: -10;
 }
-.maincontainer_mem h1{
+.maincontainer_mem h1 {
     text-align: center;
     font-size: 35px;
     position: relative;
 }
-.maincontainer_mem h1 span{
-    color: #0A4456;
+.maincontainer_mem h1 span {
+    color: #0a4456;
 }
-.mem_images{
+.mem_images {
     width: 100%;
     height: 50%;
 }
 
-@media screen and (max-width:1400px){
-    .maincontainer_mem h1{
+@media screen and (max-width: 1400px) {
+    .maincontainer_mem h1 {
         font-size: 30px;
     }
-    .maincontainer_mem{
+    .maincontainer_mem {
         height: 52vw;
     }
 }
-@media screen and (max-width:1200px){
-    .maincontainer_mem h1{
+@media screen and (max-width: 1200px) {
+    .maincontainer_mem h1 {
         font-size: 28px;
     }
-    .maincontainer_mem{
+    .maincontainer_mem {
         height: 52vw;
     }
 }
-@media screen and (max-width:700px){
-    .maincontainer_mem h1{
+@media screen and (max-width: 700px) {
+    .maincontainer_mem h1 {
         font-size: 24px;
     }
-    .maincontainer_mem{
+    .maincontainer_mem {
         height: 450px;
     }
 }
-@media screen and (max-width:550px){
-    .maincontainer_mem h1{
+@media screen and (max-width: 550px) {
+    .maincontainer_mem h1 {
         font-size: 20px;
     }
 }
-@media (max-height:450px){
-    .maincontainer_mem h1{
+@media (max-height: 450px) {
+    .maincontainer_mem h1 {
         font-size: 25px;
     }
-    .maincontainer_mem{
+    .maincontainer_mem {
         height: 500px;
     }
 }

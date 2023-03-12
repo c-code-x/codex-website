@@ -1,32 +1,32 @@
 [
-  {
-    "id": 1,
-    "question": "What is CODEX?",
-    "answer": "CODEX is one of the most active clubs on campus and beyond, and always operates, keeping the needs of the CS community in mind. What's more, it never rests, ensuring you always have another event to attend, another skill to develop, and another way to have a great time!"
-  },
-  {
-    "id": 2,
-    "question": "Why CODEX?",
-    "answer": "The best way to excel in competitive coding, optimal coding skils and to become expertise in Different Domains like Web Development, Artificial Intelligence, Game Development etc.. is to know right path, receive proper guidance. The CODEX Club orgainzes regular contests on popular coding platforms in order to inculcate the coding culture in students. In addition, we organize events on popular algorithms, programming languages and trending mystery events in order to better place you among the global competition."
-  },
-  {
-    "id": 3,
-    "question": "Do all events are technical?",
-    "answer": "Of course, not all events should be technical, should they? We need to give those brain cells a break and simply have some fun! Counter-Strike, Treasure Hunt, Number Games, and Tech Quiz ensure that the joy does not leave computer science and provides you the opportunity to demonstrate your extracurricular ability. Those who enjoy sports may also have their day in the sun during these events!"
-  },
-  {
-    "id": 4,
-    "question": "Who is the founder of CODEX?",
-    "answer": "Jaideep is a visionary individual who demonstrated remarkable leadership skills when he founded a student club during his second year of studies at GITAM University. Jaideep was part of the batch of 2019 to 2023 pursuing a degree in Computer Science and Engineering (CSE). His technical expertise in coding and technology, along with the support of his senior students, helped him to establish a successful student club that has provided valuable learning experiences for its members. It's noteworthy that a second-year student took such an active role in creating a positive impact on the university community."
-  },
-  {
-    "id": 5,
-    "question": "How can i join CODEX?",
-    "answer": "All you need to be interested is to be part of the CODEX family; you can join by filling out the form provided below. \nhttps://forms.gle/sVQD2DxnFendWbD49\n"
-  },
-  {
-    "id": 6,
-    "question": "Core member VS club member ?",
-    "answer": "Both will be relatives, but there will be a small difference between them. Core members are accountable for a certain job and are required to attend all meetings and activities, whereas club members are free to participate in whatever events they want."
-  }
+    {
+        "id": 1,
+        "question": "What is CODEX?",
+        "answer": "CODEX is one of the most active clubs on campus and beyond, and always operates, keeping the needs of the CS community in mind. What's more, it never rests, ensuring you always have another event to attend, another skill to develop, and another way to have a great time!"
+    },
+    {
+        "id": 2,
+        "question": "Why CODEX?",
+        "answer": "The best way to excel in competitive coding, optimal coding skils and to become expertise in Different Domains like Web Development, Artificial Intelligence, Game Development etc.. is to know right path, receive proper guidance. The CODEX Club orgainzes regular contests on popular coding platforms in order to inculcate the coding culture in students. In addition, we organize events on popular algorithms, programming languages and trending mystery events in order to better place you among the global competition."
+    },
+    {
+        "id": 3,
+        "question": "Do all events are technical?",
+        "answer": "Of course, not all events should be technical, should they? We need to give those brain cells a break and simply have some fun! Counter-Strike, Treasure Hunt, Number Games, and Tech Quiz ensure that the joy does not leave computer science and provides you the opportunity to demonstrate your extracurricular ability. Those who enjoy sports may also have their day in the sun during these events!"
+    },
+    {
+        "id": 4,
+        "question": "Who is the founder of CODEX?",
+        "answer": "Jaideep is a visionary individual who demonstrated remarkable leadership skills when he founded a student club during his second year of studies at GITAM University. Jaideep was part of the batch of 2019 to 2023 pursuing a degree in Computer Science and Engineering (CSE). His technical expertise in coding and technology, along with the support of his senior students, helped him to establish a successful student club that has provided valuable learning experiences for its members. It's noteworthy that a second-year student took such an active role in creating a positive impact on the university community."
+    },
+    {
+        "id": 5,
+        "question": "How can i join CODEX?",
+        "answer": "All you need to be interested is to be part of the CODEX family; you can join by filling out the form provided below. \nhttps://forms.gle/sVQD2DxnFendWbD49\n"
+    },
+    {
+        "id": 6,
+        "question": "Core member VS club member ?",
+        "answer": "Both will be relatives, but there will be a small difference between them. Core members are accountable for a certain job and are required to attend all meetings and activities, whereas club members are free to participate in whatever events they want."
+    }
 ]
