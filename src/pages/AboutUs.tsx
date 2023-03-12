@@ -41,9 +41,9 @@ const AboutUs : NextPage = () => {
                 </div>
                 <div className={styles.abtsubdiv2}>
                     <p className={styles.abtsubdiv1header}>Our Followers Count</p>
-                    <div>
-                        <Image className={styles.guyimg}  src={image1} alt={""}/>
-                    </div>
+                <div>
+                    <Image className={styles.guyimg}  src={image1} alt={""}/>
+                </div>
 
                 </div>
             </div>
@@ -73,7 +73,7 @@ const AboutUs : NextPage = () => {
                 </div>
                 <Image className={styles.side2} src={side1} alt={""}/>
             </div>
-            <div className={styles.events}>
+            {/* <div className={styles.events}>
                 <div className={styles.eventheader}>
                     <p>Our Events</p>
                 </div>
@@ -87,7 +87,7 @@ const AboutUs : NextPage = () => {
                 <Link href={"/Events"}><button className={styles.viewmore} >View More</button></Link>
                 <Image className={styles.light} alt={""} src={lights}></Image>
 
-            </div>
+            </div> */}
             <Footer/>
         </div>
 

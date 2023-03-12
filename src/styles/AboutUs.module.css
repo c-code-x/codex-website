@@ -11,7 +11,7 @@
     position: relative;
     top: 15vh;
     color: white;
-    font-size: 30px;
+    font-size: 1.8vw;
     font-weight: bold;
 }
 .abtsubdiv1{
@@ -70,8 +70,7 @@
     width: 380px;
     height: auto;
     margin: 20px;
-    box-shadow: 0px 4px 10px 1px rgba(121, 166, 180, 0.63);
-    border-radius: 10px;
+    border-radius: 5px;
 }
 .abtsubdiv3{
     width: 30%;
@@ -88,13 +87,13 @@
     margin: 3px;
 }
 .wanttojoin{
-    margin: 2px;
+    margin: 10px 0px;
     border: none;
     background-color: #267D98;
     border-radius: 6px;
     color: white;
     font-weight: bold;
-    padding: 10px 20px;
+    padding:15px 20px;
 }
 .wanttojoin:hover{
     cursor: pointer;
@@ -145,18 +144,23 @@
 .side1{
     position: absolute;
     top: 53vh;
-    left: 90vw;
+    right: 0px;
+    width: 10vw;
+    height: auto;
 }
 .side2{
     position: absolute;
     left: -1vw;
-    width: 432px;
-    height: 432px;
+    width: 10vw;
+    height: auto;
     top: 715px;
 }
 /*1200px*/
 /*Done*/
 @media (max-width:1200px){
+    .abtheadertxt{
+        font-size: 20px;
+    }
     .eventgrid{
         width: 80%;
         margin-left: 100px;
@@ -167,14 +171,14 @@
         height: auto;
         position: relative;
         top: 1vh;
-        left:18vh;
+        left:12vh;
     }
     .abtsubdiv1{
         height: 18vh;
     }
     .abtsubdiv1header{
         top: 11vh;
-        font-size: 25px;
+        font-size: 20px;
         left:-5vh;
     }
     .conesimg{
@@ -204,36 +208,23 @@
         margin-right: auto;
     }
     .abtmem{
-        width: 256px;
+        width: 35vw;
         height: auto;
         margin: 20px;
-        box-shadow: 0px 4px 10px 1px rgba(121, 166, 180, 0.63);
-        border-radius: 10px;
-    }
+      }
     .abtsubdiv3{
         width: 30%;
-    
-    }
+     }
     .abtcontent{
         font-size: 13px;
-        color: #515151;
-        text-align: center;
-        width: 100%;
     }
     .abtheading{
-        font-size: 25px;
-        font-weight: bold;
-        color: #0D4050;
-        margin: 6px;
+        font-size: 20px;
+        margin: 6px 0px;
     }
     .wanttojoin{
-        margin: 4px;
-        border: none;
-        background-color: #267D98;
-        border-radius: 6px;
-        color: white;
-        font-weight: bold;
-        padding: 20px 15px;
+        margin: 10px 0px;
+        padding: 15px 20px;
     }
     .wanttojoin:hover{
         cursor: pointer;
@@ -259,15 +250,11 @@
         height: auto;
     }
     .side1{
-        left: 84vw;
-        width: 180px;
-        height: 180px;
+        width: 10vw;
         top: 460px;
     }
     .side2{
-        left: 0vw;
-        width: 180px;
-        height: 180px;
+        width: 10vw;
         top: 820px;
     }
 }
@@ -281,18 +268,18 @@
         margin-right: auto;
     }
     .guyimg{
-        width: 15vw;
+        width: 12vw;
         height: auto;
         position: relative;
         top: 1vh;
-        left:18vh;
+        left:12vh;
     }
     .abtsubdiv1{
         height: 18vh;
     }
     .abtsubdiv1header{
         top: 11vh;
-        font-size: 25px;
+        font-size: 20px;
         left:-5vh;
     }
     .conesimg{
@@ -322,36 +309,22 @@
         margin-right: auto;
     }
     .abtmem{
-        width: 256px;
+        width: 35vw;
         height: auto;
         margin: 20px;
-        box-shadow: 0px 4px 10px 1px rgba(121, 166, 180, 0.63);
-        border-radius: 10px;
     }
     .abtsubdiv3{
         width: 30%;
-    
     }
     .abtcontent{
         font-size: 13px;
-        color: #515151;
-        text-align: center;
-        width: 100%;
     }
     .abtheading{
-        font-size: 25px;
-        font-weight: bold;
-        color: #0D4050;
-        margin: 6px;
-    }
+        font-size: 20px;        
+        margin:10px 0px;
+}
     .wanttojoin{
-        margin: 4px;
-        border: none;
-        background-color: #267D98;
-        border-radius: 6px;
-        color: white;
-        font-weight: bold;
-        padding: 20px 15px;
+        font-size:12px;
     }
     .wanttojoin:hover{
         cursor: pointer;
@@ -377,15 +350,11 @@
         height: auto;
     }
     .side1{
-        left: 80vw;
-        width: 180px;
-        height: 180px;
+        width: 10vw;
         top: 460px;
     }
     .side2{
-        left: vw;
-        width: 180px;
-        height: 180px;
+        width: 10vw;
         top: 900px;
     }
 }
@@ -394,37 +363,38 @@
 /*Done*/
 @media (max-width:800px) {
     .abtheader{
-        height: 15vh;
+        height: 130px;
     }
     .abtheadertxt{
         font-size: 15px;
+        top: 10vh;
     }
-    .eventgrid{
+        .eventgrid{
         width: 80%;
         margin-left: 100px;
         margin-right: auto;
     }
     .guyimg{
-        width: 18vw;
+        width: 12vw;
         height: auto;
         position: relative;
-        top: 1vh;
-        left:16vh;
+        top: -1vh;
+        left:10vh;
     }
     .abtsubdiv1{
-        height: 20vh;
+        height: 18vh;
     }
     .abtsubdiv1header{
-        top: 12vh;
-        font-size: 25px;
+        top: 11vh;
+        font-size: 20px;
         left:-5vh;
     }
     .conesimg{
-        width: 8vw;
+        width: 6vw;
         height: auto;
         position: relative;
         top: 10vh;
-        left:-6vh;
+        left:-7vh;
     }
     .ssmdiv{
         height: 18vh;
@@ -446,73 +416,55 @@
         margin-right: auto;
     }
     .abtmem{
-        width: 256px;
+        width: 40vw;
+        border-radius: 0px;
         height: auto;
         margin: 20px;
-        box-shadow: 0px 4px 10px 1px rgba(121, 166, 180, 0.63);
-        border-radius: 10px;
     }
     .abtsubdiv3{
-        width: 30%;
-    
+        width: 45%;
     }
     .abtcontent{
         font-size: 13px;
-        color: #515151;
-        text-align: center;
-        width: 150px;
-        height: auto;
-    }
-    .aboutus{
-        flex-direction: column-reverse;
     }
     .abtheading{
-        font-size: 20px;
-        font-weight: bold;
-        color: #0D4050;
-        margin: 6px;
-    }
+        font-size: 20px;        
+        margin:10px 0px;
+}
     .wanttojoin{
-        margin: 10px;
-        border: none;
-        background-color: #267D98;
-        border-radius: 6px;
-        color: white;
-        font-weight: bold;
-        padding: 10px 15px;
+        font-size:12px;
+        padding: 15px 15px;
     }
     .wanttojoin:hover{
         cursor: pointer;
     }
     .eventgrid{
-        margin: 10px auto 10px 60px;
+        margin: 10px auto 10px 140px;
         display: grid;
         grid-template-columns: auto auto;
-        width: 53%;   
+        width: 53%;
     }
     .events{
-        width: 100%;
+        text-align: center;
+        margin: 20px auto 10px auto;
+        position: relative;
     }
     .bg{
-        height: 120vh;
+        height: 100vh;
     }
     .light{
-        left: 65vw;
-        top: 710px;
+        left: 83vw;
+        top: 700px;
         width: 70px;
         height: auto;
     }
     .side1{
-        left: 83vw;
-        width: 120px;
-        height: 120px;
-        top: 480px;
+        width: 10vw;
+        top: 500px;
     }
     .side2{
-        left: 0vw;
-        width: 120px;
-        height: 120px;
-        top: 1400px;
+        width: 10vw;
+        top: 900px;
     }
 }
 
@@ -639,7 +591,7 @@
     }
     .side2{
         left: -2vw;
-        width: 108px;
+        width: 58px;
         height: 108px;
         top: 1400px;
     }
