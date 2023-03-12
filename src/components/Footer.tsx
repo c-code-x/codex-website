@@ -28,7 +28,7 @@ export default function Footer() {
           <div className="middle box">
             <div className="topic">Quick Links</div>
             <div>
-              <Link href="/LandingPage">Home</Link>
+              <Link href="/">Home</Link>
             </div>
             <div>
               <Link href="/AboutUs">About</Link>

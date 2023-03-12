@@ -31,11 +31,11 @@ const NavBar = () => {
     return(
         <div className= {animate?"navactive":"nav"}>
             <div className={"nav_box1"}>
-                <Link href={"/LandingPage"}><Image className={"logo_nav"} src={logo} alt="logo" /></Link>
+                <Link href={"/"}><Image className={"logo_nav"} src={logo} alt="logo" /></Link>
             </div>
             <div className={"nav_box2"}>
                 <ul className={"navlink"} style={{display: (screen<=800)?state:"block"}}>
-                    <li className="li_nav"><Link className={"link"} href={"/LandingPage"}>Home</Link></li>
+                    <li className="li_nav"><Link className={"link"} href={"/"}>Home</Link></li>
                     <li className="li_nav"><Link className={"link"} href={"/AboutUs"}>About Us</Link></li>
                     <li className="li_nav"><Link className={"link"} href={"/UnderConstruction"}>Members</Link></li>
                     <li className="li_nav"><Link className={"link"} href={"/UnderConstruction"}>Resources</Link></li>
