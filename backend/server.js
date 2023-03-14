@@ -1,5 +1,5 @@
 const express = require('express')
-const connectDB = require('../Feedback/Config/db')
+const connectDB = require('./Config/db')
 const dotenv = require('dotenv').config()
 const port = process.env.PORT
 
