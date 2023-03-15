@@ -1,13 +1,12 @@
 .smcard{
     position: relative;
-    top: 15px;
-    display: block;
     background: white;
-    width: 200px;
-    height: 100px;
     box-shadow: 0px 4px 10px rgba(119, 174, 191, 0.15);
     border-radius: 15px;
     background-size: cover;
+    height: max-content;
+    margin: 0 10px 0 10px;
+    padding: 0 70px 18px 70px;
 }
 .smcard img{
     width: 30px;
