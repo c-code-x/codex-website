@@ -14,9 +14,9 @@ const Member_block=(props:any)=>{
             <h2>{props.role}</h2>
             <p>{props.description}</p>
             <div className={styles.ss_media_member_block}>
-                <a href=""><Image className={styles.member_block_cont_img_socialmedia} src={insta} alt=""/></a>
-                <a href=""><Image className={styles.member_block_cont_img_socialmedia} src={github} alt=""/></a>
-                <a href=""><Image className={styles.member_block_cont_img_socialmedia} src={linkdin} alt=""/></a>
+                <a href={`${props.insta}`} target={`${"_blank"}`}><Image className={styles.member_block_cont_img_socialmedia} src={insta} alt=""/></a>
+                <a href={`${props.github}`}target={`${"_blank"}`}><Image className={styles.member_block_cont_img_socialmedia} src={github} alt=""/></a>
+                <a href={`${props.linkdin}`}target={`${"_blank"}`}><Image className={styles.member_block_cont_img_socialmedia} src={linkdin} alt=""/></a>
             </div>
         </div>
     );
