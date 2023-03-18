@@ -11,7 +11,7 @@
     position: relative;
     top: 15vh;
     color: white;
-    font-size: 1.8vw;
+    font-size: 30px;
     font-weight: bold;
 }
 .abtsubdiv1{
@@ -70,7 +70,8 @@
     width: 380px;
     height: auto;
     margin: 20px;
-    border-radius: 5px;
+    box-shadow: 0px 4px 10px 1px rgba(121, 166, 180, 0.63);
+    border-radius: 10px;
 }
 .abtsubdiv3{
     width: 30%;
@@ -87,13 +88,13 @@
     margin: 3px;
 }
 .wanttojoin{
-    margin: 10px 0px;
+    margin: 2px;
     border: none;
     background-color: #267D98;
     border-radius: 6px;
     color: white;
     font-weight: bold;
-    padding:15px 20px;
+    padding: 10px 20px;
 }
 .wanttojoin:hover{
     cursor: pointer;
@@ -144,23 +145,18 @@
 .side1{
     position: absolute;
     top: 53vh;
-    right: 0px;
-    width: 10vw;
-    height: auto;
+    left: 90vw;
 }
 .side2{
     position: absolute;
     left: -1vw;
-    width: 10vw;
-    height: auto;
+    width: 432px;
+    height: 432px;
     top: 715px;
 }
 /*1200px*/
 /*Done*/
 @media (max-width:1200px){
-    .abtheadertxt{
-        font-size: 20px;
-    }
     .eventgrid{
         width: 80%;
         margin-left: 100px;
@@ -171,14 +167,14 @@
         height: auto;
         position: relative;
         top: 1vh;
-        left:12vh;
+        left:18vh;
     }
     .abtsubdiv1{
         height: 18vh;
     }
     .abtsubdiv1header{
         top: 11vh;
-        font-size: 20px;
+        font-size: 25px;
         left:-5vh;
     }
     .conesimg{
@@ -208,28 +204,36 @@
         margin-right: auto;
     }
     .abtmem{
-        width: 35vw;
+        width: 256px;
         height: auto;
         margin: 20px;
-      }
+        box-shadow: 0px 4px 10px 1px rgba(121, 166, 180, 0.63);
+        border-radius: 10px;
+    }
     .abtsubdiv3{
         width: 30%;
-<<<<<<< HEAD
-     }
-=======
 
     }
->>>>>>> fdeec82539026f1d00333fa25fef770ecb0af267
     .abtcontent{
         font-size: 13px;
+        color: #515151;
+        text-align: center;
+        width: 100%;
     }
     .abtheading{
-        font-size: 20px;
-        margin: 6px 0px;
+        font-size: 25px;
+        font-weight: bold;
+        color: #0D4050;
+        margin: 6px;
     }
     .wanttojoin{
-        margin: 10px 0px;
-        padding: 15px 20px;
+        margin: 4px;
+        border: none;
+        background-color: #267D98;
+        border-radius: 6px;
+        color: white;
+        font-weight: bold;
+        padding: 20px 15px;
     }
     .wanttojoin:hover{
         cursor: pointer;
@@ -255,11 +259,15 @@
         height: auto;
     }
     .side1{
-        width: 10vw;
+        left: 84vw;
+        width: 180px;
+        height: 180px;
         top: 460px;
     }
     .side2{
-        width: 10vw;
+        left: 0vw;
+        width: 180px;
+        height: 180px;
         top: 820px;
     }
 }
@@ -273,18 +281,18 @@
         margin-right: auto;
     }
     .guyimg{
-        width: 12vw;
+        width: 15vw;
         height: auto;
         position: relative;
         top: 1vh;
-        left:12vh;
+        left:18vh;
     }
     .abtsubdiv1{
         height: 18vh;
     }
     .abtsubdiv1header{
         top: 11vh;
-        font-size: 20px;
+        font-size: 25px;
         left:-5vh;
     }
     .conesimg{
@@ -314,26 +322,36 @@
         margin-right: auto;
     }
     .abtmem{
-        width: 35vw;
+        width: 256px;
         height: auto;
         margin: 20px;
+        box-shadow: 0px 4px 10px 1px rgba(121, 166, 180, 0.63);
+        border-radius: 10px;
     }
     .abtsubdiv3{
         width: 30%;
-<<<<<<< HEAD
-=======
 
->>>>>>> fdeec82539026f1d00333fa25fef770ecb0af267
     }
     .abtcontent{
         font-size: 13px;
+        color: #515151;
+        text-align: center;
+        width: 100%;
     }
     .abtheading{
-        font-size: 20px;        
-        margin:10px 0px;
-}
+        font-size: 25px;
+        font-weight: bold;
+        color: #0D4050;
+        margin: 6px;
+    }
     .wanttojoin{
-        font-size:12px;
+        margin: 4px;
+        border: none;
+        background-color: #267D98;
+        border-radius: 6px;
+        color: white;
+        font-weight: bold;
+        padding: 20px 15px;
     }
     .wanttojoin:hover{
         cursor: pointer;
@@ -359,11 +377,15 @@
         height: auto;
     }
     .side1{
-        width: 10vw;
+        left: 80vw;
+        width: 180px;
+        height: 180px;
         top: 460px;
     }
     .side2{
-        width: 10vw;
+        left: vw;
+        width: 180px;
+        height: 180px;
         top: 900px;
     }
 }
@@ -371,39 +393,32 @@
 /*800px*/
 /*Done*/
 @media (max-width:800px) {
-    .abtheader{
-        height: 130px;
-    }
-    .abtheadertxt{
-        font-size: 15px;
-        top: 10vh;
-    }
     .eventgrid{
         width: 80%;
         margin-left: 100px;
         margin-right: auto;
     }
     .guyimg{
-        width: 12vw;
+        width: 18vw;
         height: auto;
         position: relative;
-        top: -1vh;
-        left:10vh;
+        top: 1vh;
+        left:16vh;
     }
     .abtsubdiv1{
-        height: 18vh;
+        height: 20vh;
     }
     .abtsubdiv1header{
-        top: 11vh;
-        font-size: 20px;
+        top: 12vh;
+        font-size: 25px;
         left:-5vh;
     }
     .conesimg{
-        width: 6vw;
+        width: 8vw;
         height: auto;
         position: relative;
         top: 10vh;
-        left:-7vh;
+        left:-6vh;
     }
     .ssmdiv{
         height: 18vh;
@@ -425,78 +440,79 @@
         margin-right: auto;
     }
     .abtmem{
-        width: 40vw;
-        border-radius: 0px;
+        width: 256px;
         height: auto;
         margin: 20px;
+        box-shadow: 0px 4px 10px 1px rgba(121, 166, 180, 0.63);
+        border-radius: 10px;
     }
     .abtsubdiv3{
-<<<<<<< HEAD
-        width: 45%;
-=======
         width: 30%;
 
->>>>>>> fdeec82539026f1d00333fa25fef770ecb0af267
     }
     .abtcontent{
         font-size: 13px;
+        color: #515151;
+        text-align: center;
+        width: 150px;
+        height: auto;
+    }
+    .aboutus{
+        flex-direction: column-reverse;
     }
     .abtheading{
-        font-size: 20px;        
-        margin:10px 0px;
-}
+        font-size: 20px;
+        font-weight: bold;
+        color: #0D4050;
+        margin: 6px;
+    }
     .wanttojoin{
-        font-size:12px;
-        padding: 15px 15px;
+        margin: 10px;
+        border: none;
+        background-color: #267D98;
+        border-radius: 6px;
+        color: white;
+        font-weight: bold;
+        padding: 10px 15px;
     }
     .wanttojoin:hover{
         cursor: pointer;
     }
     .eventgrid{
-        margin: 10px auto 10px 140px;
+        margin: 10px auto 10px 60px;
         display: grid;
         grid-template-columns: auto auto;
         width: 53%;
     }
     .events{
-        text-align: center;
-        margin: 20px auto 10px auto;
-        position: relative;
+        width: 100%;
     }
     .bg{
-        height: 100vh;
+        height: 120vh;
     }
     .light{
-        left: 83vw;
-        top: 700px;
+        left: 65vw;
+        top: 710px;
         width: 70px;
         height: auto;
     }
     .side1{
-        width: 10vw;
-        top: 500px;
+        left: 83vw;
+        width: 120px;
+        height: 120px;
+        top: 480px;
     }
     .side2{
-        width: 10vw;
-        top: 900px;
+        left: 0vw;
+        width: 120px;
+        height: 120px;
+        top: 1400px;
     }
 }
 
 /* 550px */
 /*Done*/
 @media (max-width:550px) {
-    .abtheadertxt{
-        font-size: 15px;
-        top: 10vh;
-    }
-    .abtheader{
-        display: flex;
-        flex-direction: column;
-        background: linear-gradient(270deg, #186DAF 0%, #22A4BC 100%);
-        width: 100vw;
-        height: 15vh;
-        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    }
     .eventgrid{
         width: 80%;
         margin-left: 100px;
@@ -514,8 +530,8 @@
     }
     .abtsubdiv1header{
         top: 12vh;
-        font-size: 15px;
-        left:0vh;
+        font-size: 25px;
+        left:-5vh;
     }
     .conesimg{
         width: 10vw;
@@ -525,8 +541,9 @@
         left:-4vh;
     }
     .ssmdiv{
-        gap: 0.3rem;
-        height: max-content;
+        height: 18vh;
+        gap: 2rem;
+        width: 100vw;
     }
     .abtsubdiv2{
         flex-direction: column;
@@ -605,7 +622,7 @@
     }
     .side2{
         left: -2vw;
-        width: 58px;
+        width: 108px;
         height: 108px;
         top: 1400px;
     }

@@ -36,21 +36,9 @@ const AboutUs : NextPage = () => {
             </div>
         </div>
             <div className={styles.abtsubdiv1}>
-<<<<<<< HEAD
-                <div className={styles.conesimgdiv}>
-                    <Image className={styles.conesimg} src={image2} alt={""}/>
-                </div>
-                <div className={styles.abtsubdiv2}>
-                    <p className={styles.abtsubdiv1header}>Our Followers Count</p>
-                <div>
-                    <Image className={styles.guyimg}  src={image1} alt={""}/>
-                </div>
-
-=======
                 <Image className={styles.conesimg} src={image2} alt={""}/>
                 <div className={styles.abtsubdiv1header}>
                     <p>Our Followers Count</p>
->>>>>>> fdeec82539026f1d00333fa25fef770ecb0af267
                 </div>
                 <Image className={styles.guyimg}  src={image1} alt={""}/>
             </div>
@@ -58,7 +46,6 @@ const AboutUs : NextPage = () => {
                     <SocialMediaCount count = {subscribers} type = "Subscribers" image = {imagey}/>
                     <SocialMediaCount count = "600" type = "Followers" image = {imagei}/>
                     <SocialMediaCount count = "550" type = "Members" image = {imaged}/>
-
                 </div>
             <Image className={styles.side1} src={side2} alt={""}/>
                 <Image className={styles.side2} src={side1} alt={""}/>
@@ -83,7 +70,7 @@ const AboutUs : NextPage = () => {
 
 
             </div>
-            {/* <div className={styles.events}>
+            <div className={styles.events}>
                 <div className={styles.eventheader}>
                     <p>Our Events</p>
                 </div>
@@ -97,7 +84,7 @@ const AboutUs : NextPage = () => {
                 <Link href={"/Events"}><button className={styles.viewmore} >View More</button></Link>
                 <Image className={styles.light} alt={""} src={lights}></Image>
 
-            </div> */}
+            </div>
             <Footer/>
         </div>
 
