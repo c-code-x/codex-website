@@ -1,50 +1,16 @@
 import Member_block from "./member_block";
 import styles from "../styles/members.module.css";
+// import { link } from "fs";
 const Teamcodex = () => {
     const data = [
         {
             image: "https://user-images.githubusercontent.com/105535366/222389427-794536d8-43a0-409e-bf55-508cd4294121.png",
-            name: "Punith",
-            role: "Tech - Lead",
-            description: "Contributing his service as a Tech admin.",
-            insta: "#",
-            github: "#",
-            linkdin: "#",
-        },
-        {
-            image: "https://user-images.githubusercontent.com/105535366/222389449-75e6212c-4151-49bd-bf36-a51bc70591bb.png",
-            name: "Santhosh",
-            role: "CP - Lead",
-            description: "A lead programmer for competitive programming.",
-            insta: "#",
-            github: "#",
-            linkdin: "#",
-        },
-        {
-            image: "https://user-images.githubusercontent.com/105535366/222389455-99366e0b-67f7-45aa-bf29-c38549b270f7.png",
-            name: "Suhit",
-            role: "Visual Arts Officer",
-            description: "Chargeable for editing tasks.",
-            insta: "#",
-            github: "#",
-            linkdin: "#",
-        },
-        {
-            image: "https://user-images.githubusercontent.com/105535366/222389435-77dd1d02-3543-4d69-9b4f-c3dfeedeffb6.png",
-            name: "Hilux",
-            role: "Front End - Lead",
-            description: "Responsible for the all front end development work in the club.",
-            insta: "#",
-            github: "#",
-            linkdin: "#",
-        },
-        {
-            image: "https://user-images.githubusercontent.com/105535366/222389439-f3bf22db-3243-4b53-9ea0-747df8d3232d.png",
-            name: "Tushar",
-            role: "Back End - Lead",
-            description: "Manages the entire software development lifecycle.",
-            insta: "#",
-            github: "#",
+            name: "D Punith",
+            role: "President",
+            description:
+                "The ONE responsible and accountable for executive leadership and operational direction of CODEX ",
+            insta: "https://instagram.com/bad_captain_punith?igshid=YmMyMTA2M2Y=",
+            github: "https://github.com/breathecode6365",
             linkdin: "#",
         },
         {
@@ -52,8 +18,8 @@ const Teamcodex = () => {
             name: "Bharath",
             role: "Logistics Officer",
             description:
-                "Responsible for maintaining and recording all the activities taking place in the club.",
-            insta: "#",
+                "Manages all the Logistical requirements and Clerical work along with coordinating and optimizing the movement of goods and resources that's necessary",
+            insta: "https://instagram.com/_.b.h.a.r.a.t.h.__.y.a.d.a.v._?igshid=YmMyMTA2M2Y=",
             github: "#",
             linkdin: "#",
         },
@@ -61,17 +27,59 @@ const Teamcodex = () => {
             image: "https://user-images.githubusercontent.com/105535366/222389447-89270e64-8ba1-41d8-b982-5999e056fcea.png",
             name: "Tamana",
             role: "Public Relations Officer",
-            description: "Held to account for managing social media and engaging with folks.",
-            insta: "#",
-            github: "#",
+            description:
+                "Craft compelling stories and Be the voice of our CODEX and build meaningful connections.",
+            insta: "https://instagram.com/truly_tamanna?igshid=YmMyMTA2M2Y=",
+            github: "https://www.linkedin.com/in/tamannashaw",
             linkdin: "#",
+        },
+        {
+            image: "https://user-images.githubusercontent.com/105535366/222389455-99366e0b-67f7-45aa-bf29-c38549b270f7.png",
+            name: "Suhit",
+            role: "Visual Arts Officer",
+            description:
+                "The one responsible for leading and to create visually stunning and technically precise art assets that help in marketing and promotional aspect of CODEX ",
+            insta: "https://instagram.com/suhit_eswar_?igshid=YmMyMTA2M2Y=",
+            github: "https://github.com/suhit123",
+            linkdin: "#",
+        },
+        {
+            image: "https://user-images.githubusercontent.com/105535366/222389435-77dd1d02-3543-4d69-9b4f-c3dfeedeffb6.png",
+            name: "Hilux",
+            role: "Front End - Lead",
+            description:
+                "Incharge of creating intuitive and visually stunning user experiences that immerse the user into the project",
+            insta: "https://www.instagram.com/fokouhilux/",
+            github: "https://github.com/hiluxfnh",
+            linkdin: "https://www.linkedin.com/in/fokou/",
+        },
+        {
+            image: "https://user-images.githubusercontent.com/105535366/222389439-f3bf22db-3243-4b53-9ea0-747df8d3232d.png",
+            name: "Tushar",
+            role: "Back End - Lead",
+            description:
+                "Lead the development of scalable, robust, and secure systems as our Back End Lead and shape the future of our technology.",
+            insta: "#",
+            github: "https://github.com/hellotushaar",
+            linkdin: "https://linkedin.com/in/hellotushaar",
         },
         {
             image: "https://user-images.githubusercontent.com/105535366/222389458-4d4ec6bf-fea4-4a96-96c7-eccee29786a4.png",
             name: "Surya",
             role: "Game Development Lead",
-            description: "A lead programmer for competitive programming.",
+            description:
+                "Lead the charge in crafting unforgettable gaming experiences that captivates your mind , as our Game Development Lead.",
             insta: "#",
+            github: "#",
+            linkdin: "#",
+        },
+        {
+            image: "https://user-images.githubusercontent.com/105535366/222389449-75e6212c-4151-49bd-bf36-a51bc70591bb.png",
+            name: "Pradyumna",
+            role: "Competitive Programming Lead",
+            description:
+                "Lead and manage the competitive programming team, providing strategic guidance and solutions to achieve success in coding challenges and competitions",
+            insta: "https://github.com/SaiSantoshPradyumna",
             github: "#",
             linkdin: "#",
         },

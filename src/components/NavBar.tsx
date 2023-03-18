@@ -42,18 +42,13 @@ const NavBar = () => {
                         </Link>
                     </li>
                     <li className="li_nav">
-                        <Link className={"link"} href={"/UnderConstruction"}>
+                        <Link className={"link"} href={"/AboutUs"}>
                             About Us
                         </Link>
                     </li>
                     <li className="li_nav">
-                        <Link className={"link"} href={"/UnderConstruction"}>
+                        <Link className={"link"} href={"/Members"}>
                             Members
-                        </Link>
-                    </li>
-                    <li className="li_nav">
-                        <Link className={"link"} href={"/UnderConstruction"}>
-                            Events
                         </Link>
                     </li>
                     <li className="li_nav">
