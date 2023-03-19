@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    z-index: 9;
+    background: #ccc8c8;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+.innercontainer{
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+.logincontainer, .signupcontainer{
+    flex-direction: column;
+}
+
+.formchanger{
+    display: flex;
+    justify-content: space-between;
+}
+.formchanger button{
+    text-align: center;
+    background: none;
+    border: none;
+    padding: 10px 65px 10px 65px;
+}
