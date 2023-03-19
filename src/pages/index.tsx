@@ -1,7 +1,7 @@
 import { NextPage } from "next";
 import React, { useEffect } from "react";
 import styles from "../styles/Body.module.css";
-import exp from "constants";
+import Login from "@/components/Login";
 import Head from "next/head";
 import NavBar from "@/components/NavBar";
 import Glimpse from "@/components/Glimpse";
@@ -37,6 +37,7 @@ const Home: NextPage = () => {
                 />
             </Head>
             <NavBar />
+            <Login/>
             <Glimpse />
             <Resources />
             <FAQ />
