@@ -10,6 +10,7 @@ import FAQ from "@/components/FAQ";
 import Memories from "@/components/memories";
 import Feedback from "@/components/Feedback";
 import Footer from "@/components/Footer";
+
 const Home: NextPage = () => {
     return (
         <div className={styles.body}>

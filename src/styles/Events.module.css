@@ -2,7 +2,7 @@
     margin: 10px 10px 10px 0;
     text-align: center;
     width: 315px;
-    height: 40vh;
+    /* height: 40vh; */
     box-shadow: 0px 4px 12px 1px rgba(57, 124, 162, 0.19);
     border-radius: 11px;
     background: white;
@@ -16,7 +16,7 @@
 }
 .cropped {
     width: 313px;
-    height: 167px;
+    /* height: 167px; */
 }
 .title {
     color: #0d4050;
@@ -26,6 +26,6 @@
 }
 .content {
     color: #515151;
-    font-size: 10px;
+    font-size: 13px;
     padding: 0 10px 10px 10px;
 }
