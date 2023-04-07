@@ -1,4 +1,4 @@
-import Image  from "next/image";
+import Image from "next/image";
 import image from "../assests/members/santosh_img.png";
 import linkdin from "../assests/members/linkdinlogo.png";
 import insta from "../assests/members/instalogo.png";
@@ -8,7 +8,13 @@ const Member_block = (props: any) => {
     return (
         <div className={styles.member_block_cont}>
             <div className={styles.member_block_cont_img_outer}>
-                <Image  className={styles.member_block_cont_img_inner} src={`${props.img}`} alt="" />
+                <Image
+                    className={styles.member_block_cont_img_inner}
+                    src={`${props.img}`}
+                    alt=""
+                    width={100}
+                    height={100}
+                />
             </div>
             <h1>{props.name}</h1>
             <h2>{props.role}</h2>
