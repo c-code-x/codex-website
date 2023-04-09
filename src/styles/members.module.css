@@ -44,7 +44,7 @@
 /*Team codex*/
 .team_codex_div,.proud_alumni_codex_div{
     margin-top: 50px;
-    width: 72%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
@@ -139,6 +139,7 @@
     padding-bottom: 15px;
     margin: 30px;
     background-color: white;
+    position: relative;
 }
 .member_block_cont_img_outer{
     transition:1s;
@@ -171,6 +172,7 @@
     font-size: 1vw;
 }
 .member_block_cont p{
+    height: 80px;
     text-align: center;
     margin: 15px 25px 15px 25px;
 }
