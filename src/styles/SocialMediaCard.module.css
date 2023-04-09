@@ -1,4 +1,6 @@
-.smcard{
+.smcard {
+    
+    z-index: -100;
     position: relative;
     background: white;
     box-shadow: 0px 4px 10px rgba(119, 174, 191, 0.15);
@@ -7,34 +9,39 @@
     height: max-content;
     margin: 0 10px 0 10px;
     padding: 0 70px 18px 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.smcard img{
+.smcard img {
     width: 30px;
     height: 30px;
     position: relative;
     top: 15px;
     margin: 10px;
 }
-.count{
-    color: #0A4456;
+.count {
+    color: #0a4456;
     font-weight: bold;
     position: relative;
     top: 8px;
 }
-.type{
+.type {
     color: #676767;
     font-size: 12px;
     position: relative;
     top: 3px;
     margin-top: 3px;
 }
-@media (max-width:550px){
+
+@media (max-width:1000px){
     .smcard{
         padding: 3px;
         top: 0px;
-        width: 28vw;
-        height: 75px;
-        border-radius: 5px;
+        width: 20vw;
+        height: 105px;
+        border-radius: 10px;
     }
     .smcard img{
         width: 20px;
@@ -49,5 +56,27 @@
         position:1 relative;
         top: 3px;
         margin-top: 3px;
+    }
+}
+@media (max-width:800px){
+    .smcard{
+        padding: 3px;
+        top: 0px;
+        width: 23vw;
+        height: 95px;
+        border-radius: 10px;
+    }
+}
+@media (max-width:600px){
+    .smcard{
+        padding: 3px;
+        top: 0px;
+        width: 30vw;
+        height: 85px;
+        border-radius: 10px;
+    }
+    .smcard img{
+        width: 18px;
+        height: 18px;
     }
 }

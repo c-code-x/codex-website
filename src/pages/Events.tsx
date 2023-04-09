@@ -6,14 +6,14 @@ import styles from '../styles/event.module.css'
 import EventDate from "@/components/Calender";
 import Event_curosel from "@/components/Eventspo_carousel";
 const Eventspage =()=>{
-  return(
-    <div className={styles.events_page}>
-        <NavBar/>
+    return(
+        <div className={styles.events_page}>
+            <NavBar/>
             <Image className={styles.top_event_img} src={memory} alt=""/>
             <Event_curosel/>
             <EventDate/>
-        <Footer/>
-    </div>
-  );
+            <Footer/>
+        </div>
+    );
 };
 export default Eventspage;

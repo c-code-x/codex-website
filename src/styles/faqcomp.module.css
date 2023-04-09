@@ -1,18 +1,18 @@
-.button{
+.button {
     display: flex;
     justify-content: space-between;
 }
-.question{
+.question {
     width: 100%;
 }
-.question p{
+.question p {
     margin-bottom: 20px;
     margin-top: 5px;
-    margin-left: auto ;
+    margin-left: auto;
     margin-right: auto;
     font-size: 15px;
 }
-.answer p{
+.answer p {
     font-size: 13px;
     color: rgba(103, 103, 103, 1);
     width: 100%;
@@ -21,15 +21,15 @@
     margin-right: auto;
     margin-bottom: 10px;
 }
-.button{
+.button {
     border: none;
     background: none;
-    color: #0A4456;
+    color: #0a4456;
     font-weight: bold;
     font-size: 14px;
     width: 100%;
 }
-.box_faq{
+.box_faq {
     transition: all 0.3s linear 0s;
     border-bottom: 1px solid rgba(169, 169, 169, 0.591);
     width: 85%;
@@ -38,32 +38,36 @@
     margin-top: 0px;
     margin-bottom: 0px;
 }
-.img{
+.img {
     margin-top: 3px;
     width: 20px;
     height: 20px;
 }
-@media (max-width:1400px){}
-@media (max-width:1400px){}
-@media (max-width:1400px){}
-@media (max-width:700px){
-    .question p{
-        font-size: 13px;
-    } 
-    .answer p{
-        font-size: 12px;
-    } 
+@media (max-width: 1400px) {
 }
-@media (max-width:540px){
-    .question p{
+@media (max-width: 1400px) {
+}
+@media (max-width: 1400px) {
+}
+@media (max-width: 700px) {
+    .question p {
+        font-size: 13px;
+    }
+    .answer p {
         font-size: 12px;
-    } 
-    .answer p{
+    }
+}
+@media (max-width: 540px) {
+    .question p {
+        font-size: 12px;
+    }
+    .answer p {
         font-size: 11px;
-    } 
-    .box_faq{
+    }
+    .box_faq {
         width: 90%;
-    }.img{
+    }
+    .img {
         width: 15px;
         height: 15px;
     }

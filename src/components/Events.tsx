@@ -1,14 +1,13 @@
 import React from "react";
-import styles from "../styles/Events.module.css"
+import styles from "../styles/Events.module.css";
 import Image from "next/image";
-import image1 from "../assests/posters/c-programming.jpg"
+import image1 from "../assests/posters/c-programming.jpg";
 
-const Events = (props:any) =>{
-
-    return(
+const Events = (props: any) => {
+    return (
         <div className={styles.container}>
             <div className={styles.cropped}>
-                <Image src={props.image} alt={""}/>
+                <Image src={props.image} alt={""} />
             </div>
             <div className={styles.title}>
                 <p>{props.title}</p>
@@ -17,7 +16,7 @@ const Events = (props:any) =>{
                 <p>{props.description}</p>
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default Events
+export default Events;

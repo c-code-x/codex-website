@@ -1,4 +1,4 @@
-.container{
+.container {
     margin: 10px 10px 10px 0;
     text-align: center;
     width: 315px;
@@ -7,7 +7,7 @@
     border-radius: 11px;
     background: white;
 }
-.cropped img{
+.cropped img {
     border-radius: 11px 11px 0 0;
     width: 100%;
     height: 100%;
@@ -18,15 +18,14 @@
     width: 313px;
     /* height: 167px; */
 }
-.title{
-    color: #0D4050;
+.title {
+    color: #0d4050;
     font-weight: 500;
     font-size: 18px;
     margin: 5px 0 5px 0;
 }
-.content{
+.content {
     color: #515151;
     font-size: 13px;
     padding: 0 10px 10px 10px;
 }
-

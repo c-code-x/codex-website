@@ -15,615 +15,397 @@
     font-weight: bold;
 }
 .abtsubdiv1{
+    
+    z-index: -100;
     display: flex;
-    width: 100vw;
     height: 18vh;
-    text-align: center;
+    align-items: center;
     justify-content: center;
+    position: relative;
+    left: 2vw;
 }
 .guyimg{
-    width: 144px;
-    height: auto;
-    position: relative;
-    top: 5vh;
+    width: 130px;
+    height: 100px;
 }
 .abtsubdiv1header{
-    display: flex;
-    position: relative;
-    top: 10vh;
-    font-size: 28px;
-    font-weight: bold;
+    font-size: 30px;
     color: #0D4050;
-    width: 100%;
-    height: 100%;
+    font-weight: bold;
+    margin-left: 20px;
 }
 .conesimg{
-    position: relative;
-    z-index: -1;
-    right: 10vw;
-    top: 7vh;
-    width: 80px;
-    height: auto;
-    left: -1vw;
+    width: 50px;
+    height: 50px;
 }
 .ssmdiv{
-    display: grid;
-    gap: 5rem;
-    text-align: center;
+    margin-top: 20px;
+    display: flex;
     justify-content: center;
-    display: flex;
-    width: 100vw;
-    height: 14vh;
-    background-color: #F4FCFF;
-}
-.abtsubdiv2{
-    display: flex;
-    justify-content: space-between;
+    background-color: #b7e5f425;
+    margin-left: auto;
+    margin-right: auto;
 }
 .aboutus{
+    
+    z-index: -100;
+    margin-top: 40px;
+    margin-bottom: 40px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5vh;
+    width: 63%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center
 }
 .abtmem{
-    width: 380px;
+    width: 450px;
     height: auto;
     margin: 20px;
     box-shadow: 0px 4px 10px 1px rgba(121, 166, 180, 0.63);
-    border-radius: 10px;
-}
-.abtsubdiv3{
-    width: 30%;
-
 }
 .abtcontent{
-    font-size: 13px;
+    margin: 10px 0px;
+    font-size: 15px;
     color: #515151;
+    line-height: 1.5;
 }
 .abtheading{
     font-size: 28px;
     font-weight: bold;
     color: #0D4050;
-    margin: 3px;
+    margin: 3px 0px;
 }
 .wanttojoin{
-    margin: 2px;
+    margin: 10px 0px;
     border: none;
     background-color: #267D98;
     border-radius: 6px;
     color: white;
     font-weight: bold;
-    padding: 10px 20px;
+    padding: 20px;
 }
 .wanttojoin:hover{
     cursor: pointer;
 }
 
-.eventgrid{
-    margin: 10px auto 10px 530px;
-    display: grid;
-    grid-template-columns: auto auto;
-    width: 53%;
+@media (max-width:1400px){
+    .abtheader{
+        height: 23vh;
+    }
+    .abtheadertxt{
+        font-size: 26px;
+    }
+    .abtsubdiv1{
+        display: flex;
+        height: 18vh;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        left: 2vw;
+    }
+    .guyimg{
+        width: 120px;
+        height: 100px;
+    }
+    .abtsubdiv1header{
+        font-size: 26px;
+        font-weight: bold;
+        margin-left: 20px;
+    }
+    .conesimg{
+        width: 50px;
+        height: 50px;
+    }
+    .ssmdiv{
+       
+    }
+    .aboutus{
+        width: 65%;
+    }
+    .abtmem{
+        width: 430px;
+        height: auto;
+        margin: 20px;
+    }
+    .abtsubdiv3{
+        width: 30%;
+    }
+    .abtcontent{
+        margin: 10px 0px;
+        font-size: 15px;
+        line-height: 1.5;
+    }
+    .abtheading{
+        font-size: 26px;
+        margin: 3px 0px;
+    }
+    .wanttojoin{
+        margin: 10px 0px;
+        border: none;
+        border-radius: 6px;
+        padding:16px;
+    }
+       
 }
-.events{
-    text-align: center;
-    margin: 20px auto 10px auto;
-    position: relative;
-}
-.eventheader{
-    font-size: 28px;
-    font-weight: 700;
-    color: #0A4456;
-}
-.bg{
-    background: #EFFBFF;
-    height: 90vh;
-    width: 100vw;
-    z-index: -1;
-    position: absolute;
-    top: 200px;
 
-}
-.viewmore{
-    border: none;
-    border-radius: 6px;
-    padding: 10px 15px 10px 15px;
-    background: #207590;
-    color: white;
-    margin-bottom: 25px;
-    font-weight: bold;
-}
-.viewmore:hover{
-    cursor: pointer;
-}
-.light{
-    position: absolute;
-    left: 85vw;
-    top: 540px
-}
-.side1{
-    position: absolute;
-    top: 53vh;
-    left: 90vw;
-}
-.side2{
-    position: absolute;
-    left: -1vw;
-    width: 432px;
-    height: 432px;
-    top: 715px;
-}
-/*1200px*/
-/*Done*/
 @media (max-width:1200px){
-    .eventgrid{
-        width: 80%;
-        margin-left: 100px;
-        margin-right: auto;
+    .abtheader{
+        height: 23vh;
     }
-    .guyimg{
-        width: 10vw;
-        height: auto;
-        position: relative;
-        top: 1vh;
-        left:18vh;
+    .abtheadertxt{
+        font-size: 24px;
     }
     .abtsubdiv1{
+        display: flex;
         height: 18vh;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        left: 2vw;
+    }
+    .guyimg{
+        width: 120px;
+        height: 100px;
     }
     .abtsubdiv1header{
-        top: 11vh;
-        font-size: 25px;
-        left:-5vh;
+        font-size: 24px;
+        font-weight: bold;
+        margin-left: 20px;
     }
     .conesimg{
-        width: 6vw;
-        height: auto;
-        position: relative;
-        top: 9vh;
-        left:-8vh;
+        width: 50px;
+        height: 50px;
     }
     .ssmdiv{
-        height: 18vh;
-        gap: 2rem;
-        width: 100vw;
+        
     }
-    .abtsubdiv2{
-        flex-direction: column;
-    }
-    .abtsubdiv3{
-        width: 100%;
-        flex-direction: column-reverse;
-
-    }
-    .eventgrid{
-        width: 100%;
-        grid-template-columns: auto;
-        margin-left: auto;
-        margin-right: auto;
+    .aboutus{
+        width: 75%;
     }
     .abtmem{
-        width: 256px;
+        width: 380px;
         height: auto;
         margin: 20px;
-        box-shadow: 0px 4px 10px 1px rgba(121, 166, 180, 0.63);
-        border-radius: 10px;
     }
     .abtsubdiv3{
         width: 30%;
-
     }
     .abtcontent{
-        font-size: 13px;
-        color: #515151;
-        text-align: center;
-        width: 100%;
+        margin: 10px 0px;
+        font-size: 15px;
+        line-height: 1.5;
     }
     .abtheading{
-        font-size: 25px;
-        font-weight: bold;
-        color: #0D4050;
-        margin: 6px;
+        font-size: 24px;
+        margin: 3px 0px;
     }
     .wanttojoin{
-        margin: 4px;
+        margin: 10px 0px;
         border: none;
-        background-color: #267D98;
         border-radius: 6px;
-        color: white;
-        font-weight: bold;
-        padding: 20px 15px;
+        padding:16px;
     }
-    .wanttojoin:hover{
-        cursor: pointer;
-    }
-    .eventgrid{
-        margin: 10px auto 10px 250px;
-        display: grid;
-        grid-template-columns: auto auto;
-        width: 53%;
-    }
-    .events{
-        text-align: center;
-        margin: 20px auto 10px auto;
-        position: relative;
-    }
-    .bg{
-        height: 100vh;
-    }
-    .light{
-        left: 83vw;
-        top: 700px;
-        width: 70px;
-        height: auto;
-    }
-    .side1{
-        left: 84vw;
-        width: 180px;
-        height: 180px;
-        top: 460px;
-    }
-    .side2{
-        left: 0vw;
-        width: 180px;
-        height: 180px;
-        top: 820px;
-    }
+      
 }
-
-/*1000px*/
-/*Done*/
 @media (max-width:1000px){
-    .eventgrid{
-        width: 80%;
-        margin-left: 100px;
-        margin-right: auto;
+    .abtheader{
+        height: 23vh;
     }
-    .guyimg{
-        width: 15vw;
-        height: auto;
-        position: relative;
-        top: 1vh;
-        left:18vh;
+    .abtheadertxt{
+        font-size: 20px;
     }
     .abtsubdiv1{
+        display: flex;
         height: 18vh;
-    }
-    .abtsubdiv1header{
-        top: 11vh;
-        font-size: 25px;
-        left:-5vh;
-    }
-    .conesimg{
-        width: 6vw;
-        height: auto;
+        align-items: center;
+        justify-content: center;
         position: relative;
-        top: 9vh;
-        left:-8vh;
-    }
-    .ssmdiv{
-        height: 18vh;
-        gap: 2rem;
-        width: 100vw;
-    }
-    .abtsubdiv2{
-        flex-direction: column;
-    }
-    .abtsubdiv3{
-        width: 100%;
-        flex-direction: column-reverse;
-
-    }
-    .eventgrid{
-        width: 100%;
-        grid-template-columns: auto;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .abtmem{
-        width: 256px;
-        height: auto;
-        margin: 20px;
-        box-shadow: 0px 4px 10px 1px rgba(121, 166, 180, 0.63);
-        border-radius: 10px;
-    }
-    .abtsubdiv3{
-        width: 30%;
-
-    }
-    .abtcontent{
-        font-size: 13px;
-        color: #515151;
-        text-align: center;
-        width: 100%;
-    }
-    .abtheading{
-        font-size: 25px;
-        font-weight: bold;
-        color: #0D4050;
-        margin: 6px;
-    }
-    .wanttojoin{
-        margin: 4px;
-        border: none;
-        background-color: #267D98;
-        border-radius: 6px;
-        color: white;
-        font-weight: bold;
-        padding: 20px 15px;
-    }
-    .wanttojoin:hover{
-        cursor: pointer;
-    }
-    .eventgrid{
-        margin: 10px auto 10px 140px;
-        display: grid;
-        grid-template-columns: auto auto;
-        width: 53%;
-    }
-    .events{
-        text-align: center;
-        margin: 20px auto 10px auto;
-        position: relative;
-    }
-    .bg{
-        height: 100vh;
-    }
-    .light{
-        left: 83vw;
-        top: 700px;
-        width: 70px;
-        height: auto;
-    }
-    .side1{
-        left: 80vw;
-        width: 180px;
-        height: 180px;
-        top: 460px;
-    }
-    .side2{
-        left: vw;
-        width: 180px;
-        height: 180px;
-        top: 900px;
-    }
-}
-
-/*800px*/
-/*Done*/
-@media (max-width:800px) {
-    .eventgrid{
-        width: 80%;
-        margin-left: 100px;
-        margin-right: auto;
+        left: 2vw;
     }
     .guyimg{
-        width: 18vw;
-        height: auto;
-        position: relative;
-        top: 1vh;
-        left:16vh;
-    }
-    .abtsubdiv1{
-        height: 20vh;
+        width: 120px;
+        height: 100px;
     }
     .abtsubdiv1header{
-        top: 12vh;
-        font-size: 25px;
-        left:-5vh;
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 20px;
     }
     .conesimg{
-        width: 8vw;
-        height: auto;
-        position: relative;
-        top: 10vh;
-        left:-6vh;
+        width: 50px;
+        height: 50px;
     }
     .ssmdiv{
-        height: 18vh;
-        gap: 2rem;
-        width: 100vw;
-    }
-    .abtsubdiv2{
-        flex-direction: column;
-    }
-    .abtsubdiv3{
-        width: 100%;
-        flex-direction: column-reverse;
-
-    }
-    .eventgrid{
-        width: 100%;
-        grid-template-columns: auto;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .abtmem{
-        width: 256px;
-        height: auto;
-        margin: 20px;
-        box-shadow: 0px 4px 10px 1px rgba(121, 166, 180, 0.63);
-        border-radius: 10px;
-    }
-    .abtsubdiv3{
-        width: 30%;
-
-    }
-    .abtcontent{
-        font-size: 13px;
-        color: #515151;
-        text-align: center;
-        width: 150px;
-        height: auto;
+     
     }
     .aboutus{
-        flex-direction: column-reverse;
+        width: 80%;
+    }
+    .abtmem{
+        width: 350px;
+        height: auto;
+        margin: 20px;
+    }
+    .abtsubdiv3{
+        width: 30%;
+    }
+    .abtcontent{
+        margin: 10px 0px;
+        font-size: 13px;
+        line-height: 1.4;
     }
     .abtheading{
         font-size: 20px;
-        font-weight: bold;
-        color: #0D4050;
-        margin: 6px;
+        margin: 3px 0px;
     }
     .wanttojoin{
-        margin: 10px;
+        margin: 10px 0px;
         border: none;
-        background-color: #267D98;
         border-radius: 6px;
-        color: white;
-        font-weight: bold;
-        padding: 10px 15px;
-    }
-    .wanttojoin:hover{
-        cursor: pointer;
-    }
-    .eventgrid{
-        margin: 10px auto 10px 60px;
-        display: grid;
-        grid-template-columns: auto auto;
-        width: 53%;
-    }
-    .events{
-        width: 100%;
-    }
-    .bg{
-        height: 120vh;
-    }
-    .light{
-        left: 65vw;
-        top: 710px;
-        width: 70px;
-        height: auto;
-    }
-    .side1{
-        left: 83vw;
-        width: 120px;
-        height: 120px;
-        top: 480px;
-    }
-    .side2{
-        left: 0vw;
-        width: 120px;
-        height: 120px;
-        top: 1400px;
+        padding:16px;
     }
 }
-
-/* 550px */
-/*Done*/
-@media (max-width:550px) {
-    .eventgrid{
-        width: 80%;
-        margin-left: 100px;
-        margin-right: auto;
+@media (max-width:800px){
+    .abtheader{
+        height: 23vh;
     }
-    .guyimg{
-        width: 24vw;
-        height: auto;
-        position: relative;
-        top: -0.5vh;
-        left:16vh;
+    .abtheadertxt{
+        font-size: 18px;
     }
     .abtsubdiv1{
-        height: 20vh;
+        display: flex;
+        height: 18vh;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        left: 2vw;
+    }
+    .guyimg{
+        width: 120px;
+        height: 100px;
     }
     .abtsubdiv1header{
-        top: 12vh;
-        font-size: 25px;
-        left:-5vh;
+        font-size: 18px;
+        font-weight: bold;
+        margin-left: 20px;
     }
     .conesimg{
-        width: 10vw;
-        height: auto;
-        position: relative;
-        top: 2vh;
-        left:-4vh;
+        width: 50px;
+        height: 50px;
     }
     .ssmdiv{
-        height: 18vh;
-        gap: 2rem;
-        width: 100vw;
+        margin-top: 0px;
     }
-    .abtsubdiv2{
-        flex-direction: column;
-    }
-    .abtsubdiv3{
-        width: 100%;
-        flex-direction: column-reverse;
-
-    }
-    .eventgrid{
-        width: 100%;
-        grid-template-columns: auto;
-        margin-left: auto;
-        margin-right: auto;
+    .aboutus{
+       margin-top: 20px;
+        margin-bottom: 20px;
+        width: 90%;
     }
     .abtmem{
-        width: 256px;
+        width: 330px;
         height: auto;
         margin: 20px;
-        box-shadow: 0px 4px 10px 1px rgba(121, 166, 180, 0.63);
-        border-radius: 10px;
     }
     .abtsubdiv3{
         width: 30%;
-
     }
     .abtcontent{
+        margin: 10px 0px;
         font-size: 13px;
-        color: #515151;
-        text-align: center;
-        width: 150px;
-        height: auto;
-    }
-    .aboutus{
-        flex-direction: column-reverse;
+        line-height: 1.3;
     }
     .abtheading{
-        font-size: 20px;
-        font-weight: bold;
-        color: #0D4050;
-        margin: 6px;
+        font-size: 18px;
+        margin: 3px 0px;
     }
     .wanttojoin{
-        margin: 10px;
+        margin: 10px 0px;
         border: none;
-        background-color: #267D98;
         border-radius: 6px;
-        color: white;
+        padding:16px;
+    }
+}
+
+@media (max-width:700px){
+    .abtheader{
+        height: 23vh;
+    }
+    .abtheadertxt{
+        font-size: 18px;
+    }
+    .abtsubdiv1{
+        display: flex;
+        height: 18vh;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        left: 2vw;
+    }
+    .guyimg{
+        width: 120px;
+        height: 100px;
+    }
+    .abtsubdiv1header{
+        font-size: 18px;
         font-weight: bold;
-        padding: 10px 15px;
+        margin-left: 20px;
     }
-    .wanttojoin:hover{
-        cursor: pointer;
+    .conesimg{
+        width: 50px;
+        height: 50px;
     }
-    .eventgrid{
-        margin: 10px auto 10px 23px;
-        width: 53%;
+    .ssmdiv{
+        margin-top: 0px;
     }
-    .events{
-        width: 100%;
+    .aboutus{
+       margin-top: 20px;
+        margin-bottom: 20px;
+        width: 90%;
+        flex-direction: column;
     }
-    .bg{
-        height: 190vh;
-    }
-    .light{
-        left: 65vw;
-        top: 1320px;
-        width: 70px;
+    .abtmem{
+        width: 330px;
         height: auto;
+        margin: 20px;
     }
-    .side1{
-        left: 70vw;
-        width: 108px;
-        height: 108px;
-        top: 450px;
+    .abtsubdiv3{
+        width: 30%;
     }
-    .side2{
-        left: -2vw;
-        width: 108px;
-        height: 108px;
-        top: 1400px;
+    .abtcontent{
+        margin: 10px 0px;
+        font-size: 13px;
+        line-height: 1.3;
+    }
+    .abtheading{
+        font-size: 18px;
+        margin: 3px 0px;
+    }
+    .wanttojoin{
+        margin: 10px 0px;
+        border: none;
+        border-radius: 6px;
+        padding:16px;
+    }
+}
+
+@media (max-width:550px){
+    .abtheadertxt{
+        font-size: 16px;
+    }
+    .abtsubdiv1header{
+        font-size: 16px;
+    }
+    .abtheading{
+        font-size: 16px;
+        margin: 3px 0px;
+    }
+}
+@media (max-height:550px){
+    .abtheader{
+        margin-bottom: 30px;    
+        height: 35vh;
+    }
+    .abtheadertxt{
+        top: 20vh;
     }
 }
