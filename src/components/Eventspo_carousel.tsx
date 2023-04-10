@@ -64,7 +64,7 @@ const Event_curosel = () => {
                             return (
                                 <div className={styles.event_block} key={index}>
                                     <div className={styles.events_block_imgbx}>
-                                        <Image src={`${item.image}`} alt="" />
+                                        <Image src={`${item.image}`} alt=""  width={1000} height={1000}/>
                                     </div>
                                     <div className={styles.events_block_content}>
                                         <h3>{item.title}</h3>
@@ -90,6 +90,8 @@ const Event_curosel = () => {
                             className={styles.display_mobile_img_event}
                             src={`${detailedeventcontainer.image}`}
                             alt=""
+                            width={1000}
+                            height={1000}
                         />
                     </div>
                     <p>{detailedeventcontainer.description}</p>
@@ -97,7 +99,7 @@ const Event_curosel = () => {
                     <h3>{detailedeventcontainer.participants}</h3>
                 </div>
                 <div className={styles.event_detailcont2}>
-                    <Image src={`${detailedeventcontainer.image}`} alt="" />
+                    <Image src={`${detailedeventcontainer.image}`} alt="" width={1000} height={1000}/>
                 </div>
             </div>
         </div>
