@@ -27,14 +27,14 @@ const AboutUs: NextPage = () => {
     const subscribers = Youtube();
     return (
         <div className={styles.abtpagecontainer}>
-            <div className={styles.abtheader}>
-                <div>
-                    <NavBar />
-                </div>
-                <div className={styles.abtheadertxt}>
-                    <p>Who Are We?</p>
-                </div>
+        <div className={styles.abtheader} >
+        <div>
+            <NavBar/>
+        </div>
+            <div className={styles.abtheadertxt}>
+        <p>Who Are We?</p>
             </div>
+        </div>
             <div className={styles.abtsubdiv1}>
                 <Image className={styles.conesimg} src={image2} alt={""} />
                 <div className={styles.abtsubdiv1header}>
@@ -42,19 +42,17 @@ const AboutUs: NextPage = () => {
                 </div>
                 <Image className={styles.guyimg} src={image1} alt={""} />
             </div>
-            <div className={styles.ssmdiv}>
-                <SocialMediaCount count={subscribers} type="Subscribers" image={imagey} />
-                <SocialMediaCount count="600" type="Followers" image={imagei} />
-                <SocialMediaCount count="550" type="Members" image={imaged} />
-            </div>
-            <Image className={styles.side1} src={side2} alt={""} />
-            <Image className={styles.side2} src={side1} alt={""} />
-            <div className={styles.aboutus}>
-                <div>
-                    <p className={styles.abtheading}>About Us</p>
+                <div className={styles.ssmdiv}>
+                    <SocialMediaCount count = {subscribers} type = "Subscribers" image = {imagey}/>
+                    <SocialMediaCount count = "600" type = "Followers" image = {imagei}/>
+                    <SocialMediaCount count = "550" type = "Members" image = {imaged}/>
+
                 </div>
-                <div className={styles.flexbox}>
+            <div className={styles.aboutus}>
                     <div className={styles.flexbox1}>
+                    <div>
+                    <p className={styles.abtheading}>About Us</p>
+                    </div>
                         <p className={styles.abtcontent}>
                             CODEX is one of the most active clubs on campus and beyond and always
                             operates, keeping the needs of the student community in mind.
@@ -69,14 +67,13 @@ const AboutUs: NextPage = () => {
                             and hackathons covering everything you could imagine, from web
                             development to cloud computing.
                         </p>
-                        <button className={styles.wanttojoin}>Want to Join Us?</button>
+                        <Link href={"/Events"}><button className={styles.wanttojoin}>Our Events</button></Link>
                     </div>
                     <div>
                         <Image className={styles.abtmem} src={abtmem} alt={""} />
                     </div>
-                </div>
             </div>
-            <div className={styles.events}>
+            {/* <div className={styles.events}>
                 <div className={styles.eventheader}>
                     <p>Our Events</p>
                 </div>
@@ -103,11 +100,11 @@ const AboutUs: NextPage = () => {
                         image={snap}
                     />
                 </div>
-                <Link href={"/Events"}>
+                <Link href={"/Event"}>
                     <button className={styles.viewmore}>View More</button>
                 </Link>
                 <Image className={styles.light} alt={""} src={lights}></Image>
-            </div>
+            </div> */}
             <Footer />
         </div>
     );
