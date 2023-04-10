@@ -52,7 +52,7 @@ const NavBar = () => {
                         </Link>
                     </li>
                     <li className="li_nav">
-                        <Link className={"link"} href={"/Event"}>
+                        <Link className={"link"} href={"/Events"}>
                             Events
                         </Link>
                     </li>
