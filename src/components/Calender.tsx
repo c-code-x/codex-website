@@ -51,7 +51,7 @@ export default function EventDate() {
                     </div>
                     <div className={styles2.cal}>
                         <Calendar
-                            onChange={onChange}
+                            // onChange={onChange}
                             value={value}
                             nextLabel={null}
                             next2Label={null}
