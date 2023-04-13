@@ -38,6 +38,8 @@ const Glimpse = () => {
                 <Calender />
             </div>
         </div>
+
     );
-};
+  };
+
 export default Glimpse;

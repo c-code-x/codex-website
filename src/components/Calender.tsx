@@ -9,14 +9,14 @@ import Image from "next/image";
 export default function EventDate() {
     const [value, onChange] = useState(new Date());
     const data = [
-        { date: "February 15, 2023", event: "Skill Enhancement Series (episode 1)" },
+        { date: "April 03, 2023", event: "Smart GITAM Hackathon" },
         {
-            date: "December 19,2023",
-            event: "WEBEX - WebDev Series",
+            date: "Coming Soon",
+            event: "Recruitments Bengaluru Core Team",
         },
         {
-            date: "Comming Soon",
-            event: "HACKATHON",
+            date: "Coming Soon",
+            event: "Game Development Workshop",
         },
     ];
     return (

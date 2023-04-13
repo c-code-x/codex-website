@@ -96,7 +96,7 @@ const Event_curosel = () => {
                     </div>
                     <p>{detailedeventcontainer.description}</p>
                     <h4>No of Participants:</h4>
-                    <h3>{detailedeventcontainer.participants}</h3>
+                    <h3>≈{detailedeventcontainer.participants} </h3>
                 </div>
                 <div className={styles.event_detailcont2}>
                     <Image src={`${detailedeventcontainer.image}`} alt="" width={1000} height={1000}/>
