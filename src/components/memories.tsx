@@ -8,6 +8,11 @@ import img3 from "../assests/memories/mem2.png";
 import img4 from "../assests/memories/mem3.png";
 import img5 from "../assests/memories/mem4.png";
 import img6 from "../assests/memories/mem5.png";
+import img7 from "../assests/memories/hackathon1.jpg";
+import img8 from "../assests/memories/hacakathon2.jpg";
+import img9 from "../assests/memories/hackathon3.jpg";
+import img10 from "../assests/memories/hackathon4.jpg";
+import img11 from "../assests/memories/hackathon5.jpg";
 import Image from "next/image";
 import dynamic from "next/dynamic";
 const Memories = () => {
@@ -58,14 +63,54 @@ const Memories = () => {
             onDragStart={handleDragStart}
             role="presentation"
         />,
-        <Image
-            key={6}
-            alt={"6"}
-            className={styles.mem_images}
-            src={img6}
-            onDragStart={handleDragStart}
-            role="presentation"
-        />,
+        // <Image
+        //     key={6}
+        //     alt={"6"}
+        //     className={styles.mem_images}
+        //     src={img6}
+        //     onDragStart={handleDragStart}
+        //     role="presentation"
+        // />,
+        // <Image
+        //     key={7}
+        //     alt={"7"}
+        //     className={styles.mem_images}
+        //     src={img7}
+        //     onDragStart={handleDragStart}
+        //     role="presentation"
+        // />,
+        // <Image
+        //     key={8}
+        //     alt={"8"}
+        //     className={styles.mem_images}
+        //     src={img8}
+        //     onDragStart={handleDragStart}
+        //     role="presentation"
+        // />,
+        // <Image
+        //     key={9}
+        //     alt={"9"}
+        //     className={styles.mem_images}
+        //     src={img9}
+        //     onDragStart={handleDragStart}
+        //     role="presentation"
+        // />,
+        // <Image
+        //     key={10}
+        //     alt={"10"}
+        //     className={styles.mem_images}
+        //     src={img10}
+        //     onDragStart={handleDragStart}
+        //     role="presentation"
+        // />,<Image
+        //     key={11}
+        //     alt={"11"}
+        //     className={styles.mem_images}
+        //     src={img11}
+        //     onDragStart={handleDragStart}
+        //     role="presentation"
+        // />,
+
     ];
     return (
         <div className={styles.maincontainer_mem}>
