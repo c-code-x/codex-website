@@ -71,7 +71,46 @@ const Teamcodex = () => {
             github: "https://github.com/mskmsd0108",
             linkdin: "https://www.linkedin.com/in/mokshasai-kandimalla-780845261",
         },
-        
+        {
+            image: "https://user-images.githubusercontent.com/141537855/260285369-e973ed90-e98a-4c38-8020-ac1655f2f928.png",
+            name: "Shanmukh",
+            role: "Content Creator",
+            description:
+            "Supported CODEX by being the Incharge of documentation and the content creatives in the club.",
+            insta: "https://instagram.com/shannu_19__?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D",
+            github: "#",
+            linkdin: "https://www.linkedin.com/in/shanmukh-nandhu-9598b524b",
+        },
+        {
+            image: "https://user-images.githubusercontent.com/141537855/260285805-3094c008-b37c-4259-8ec0-d0bb92e306e5.png",
+            name: "Vaishanavi",
+            role: "Marketing Lead",
+            description:
+            "Made CODEX a well known club by marketing all its events and publicizing it throughout GITAM",
+            insta: "https://instagram.com/nandipati_vaishnavi?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D",
+            github: "#",
+            linkdin: "https://www.linkedin.com/in/gnana-vaishnavi-nandipati-b60aba287",
+        },
+        {
+            image: "https://user-images.githubusercontent.com/141537855/260286487-644d5378-e94b-46f2-94d6-e31ae85f85cf.png",
+            name: "Aravindha Sankeerthana",
+            role: "Public relations officer",
+            description:
+            "Craft compelling stories and Be the voice of our CODEX and build meaningful connections.",
+            insta: "https://instagram.com/arvnda.vejalla?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D",
+            github: "#",
+            linkdin: "https://www.linkedin.com/in/aravinda-keerthana-vejalla-52603b27b",
+        },
+        {
+            image: "https://user-images.githubusercontent.com/141537855/260286770-5e7b45e3-b8b4-4595-be41-5f5a3c236e1a.png",
+            name: "Pavan",
+            role: "Marketing-officer",
+            description:
+            "Made CODEX a well known club by marketing all its events and publicizing it throughout GITAM",
+            insta: "https://instagram.com/pavancharan_28?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D",
+            github: "#",
+            linkdin: "https://www.linkedin.com/in/pavan-charan-9b9224256",
+        },
         {
             image: "https://user-images.githubusercontent.com/141537855/258630251-feda784c-aec9-42a2-b388-bc4f6302999e.png",
             name: "Parameshwar Madur",
@@ -171,26 +210,6 @@ const Teamcodex = () => {
             insta: "#",
             github: "#",
             linkdin: "#",
-        },
-        {
-            image: "https://user-images.githubusercontent.com/141537855/258631557-651d30fa-bbf6-4038-acda-3636eb30da04.png",
-            name: "Sameera",
-            role: "Alpha cyber Guardian",
-            description:
-                "Lead cybersecurity efforts at an alpha level, using Codex to fortify defenses and ensure digital safety.",
-            insta: "https://instagram.com/sameera_.2004?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D",
-            github: "#",
-            linkdin: "#",
-        },
-        {
-            image: "https://user-images.githubusercontent.com/141537855/258631654-c7d70ce0-2bdb-4c48-86f4-66d99ca4dff7.png",
-            name: "Dimple Sai",
-            role: "Beta Cyber Guardian",
-            description:
-            "Execute cybersecurity strategies at a beta level, employing Codex to enhance protection and safeguard digital assets.",
-            insta: "https://instagram.com/jr_dimple.sai?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D",
-            github: " https://github.com/Dimplesai123",
-            linkdin: "https://www.linkedin.com/in/dimple-sai-49628425b",
         },
         {
             image: "https://user-images.githubusercontent.com/141537855/258642120-0e45c793-5185-449e-a422-2804a58a713b.png",
