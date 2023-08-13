@@ -7,7 +7,7 @@ const Teamcodex = () => {
             image: "https://user-images.githubusercontent.com/141537855/258634979-503e83c7-519b-48e4-93f6-6e299f0faeab.png",
             name: "D Punith",
             role: "Tech Admin",
-            description:"The ONE responsible for managing the team, provides technical guaidance and support to the team",
+            description:"The one responsible for managing the team, provides technical guaidance and support to the team",
             insta: "https://instagram.com/bad_captain_punith?igshid=YmMyMTA2M2Y=",
             github: "https://github.com/breathecode6365",
             linkdin: "https://www.linkedin.com/in/punithdandluri",
@@ -36,9 +36,9 @@ const Teamcodex = () => {
             name: "Lohitha",
             role: "Logistics Officer",
             description:
-                "Manages all the Logistical requirements and Clerical work along with coordinating and optimizing the movement of goods and resources that's necessary",
+                "The one who manages all the Logistical requirements and Clerical work along with coordinating and optimizing the movement of goods and resources that's necessary",
             insta: "https://instagram.com/lohitha222?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D",
-            github: "#",
+            github: "https://github.com/Lohitha-kakumani",
             linkdin: "https://www.linkedin.com/in/lohitha-kakumani-29242525b",
         },
         {
@@ -52,7 +52,7 @@ const Teamcodex = () => {
             linkdin: "https://in.linkedin.com/in/thisislokeshrm",
         },
         {
-            image: "https://user-images.githubusercontent.com/141537855/258630559-21b9d4ab-3b97-4f67-bcf7-5cc5d1ed42c6.png",
+            image: "https://user-images.githubusercontent.com/141537855/260304937-5d8b1bcc-4c34-455a-b69b-622ead635fb5.png",
             name: "Sanjana",
             role: "Visual Media Lead",
             description:
@@ -66,7 +66,7 @@ const Teamcodex = () => {
             name: "Moksha sai",
             role: "Visual Arts Lead",
             description:
-            "The one responsible for leading and to create visually stunning and technically precise art assets that help in marketing and promotional aspect of CODEX",
+            "The one who is responsible for leading and to create visually stunning and technically precise art assets that help in marketing and promotional aspect of CODEX",
             insta: "https://instagram.com/_.msk.official_01?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D",
             github: "https://github.com/mskmsd0108",
             linkdin: "https://www.linkedin.com/in/mokshasai-kandimalla-780845261",
@@ -76,7 +76,7 @@ const Teamcodex = () => {
             name: "Shanmukh",
             role: "Content Creator",
             description:
-            "Supported CODEX by being the Incharge of documentation and the content creatives in the club.",
+            "The one who supports CODEX by being the Incharge of documentation and the content creatives in the club.",
             insta: "https://instagram.com/shannu_19__?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D",
             github: "#",
             linkdin: "https://www.linkedin.com/in/shanmukh-nandhu-9598b524b",
@@ -116,7 +116,7 @@ const Teamcodex = () => {
             name: "Parameshwar Madur",
             role: "IOT Developer",
             description:
-            "Innovate and engineer IoT solutions as a developer, leveraging Codex for seamless integration and efficient device communication.",
+            "The one who innovate and engineer IoT solutions as a developer, leveraging Codex for seamless integration and efficient device communication.",
             insta: "https://instagram.com/eshwarmadur?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D",
             github: "https://github.com/TOXIC-PLASMA",
             linkdin: "https://www.linkedin.com/in/parameshwar-madur-77434223b",
@@ -146,7 +146,7 @@ const Teamcodex = () => {
             name: "Sahasra",
             role: "Alpha Competitive Programmer",
             description:
-                "Push the boundaries of competitive programming with alpha-level skills, leveraging Codex for strategic coding excellence.",
+                "The one who push the boundaries of competitive programming with alpha-level skills, leveraging Codex for strategic coding excellence.",
             insta: "#",
             github: "#",
             linkdin: "#",
@@ -156,7 +156,7 @@ const Teamcodex = () => {
             name: "Prajwal",
             role: "Beta Competitive Programmer",
             description:
-            "Elevate competitive programming with beta-level expertise, employing Codex for strategic coding and problem-solving.",
+            "Elevates competitive programming with beta-level expertise, employing Codex for strategic coding and problem-solving.",
             insta: "https://instagram.com/prajwal_p_m?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D",
             github: "https://github.com/PrajwalMutalik",
             linkdin: "https://www.linkedin.com/in/prajwal-m-a46661255",
@@ -174,9 +174,9 @@ const Teamcodex = () => {
         {
             image: "https://user-images.githubusercontent.com/141537855/258852746-3132f401-aad9-418a-8fde-3dcb807e17d6.png",
             name: "Yaswanth Siva Kumar",
-            role: "AI/ML lead",
+            role: "AIML lead",
             description:
-                "The one who guide the era of technological advancements and AIML directs",
+                "The one who guide the era of technological advancements and AIML directs.",
             insta: "https://instagram.com/infinity__king_01?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D",
             github: " https://github.com/yaswanth7-7",
             linkdin: "https://www.linkedin.com/in/yaswanth-siva-kumar-560990242/",
@@ -186,7 +186,7 @@ const Teamcodex = () => {
             name: "Atheeq",
             role: "Application Developer",
             description:
-                "Build versatile applications as an application developer, leveraging Codex for streamlined and innovative development.",
+                "The one who Build versatile applications as an application developer, looks for innovative development.",
             insta: "https://instagram.com/aaron_1.8_?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D",
             github: "https://github.com/AtheeqAhmedMJ",
             linkdin: "https://www.linkedin.com/in/atheeq-ahmed-82193b26a",
@@ -196,7 +196,7 @@ const Teamcodex = () => {
             name: "Tushar",
             role: "Cyber Guardians Lead",
             description:   
-            "Skillfully lead and safeguard cyber initiatives as a guardian at Codex.",
+            "The one who formulates and executes robust cyber security strategies and safeguard cyber initiatives.",
             insta: "#",
             github: "#",
             linkdin: "www.linkedin.com/in/hellotushaar",
@@ -216,7 +216,7 @@ const Teamcodex = () => {
             name: "Abhiram",
             role: "Beta Cyber Guardian",
             description:
-            "Execute cybersecurity strategies at a beta level, employing Codex to enhance protection and safeguard digital assets.",
+            "The one who execute cybersecurity strategies at a beta level, employing Codex to enhance protection and safeguard digital assets.",
             insta: "https://instagram.com/__.abhiiii._?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D",
             github: "https://github.com/AbhiramAchana",
             linkdin: "https://www.linkedin.com/in/abhiram-achana-90830925a",
@@ -226,7 +226,7 @@ const Teamcodex = () => {
             name: "Surya",
             role: "Game Development Lead",
             description:
-                "Lead the charge in crafting unforgettable gaming experiences that captivates your mind , as our Game Development Lead.",
+                "The one who is responsible for creating interactive and entertaining vedio games.",
             insta: "#",
             github: "#",
             linkdin: "#",
@@ -236,7 +236,7 @@ const Teamcodex = () => {
             name: "Vishruth",
             role: "Character Development",
             description:
-                "Elevate game narratives through intricate character development, leveraging Codex to create captivating and emotionally resonant gaming experiences.",
+                "The one who involves in designing the characters which is unique and integral in overall gaming experience.",
             insta: "https://www.instagram.com/vishruth_reddy_15/",
             github: "https://github.com/VU21CSEN0102054VISHRUTH/VU21CSEN0102054VISHRUTH",
             linkdin: "https://www.linkedin.com/mwlite/in/thatiparthi-vishruth-reddy-a65478270",
@@ -246,7 +246,7 @@ const Teamcodex = () => {
             name: "Sreeja",
             role: "Level Design",
             description:
-            "Shape immersive game worlds and experiences through expert level design, utilizing Codex to craft engaging and dynamic gameplay environments.",
+            "The one who is responsible for art of creating a game levels,which makes challenging experience for players.",
             insta: "#",
             github: "https://github.com/Sreeja88",
             linkdin: "https://www.linkedin.com/in/sreeja-sistla-9a4996255",
@@ -256,7 +256,7 @@ const Teamcodex = () => {
             name: "KV Gopichand",
             role: "Assest Design",
             description:
-            "Create captivating in-game assets and visuals through expert design, harnessing Codex to enhance the aesthetic and impact of the gaming experience.",
+            "The one who is responsible for creating various visual and audio element that are used in games such as 3D modells,animations,music.",
             insta: "#",
             github: "#",
             linkdin: "#",
