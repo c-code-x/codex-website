@@ -22,7 +22,7 @@ export default function Footer() {
                         <div className="logo">
                             <Image src={logo} alt="logo" />
                             <p>A Gitam Club . We learn,We build and We share</p>
-                            <p>codex_sig@gitam.in</p>
+                            <p>codexclub@gitam.in</p>
                         </div>
                     </div>
                     <div className="middle box">
@@ -55,8 +55,8 @@ export default function Footer() {
                     <div className="lower">
                         <div className="topic">Contact us</div>
                         <div className="email">
-                            <a className="contact_num" href="mailto: codex_sig@gitam.in">
-                                <i className="fas fa-envelope"></i>codex_sig@gitam.in
+                            <a className="contact_num" href="mailto: codexclub@gitam.in">
+                                <i className="fas fa-envelope"></i>codexclub@gitam.in
                             </a>
                         </div>
                     </div>

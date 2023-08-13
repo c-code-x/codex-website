@@ -13,6 +13,17 @@ import img8 from "../assests/memories/hacakathon2.jpg";
 import img9 from "../assests/memories/hackathon3.jpg";
 import img10 from "../assests/memories/hackathon4.jpg";
 import img11 from "../assests/memories/hackathon5.jpg";
+import img12 from "../assests/memories/WhatsApp Image 2023-07-11 at 21.19.00 (1).jpeg";
+import img13 from "../assests/memories/IMG-20230302-WA0045.jpg";
+import img14 from "../assests/memories/Rectangle 21.png";
+import img15 from "../assests/memories/Rectangle 21 (1).png";
+import img16 from "../assests/memories/Rectangle 21 (2).png";
+import img17 from "../assests/memories/Rectangle 21 (3).png";
+import img18 from "../assests/memories/Rectangle 21 (4).png";
+import img19 from "../assests/memories/Rectangle 21 (5).png";
+import img20 from "../assests/memories/Rectangle 21 (6).png";
+import img21 from "../assests/memories/Rectangle 21 (7).png";
+import img22 from "../assests/memories/Rectangle 21 (8).png";
 import Image from "next/image";
 import dynamic from "next/dynamic";
 const Memories = () => {
@@ -63,53 +74,93 @@ const Memories = () => {
             onDragStart={handleDragStart}
             role="presentation"
         />,
-        // <Image
-        //     key={6}
-        //     alt={"6"}
-        //     className={styles.mem_images}
-        //     src={img6}
-        //     onDragStart={handleDragStart}
-        //     role="presentation"
-        // />,
-        // <Image
-        //     key={7}
-        //     alt={"7"}
-        //     className={styles.mem_images}
-        //     src={img7}
-        //     onDragStart={handleDragStart}
-        //     role="presentation"
-        // />,
-        // <Image
-        //     key={8}
-        //     alt={"8"}
-        //     className={styles.mem_images}
-        //     src={img8}
-        //     onDragStart={handleDragStart}
-        //     role="presentation"
-        // />,
-        // <Image
-        //     key={9}
-        //     alt={"9"}
-        //     className={styles.mem_images}
-        //     src={img9}
-        //     onDragStart={handleDragStart}
-        //     role="presentation"
-        // />,
-        // <Image
-        //     key={10}
-        //     alt={"10"}
-        //     className={styles.mem_images}
-        //     src={img10}
-        //     onDragStart={handleDragStart}
-        //     role="presentation"
-        // />,<Image
-        //     key={11}
-        //     alt={"11"}
-        //     className={styles.mem_images}
-        //     src={img11}
-        //     onDragStart={handleDragStart}
-        //     role="presentation"
-        // />,
+        <Image
+            key={14}
+            alt={"14"}
+            className={styles.mem_images}
+            src={img14}
+            onDragStart={handleDragStart}
+            role="presentation"
+        />,
+        <Image
+            key={15}
+            alt={"15"}
+            className={styles.mem_images}
+            src={img15}
+            onDragStart={handleDragStart}
+            role="presentation"
+        />,
+        <Image
+            key={16}
+            alt={"16"}
+            className={styles.mem_images}
+            src={img16}
+            onDragStart={handleDragStart}
+            role="presentation"
+        />,
+        <Image
+            key={17}
+            alt={"17"}
+            className={styles.mem_images}
+            src={img17}
+            onDragStart={handleDragStart}
+            role="presentation"
+        />,
+        <Image
+            key={18}
+            alt={"18"}
+            className={styles.mem_images}
+            src={img18}
+            onDragStart={handleDragStart}
+            role="presentation"
+        />,
+        <Image
+            key={19}
+            alt={"19"}
+            className={styles.mem_images}
+            src={img19}
+            onDragStart={handleDragStart}
+            role="presentation"
+        />,
+        <Image
+            key={20}
+            alt={"20"}
+            className={styles.mem_images}
+            src={img20}
+            onDragStart={handleDragStart}
+            role="presentation"
+        />,
+        <Image
+            key={21}
+            alt={"21"}
+            className={styles.mem_images}
+            src={img21}
+            onDragStart={handleDragStart}
+            role="presentation"
+        />,
+        <Image
+            key={22}
+            alt={"22"}
+            className={styles.mem_images}
+            src={img22}
+            onDragStart={handleDragStart}
+            role="presentation"
+        />,
+        /*<Image
+            key={10}
+            alt={"10"}
+            className={styles.mem_images}
+            src={img10}
+            onDragStart={handleDragStart}
+            role="presentation"
+        />,<Image
+            key={11}
+            alt={"11"}
+            className={styles.mem_images}
+            src={img11}
+            onDragStart={handleDragStart}
+            role="presentation"
+        />,*/
 
     ];
     return (
