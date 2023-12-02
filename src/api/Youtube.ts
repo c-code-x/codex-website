@@ -1,8 +1,8 @@
 import axios from "axios";
 import { useState } from "react";
 
-const API_KEY = "AIzaSyB-uogOt-bfMGJPUk54cwwym-BZjLj_YCA";
-const CHANNEL_ID = "UCZ9sd4Lj85osgKLdEO9Fi7w";
+const API_KEY = process.env.YOUTUBE_API_KEY;
+const CHANNEL_ID = process.env.YOUTUBE_CHANNEL_ID;
 
 const YoutubeAPI = () => {
     const [subCount, setSubCount] = useState(0);
