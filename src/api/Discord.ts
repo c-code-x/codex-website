@@ -2,7 +2,8 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 const express = require("express");
 const app = express();
-client.login("MTA3NDM3NTMzODc4MTU5MzcwMA.GxRjTW.l6j7prprz4W0oKfXYwrwTMmkfMydveOC68Ullw");
+
+client.login(process.env.DISCORD_API_KEY);
 
 client.on("ready", () => {
     console.log(DiscordAPI());
