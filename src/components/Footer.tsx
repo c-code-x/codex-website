@@ -1,10 +1,10 @@
-import logo from "../assests/codexlogo.png";
+import logo from "../assets/codexlogo.png";
 import { useRouter } from "next/router";
 import Image from "next/image";
-import git from "../assests/github1.png";
-import disc from "../assests/discordlogo.png";
-import insta from "../assests/instagram.png";
-import utube from "../assests/youtube1.png";
+import git from "../assets/github-white-svg.svg";
+import disc from "../assets/discord-svg.svg";
+import insta from "../assets/instagram-svg.svg";
+import utube from "../assets/youtube-svg.svg";
 import Link from "next/link";
 export default function Footer() {
     const goToTop = () => {

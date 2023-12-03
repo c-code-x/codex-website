@@ -1,5 +1,5 @@
 import styles from "../styles/Glimpse.module.css";
-import saly from "../assests/Saly-10_1.png";
+import saly from "../assets/Saly-10_1.png";
 import Image from "next/image";
 import Calender from "@/components/Calender";
 import { MouseEventHandler, MutableRefObject, useRef } from "react";
@@ -38,8 +38,7 @@ const Glimpse = () => {
                 <Calender />
             </div>
         </div>
-
     );
-  };
+};
 
 export default Glimpse;

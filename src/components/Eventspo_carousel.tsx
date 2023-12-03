@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import styles from "../styles/event.module.css";
 import Image from "next/image";
-import imag1 from "../assests/events/event_img1.jpg";
+import imag1 from "../assets/events/event_img1.jpg";
 const Event_curosel = () => {
     const [detailedeventcontainer, setDetailedeventcontainer] = useState(products[0]);
     console.log(detailedeventcontainer);
@@ -64,7 +64,12 @@ const Event_curosel = () => {
                             return (
                                 <div className={styles.event_block} key={index}>
                                     <div className={styles.events_block_imgbx}>
-                                        <Image src={`${item.image}`} alt=""  width={1000} height={1000}/>
+                                        <Image
+                                            src={`${item.image}`}
+                                            alt=""
+                                            width={1000}
+                                            height={1000}
+                                        />
                                     </div>
                                     <div className={styles.events_block_content}>
                                         <h3>{item.title}</h3>
@@ -99,7 +104,12 @@ const Event_curosel = () => {
                     <h3>≈{detailedeventcontainer.participants} </h3>
                 </div>
                 <div className={styles.event_detailcont2}>
-                    <Image src={`${detailedeventcontainer.image}`} alt="" width={1000} height={1000}/>
+                    <Image
+                        src={`${detailedeventcontainer.image}`}
+                        alt=""
+                        width={1000}
+                        height={1000}
+                    />
                 </div>
             </div>
         </div>

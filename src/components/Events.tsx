@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../styles/Events.module.css";
 import Image from "next/image";
-import image1 from "../assests/posters/c-programming.jpg";
+import image1 from "../assets/posters/c-programming.jpg";
 
 const Events = (props: any) => {
     return (

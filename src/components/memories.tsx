@@ -2,17 +2,17 @@ import React from "react";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 import styles from "../styles/memories.module.css";
-import img1 from "../assests/mem_img1.png";
-import img2 from "../assests/memories/mem1.png";
-import img3 from "../assests/memories/mem2.png";
-import img4 from "../assests/memories/mem3.png";
-import img5 from "../assests/memories/mem4.png";
-import img6 from "../assests/memories/mem5.png";
-import img7 from "../assests/memories/hackathon1.jpg";
-import img8 from "../assests/memories/hacakathon2.jpg";
-import img9 from "../assests/memories/hackathon3.jpg";
-import img10 from "../assests/memories/hackathon4.jpg";
-import img11 from "../assests/memories/hackathon5.jpg";
+import img1 from "../assets/mem_img1.png";
+import img2 from "../assets/memories/mem1.png";
+import img3 from "../assets/memories/mem2.png";
+import img4 from "../assets/memories/mem3.png";
+import img5 from "../assets/memories/mem4.png";
+import img6 from "../assets/memories/mem5.png";
+import img7 from "../assets/memories/hackathon1.jpg";
+import img8 from "../assets/memories/hacakathon2.jpg";
+import img9 from "../assets/memories/hackathon3.jpg";
+import img10 from "../assets/memories/hackathon4.jpg";
+import img11 from "../assets/memories/hackathon5.jpg";
 import Image from "next/image";
 import dynamic from "next/dynamic";
 const Memories = () => {
@@ -110,7 +110,6 @@ const Memories = () => {
         //     onDragStart={handleDragStart}
         //     role="presentation"
         // />,
-
     ];
     return (
         <div className={styles.maincontainer_mem}>
