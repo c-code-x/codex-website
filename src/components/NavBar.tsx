@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import styles from "../styles/NavBar.module.css";
-import logo from "../assests/logo_1.png";
+import logo from "../assets/logo_1.png";
 import Image from "next/image";
 import Link from "next/link";
-import bar from "../assests/burger.png";
-import arrow from "../assests/rightarrow.png";
+import bar from "../assets/burger.png";
+import arrow from "../assets/rightarrow.png";
 
 const NavBar = () => {
     const [animate, setAnimate] = useState(false);

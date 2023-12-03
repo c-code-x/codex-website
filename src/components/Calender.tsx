@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import ho from "../assests/calender_img1.png";
+import ho from "../assets/calender_img1.png";
 import styles2 from "../styles/EventDate.module.css";
-import bg from "../assests/sec2bg.png";
-import icon from "../assests/calendarimg.png";
-import subbar from "../assests/subeventbar.png";
+import bg from "../assets/sec2bg.png";
+import icon from "../assets/calendarimg.png";
+import subbar from "../assets/subeventbar.png";
 import Calendar from "react-calendar";
 import Image from "next/image";
 export default function EventDate() {
