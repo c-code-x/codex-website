@@ -10,7 +10,7 @@
     position: relative;
     top: 150px;
     height: 80vh;
-    z-index: 10;  /* Value Changed from -10 to 10*/
+    z-index: -10;  /* Value Changed from -10 to 10*/
 }
 .maincontainer_mem h1 {
     text-align: center;
