@@ -59,7 +59,7 @@ const FormComponent = () => {
                 The Competitive Programming Problem Generator helps users create tailored problem
                 sheets based on their Codeforces handle, allowing for customization of problem
                 ratings and consideration of past contests. This tool aims to optimize practice
-                sessions by generating problem sets that align with the user's skill level and
+                sessions by generating problem sets that align with the user&apos;s skill level and
                 recent performance.
             </p>
             <form onSubmit={handleSubmit} className={`${showProblems ? "hidden" : "block"}`}>
