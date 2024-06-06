@@ -34,9 +34,6 @@
         "styled-components": "^5.3.6",
         "styled-components.macro": "^1.0.0"
     },
-    "engines": {
-        "node": "^14.18.0 || >=16.0.0"
-    },
     "devDependencies": {
         "@types/bcrypt": "^5.0.0",
         "@types/jsonwebtoken": "^9.0.1",
