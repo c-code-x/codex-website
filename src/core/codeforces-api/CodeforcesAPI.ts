@@ -9,6 +9,17 @@ export default class CodeforcesAPI {
     static API_URL = "https://codeforces.com/api";
     static FINISHED_PHASE = "FINISHED";
 
+    static async userDetails(handle: string) {
+        try {
+            const response: AxiosResponse<any> = await axios.get(
+                `${CodeforcesAPI.API_URL}/user.info?handles=${handle}`
+            );
+            return response.data.result[0];
+        } catch (error) {
+            console.error(error);
+        }
+        return [];
+    }
     static async getAllContests(): Promise<Contest[]> {
         try {
             const response: AxiosResponse<GetAllContestsRes> = await axios.get(
@@ -137,4 +148,5 @@ export default class CodeforcesAPI {
         }
         return problemSheet;
     }
+
 }

@@ -1,3 +1,4 @@
+"use client";
 import React, { useState } from "react";
 import ho from "../assets/calender_img1.png";
 import styles2 from "../styles/EventDate.module.css";
@@ -51,7 +52,6 @@ export default function EventDate() {
                     </div>
                     <div className={styles2.cal}>
                         <Calendar
-                            onChange={onChange}
                             value={value}
                             nextLabel={null}
                             next2Label={null}

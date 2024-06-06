@@ -1,3 +1,4 @@
+"use client";
 import React, { useState, useRef, MutableRefObject } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
