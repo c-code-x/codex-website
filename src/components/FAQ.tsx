@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+
+import React from "react";
 import questions from "./FAQ.json";
 import Link from "next/link";
 import styles from "../styles/faq.module.css";
