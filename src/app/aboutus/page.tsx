@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import styles from "../../styles/aboutus.module.css";
+import styles from "../../styles/AboutUs.module.css";
 import Image from "next/image";
 import imagei from "../../assets/instagram.png";
 import imaged from "../../assets/discordlogo.png";
