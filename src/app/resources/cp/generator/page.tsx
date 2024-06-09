@@ -23,7 +23,7 @@ const FormComponent = () => {
         e.preventDefault();
         setLoading(true);
         const valid = await axios.get(
-            `http://localhost:3000/api/cf-handle?handle=${formData.codeforcesHandle}`
+            `/api/cf-handle?handle=${formData.codeforcesHandle}`
         );
         if (!valid) {
             alert("Invalid Codeforces Handle");
@@ -38,7 +38,7 @@ const FormComponent = () => {
         }
         await axios
             .get(
-                `http://localhost:3000/api/cf-problem-sheet?handle=${formData.codeforcesHandle}&maxProblemRating=${formData.maxRating}&minProblemRating=${formData.minRating}&numberOfPreviousContests=${formData.prevContests}`
+                `/api/cf-problem-sheet?handle=${formData.codeforcesHandle}&maxProblemRating=${formData.maxRating}&minProblemRating=${formData.minRating}&numberOfPreviousContests=${formData.prevContests}`
             )
             .then((res) => {
                 console.log(res.data);
