@@ -1,6 +1,7 @@
+"use client"
 import React, { useState } from "react";
-import image1 from "../assests/Untitled-4 7.png";
-import image2 from "../assests/Untitled-4 8.png";
+import image1 from "../assets/Untitled-4 7.png";
+import image2 from "../assets/Untitled-4 8.png";
 import styles from "../styles/faqcomp.module.css";
 import Link from "next/link";
 import Image from "next/image";

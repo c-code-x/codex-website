@@ -1,9 +1,9 @@
+"use client";
 import styles from "../styles/Glimpse.module.css";
-import saly from "../assests/Saly-10_1.png";
+import saly from "../assets/Saly-10_1.png";
 import Image from "next/image";
 import Calender from "@/components/Calender";
-import { MouseEventHandler, MutableRefObject, useRef } from "react";
-import { Calendar } from "react-calendar";
+import { MutableRefObject, useRef } from "react";
 const Glimpse = () => {
     const calendar = useRef<HTMLDivElement>(undefined!);
     const scrollDown = (ref: MutableRefObject<HTMLDivElement>) => {
@@ -17,8 +17,8 @@ const Glimpse = () => {
         <div>
             <div className={styles.container1}>
                 <div className={styles.info}>
-                    <h1>
-                        Hello, We are <span className={styles.typed}>CODEX</span>
+                    <h1 className="font-bold">
+                        Hello, We are <span >CODEX</span>
                     </h1>
                     <p>
                         CODEX is a student-run organization at the University of GITAM <br />
@@ -38,8 +38,7 @@ const Glimpse = () => {
                 <Calender />
             </div>
         </div>
-
     );
-  };
+};
 
 export default Glimpse;

@@ -1,8 +1,8 @@
 import Image from "next/image";
-import image from "../assests/members/santosh_img.png";
-import linkdin from "../assests/members/linkdinlogo.png";
-import insta from "../assests/members/instalogo.png";
-import github from "../assests/members/githublogo.png";
+import image from "../assets/members/santosh_img.png";
+import linkdin from "../assets/members/linkdinlogo.png";
+import insta from "../assets/members/instalogo.png";
+import github from "../assets/members/githublogo.png";
 import styles from "../styles/members.module.css";
 const Member_block = (props: any) => {
     return (

@@ -1,11 +1,9 @@
-import image1 from "../assests/send_buttonfeed.png";
-import send from "../assests/send_buttonfeed.png";
+"use client";
+import send from "../assets/send_buttonfeed.png";
 import styles from "../styles/Feedback.module.css";
-import mail from "../assests/gmail.png";
-import tele from "../assests/telephone.png";
+import mail from "../assets/gmail.png";
 import Image from "next/image";
-import saly38 from "../assests/Saly_38_1.png";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
