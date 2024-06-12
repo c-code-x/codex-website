@@ -91,6 +91,24 @@ const Proud_alumni = () => {
             github: "https://github.com/AriefB18",
             linkdin: "https://www.linkedin.com/in/arief-basha-a3b558236",
         },
+        {
+            image: "https://user-images.githubusercontent.com/141537855/258637629-aba65ad3-ffb4-4706-aabb-4bdf85efc990.png",
+            name: "Tushar Kantidhar",
+            role: "Cyber Security Lead",
+            description: "Led the Cyber Security team and conducted workshops and Projects on Cyber Security",
+            insta: "#",
+            github: "https://github.com/hellotushaar",
+            linkdin: "https://www.linkedin.com/in/hellotushaar/",
+        },
+        {
+            image: "https://user-images.githubusercontent.com/141537855/258631976-42c14940-aab1-4cea-b4c0-e59b7f77e2f7.png",
+            name: "Sreeja Sistla",
+            role: "Game Devoloper",
+            description: "Part of the Game Development team and developed games",
+            insta: "#",
+            github: "https://github.com/Sreeja88",
+            linkdin: "https://www.linkedin.com/in/sreeja-sistla-9a4996255",
+        },
     ];
     return (
         <div className={styles.proud_alumni_codex}>

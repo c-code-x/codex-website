@@ -6,82 +6,82 @@ const Teamcodex = () => {
         {
             image: "https://user-images.githubusercontent.com/105535366/222389427-794536d8-43a0-409e-bf55-508cd4294121.png",
             name: "D Punith",
-            role: "President",
+            role: "Tech Admin",
             description:
-                "The ONE responsible and accountable for executive leadership and operational direction of CODEX ",
+                "The ONE responsible for Managing and leading all tech-related operations of CODEX ",
             insta: "https://instagram.com/bad_captain_punith?igshid=YmMyMTA2M2Y=",
             github: "https://github.com/breathecode6365",
-            linkdin: "#",
-        },
-        {
-            image: "https://user-images.githubusercontent.com/105535366/222389442-4b7ec2d0-bfbb-4106-b686-9aa735d6f1bc.png",
-            name: "Bharath",
-            role: "Logistics Officer",
-            description:
-                "Manages all the Logistical requirements and Clerical work along with coordinating and optimizing the movement of goods and resources that's necessary",
-            insta: "https://instagram.com/_.b.h.a.r.a.t.h.__.y.a.d.a.v._?igshid=YmMyMTA2M2Y=",
-            github: "#",
-            linkdin: "#",
-        },
-        {
-            image: "https://user-images.githubusercontent.com/105535366/222389447-89270e64-8ba1-41d8-b982-5999e056fcea.png",
-            name: "Tamana",
-            role: "Public Relations Officer",
-            description:
-                "Craft compelling stories and Be the voice of our CODEX and build meaningful connections.",
-            insta: "https://instagram.com/truly_tamanna?igshid=YmMyMTA2M2Y=",
-            github: "https://www.linkedin.com/in/tamannashaw",
-            linkdin: "#",
-        },
-        {
-            image: "https://user-images.githubusercontent.com/105535366/222389455-99366e0b-67f7-45aa-bf29-c38549b270f7.png",
-            name: "Suhit",
-            role: "Visual Arts Officer",
-            description:
-                "The one responsible for leading and to create visually stunning and technically precise art assets that help in marketing and promotional aspect of CODEX ",
-            insta: "https://instagram.com/suhit_eswar_?igshid=YmMyMTA2M2Y=",
-            github: "https://github.com/suhit123",
-            linkdin: "#",
-        },
-        {
-            image: "https://user-images.githubusercontent.com/105535366/222389435-77dd1d02-3543-4d69-9b4f-c3dfeedeffb6.png",
-            name: "Hilux",
-            role: "Front End - Lead",
-            description:
-                "Incharge of creating intuitive and visually stunning user experiences that immerse the user into the project",
-            insta: "https://www.instagram.com/fokouhilux/",
-            github: "https://github.com/hiluxfnh",
-            linkdin: "https://www.linkedin.com/in/fokou/",
-        },
-        {
-            image: "https://user-images.githubusercontent.com/105535366/222389439-f3bf22db-3243-4b53-9ea0-747df8d3232d.png",
-            name: "Tushar",
-            role: "Back End - Lead",
-            description:
-                "Lead the development of scalable, robust, and secure systems as our Back End Lead and shape the future of our technology.",
-            insta: "#",
-            github: "https://github.com/hellotushaar",
-            linkdin: "https://linkedin.com/in/hellotushaar",
-        },
-        {
-            image: "https://user-images.githubusercontent.com/105535366/222389458-4d4ec6bf-fea4-4a96-96c7-eccee29786a4.png",
-            name: "Surya",
-            role: "Game Development Lead",
-            description:
-                "Lead the charge in crafting unforgettable gaming experiences that captivates your mind , as our Game Development Lead.",
-            insta: "#",
-            github: "#",
-            linkdin: "#",
+            linkdin: "https://www.linkedin.com/in/punithdandluri/",
         },
         {
             image: "https://user-images.githubusercontent.com/105535366/222389449-75e6212c-4151-49bd-bf36-a51bc70591bb.png",
-            name: "Pradyumna",
-            role: "Competitive Programming Lead",
+            name: "Sai Santosh Pradyumna",
+            role: "Non-Tech Admin",
             description:
-                "Lead and manage the competitive programming team, providing strategic guidance and solutions to achieve success in coding challenges and competitions",
-            insta: "https://github.com/SaiSantoshPradyumna",
+                "The ONE responsible and accountable for executive leadership and operational direction of CODEX ",
+            insta: "https://instagram.com/sai_santosh_?igshid=YmMyMTA2M2Y=",
+            github: "https://github.com/SaiSantoshPradyumna",
+            linkdin: "https://www.linkedin.com/in/sai-santosh-611628222/",
+        },
+        {
+            image: "https://user-images.githubusercontent.com/141537855/260285369-e973ed90-e98a-4c38-8020-ac1655f2f928.png",
+            name: "Shanmukh",
+            role: "Logistics Officer",
+            description:
+                "Manages all the Logistical requirements and documentation of CODEX",
+            insta: "https://www.instagram.com/shannu_19__/",
             github: "#",
-            linkdin: "#",
+            linkdin: "https://www.linkedin.com/in/a-shanmukh-nandu-9598b524b/",
+        },
+        {
+            image: "https://user-images.githubusercontent.com/141537855/258631435-2ee7eb1e-e86f-4830-868f-2d3d828c6b87.png",
+            name: "Md.Atheeq",
+            role: "App Devolopment Lead",
+            description:
+                "Responsibility of leading the App Development team and to create and maintain the apps",
+            insta: "https://www.instagram.com/aaron_1.8_/",
+            github: "#",
+            linkdin: "https://www.linkedin.com/in/atheeq-ahmed-82193b26a/",
+        },
+        {
+            image: "https://user-images.githubusercontent.com/141537855/258632478-571f0f9d-dc25-41f1-a92c-fa4e41e66092.png",
+            name: "Lokesh",
+            role: "Web Development Lead",
+            description:
+                "The One responsible for leading the web development team and to create and maintain the website of CODEX",
+            insta: "https://www.instagram.com/thisislokeshrm/",
+            github: "#",
+            linkdin: "https://www.linkedin.com/in/thisislokeshrm/",
+        },
+        {
+            image: "https://amitsabnis2004.github.io/photo/amit_img.png",
+            name: "Amit",
+            role: "Competitive Programming Team",
+            description:
+                "Part of the competitive programming team, to participate and host coding competitions and practice regularly.",
+            insta: "https://www.instagram.com/amit.sabnis/",
+            github: "https://github.com/amitsabnis2004",
+            linkdin: "https://www.linkedin.com/in/amit-sabnis-b52056290/",
+        },
+        {
+            image: "https://user-images.githubusercontent.com/141537855/258641876-a9a46010-3ae8-4963-bc1e-8641cb917724.png",
+            name: "Sravya",
+            role: "Competitive Programming Team",
+            description:
+                "Part of the competitive programming team, to participate and host coding competitions and practice regularly",
+            insta: "#",
+            github: "#",
+            linkdin: "https://www.linkedin.com/in/sravya-patham-b31254247/",
+        },
+                {
+            image: "https://user-images.githubusercontent.com/141537855/258630251-feda784c-aec9-42a2-b388-bc4f6302999e.png",
+            name: "Parameshwar Madur",
+            role: "IoT Lead",
+            description:
+                "Lead and manage the IoT team, and build interesting projects using IoT technology",
+            insta: "https://www.instagram.com/toxicplasma/",
+            github: "https://github.com/TOXIC-PLASMA",
+            linkdin: "https://www.linkedin.com/in/parameshwar-madur-77434223b/",
         },
     ];
     return (
