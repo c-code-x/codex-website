@@ -22,7 +22,7 @@
     justify-content: space-evenly;
 }
 .viewmore {
-    background-image: url(../assests/gradient112.png);
+    background-image: url(../assets/gradient112.png);
     background-size: cover;
     background-position-x: -10px;
     background-position-y: -10px;
@@ -187,7 +187,7 @@
         font-size: 25px;
     }
     .viewmore {
-        background-image: url(../assests/gradient112.png);
+        background-image: url(../assets/gradient112.png);
         background-size: cover;
         background-position-x: -10px;
         background-position-y: -10px;

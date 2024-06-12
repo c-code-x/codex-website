@@ -1,10 +1,11 @@
-import logo from "../assests/codexlogo.png";
+"use client";
+import logo from "../../public/codex_full.png";
 import { useRouter } from "next/router";
 import Image from "next/image";
-import git from "../assests/github1.png";
-import disc from "../assests/discordlogo.png";
-import insta from "../assests/instagram.png";
-import utube from "../assests/youtube1.png";
+import git from "../assets/github-white-svg.svg";
+import disc from "../assets/discord-svg.svg";
+import insta from "../assets/instagram-svg.svg";
+import utube from "../assets/youtube-svg.svg";
 import Link from "next/link";
 export default function Footer() {
     const goToTop = () => {
@@ -13,16 +14,13 @@ export default function Footer() {
             behavior: "smooth",
         });
     };
-    const router = useRouter();
     return (
         <div>
             <footer>
                 <div className="content">
                     <div className="left box">
-                        <div className="logo">
-                            <Image src={logo} alt="logo" />
-                            <p>A Gitam Club . We learn,We build and We share</p>
-                            <p>codexclub@gitam.in</p>
+                        <div className="">
+                            <Image src={logo} alt="logo" className="w-[250px] h-auto" />
                         </div>
                     </div>
                     <div className="middle box">
@@ -31,25 +29,25 @@ export default function Footer() {
                             <Link href="/">Home</Link>
                         </div>
                         <div>
-                            <Link href="/AboutUs">About</Link>
+                            <Link href="/aboutus">About</Link>
                         </div>
                         <div>
-                            <Link href="/UnderConstruction">Domains</Link>
+                            <Link href="/underconstruction">Domains</Link>
                         </div>
                         <div>
-                            <Link href="/UnderConstruction">Members</Link>
+                            <Link href="/underconstruction">members</Link>
                         </div>
                         <div>
-                            <Link href="/UnderConstruction">Resources</Link>
+                            <Link href="/underconstruction">Resources</Link>
                         </div>
                     </div>
                     <div className="middle box">
                         <div className="topic">Services</div>
                         <div>
-                            <Link href="/UnderConstruction">Resources</Link>
+                            <Link href="/underconstruction">Resources</Link>
                         </div>
                         <div>
-                            <Link href="/UnderConstruction">Practice typing</Link>
+                            <Link href="/underconstruction">Practice typing</Link>
                         </div>
                     </div>
                     <div className="lower">
@@ -66,7 +64,7 @@ export default function Footer() {
                             <a href="https://discord.gg/QaytX8tA">
                                 <Image src={disc} alt="" />
                             </a>
-                            <a href="https://github.com/c-code-x">
+                            <a href="https://github.com/CodeX-GITAM">
                                 <Image src={git} alt="" />
                             </a>
                             <a href="https://www.instagram.com/codex_gitam/">
@@ -85,7 +83,7 @@ export default function Footer() {
                             Back to Top
                         </div>
                     </div>
-                    {/*<div className="foot3"><p>Copyright © 2023 <Link href="/LandingPage">CodeX</Link> All rights reserved</p></div>*/}
+                    {/* <div className="foot3"><p>Copyright © 2023 <Link href="/LandingPage">CodeX</Link> All rights reserved</p></div> */}
                 </div>
             </footer>
         </div>

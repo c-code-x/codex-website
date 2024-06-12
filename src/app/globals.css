@@ -1,3 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -237,8 +245,8 @@ footer .content {
     justify-content: space-between;
 }
 footer .content p,
-a {
-    color: #fff;
+footer .content a {
+    color: white;
     text-decoration: none;
 }
 footer .content .box {
@@ -666,3 +674,25 @@ footer a:hover {
         margin-top: 10px;
     }
 }
+
+.spinner {
+   width: 25px;
+   height: 25px;
+   border-radius: 50%;
+   background: conic-gradient(#0000 10%,#474bff);
+   -webkit-mask: radial-gradient(farthest-side,#0000 calc(100% - 9px),#000 0);
+   animation: spinner-zp9dbg 0.8s infinite linear;
+}
+
+.generateBTN:hover{
+    .spinner{
+        background: conic-gradient(#0000 10%,#fff);
+    }
+}
+
+@keyframes spinner-zp9dbg {
+   to {
+      transform: rotate(1turn);
+   }
+}
+

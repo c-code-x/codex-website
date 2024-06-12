@@ -1,6 +1,6 @@
 import Image from "next/image";
-import styles from "../styles/underconstruction.module.css";
-import underconstruction from "../assests/underconstruction.png";
+import styles from "../../styles/underconstruction.module.css";
+import underconstruction from "../../assets/underconstruction.png";
 import Link from "next/link";
 const Underconst = () => {
     return (
