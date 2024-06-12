@@ -147,8 +147,8 @@ const Feedback = () => {
                     <h1 className={styles.feedback_contact_box_head}>Contact Information</h1>
                     <a
                         className={styles.feedback_contact_box_mail}
-                        href={"mailto: codex_sig@gitam.in"}>
-                        <Image src={mail} alt="mail" /> codex_sig@gitam.in
+                        href={"mailto: codexclub@gitam.in"}>
+                        <Image src={mail} alt="mail" /> codexclub@gitam.in
                     </a>
                 </div>
             </div>
