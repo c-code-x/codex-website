@@ -1,8 +1,26 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
-        domains: ["user-images.githubusercontent.com", "i.ibb.co", "images.unsplash.com", "media.geeksforgeeks.org"],
+      remotePatterns: [
+        {
+          protocol: 'https',
+          hostname: 'user-images.githubusercontent.com',
+        },
+        {
+          protocol: 'https',
+          hostname: 'i.ibb.co',
+        },
+        {
+          protocol: 'https',
+          hostname: 'images.unsplash.com',
+        },
+        {
+          protocol: 'https',
+          hostname: 'media.geeksforgeeks.org',
+        },
+      ],
     },
-};
-
-module.exports = nextConfig;
+  };
+  
+  module.exports = nextConfig;
+  

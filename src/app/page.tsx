@@ -1,21 +1,27 @@
-import React from 'react'
-import styles from "../styles/Body.module.css";
+import React from 'react';
+import dynamic from 'next/dynamic';
 import Glimpse from '@/components/Glimpse';
 import Resources from '@/components/Resources';
 import FAQ from '@/components/FAQ';
-import Memories from '@/components/memories';
 import Feedback from '@/components/Feedback';
-import Footer from '@/components/Footer';
+// Import Footer only if needed
+// import Footer from '@/components/Footer';
 
-const page = () => {
+// Dynamically import the carousel component without SSR
+const CarouselComponent = dynamic(() => import('@/components/CarouselComponent'), { ssr: false });
+
+const Page = () => {
   return (
-      <div>
-          <Glimpse />
-          <Resources />
-          <FAQ />
-          <Feedback />
-      </div>
+    <div>
+      <Glimpse />
+      <Resources />
+      <CarouselComponent />
+      <FAQ />
+      <Feedback />
+      {/* Uncomment if Footer is needed */}
+      {/* <Footer /> */}
+    </div>
   );
 }
 
-export default page
+export default Page;
