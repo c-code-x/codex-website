@@ -43,10 +43,17 @@ const CarouselHeading = styled.h1`
 
 const CarouselComponent = ({ fontSize }) => {
   const images = [
-    '/CarouselImage/mem1.png',
-    '/CarouselImage/mem2.png'
-    // Add more images as needed
+    '/CarouselImage/DSC_3010.jpg',
+    '/CarouselImage/DSC_3229.jpg',
+    '/CarouselImage/DSC_3265.jpg',
+    '/CarouselImage/hacakathon2.jpg',
+    '/CarouselImage/hackathon1.jpg',
+    '/CarouselImage/hackathon3.jpg',
+    '/CarouselImage/hackathon4.jpg',
+    '/CarouselImage/hackathon5.jpg',
+    '/CarouselImage/IMG_20240327_181845.jpg'
   ];
+  
 
   const settings = {
     dots: true,
