@@ -30,7 +30,7 @@ const Teamcodex = () => {
             description:
                 "Manages all the Logistical requirements and documentation of CODEX",
             insta: "https://www.instagram.com/shannu_19__/",
-            github: "#",
+            github: "",
             linkdin: "https://www.linkedin.com/in/a-shanmukh-nandu-9598b524b/",
         },
         {
@@ -50,7 +50,7 @@ const Teamcodex = () => {
             description:
                 "The One responsible for leading the web development team and to create and maintain the website of CODEX",
             insta: "https://www.instagram.com/thisislokeshrm/",
-            github: "#",
+            github: "",
             linkdin: "https://www.linkedin.com/in/thisislokeshrm/",
         },
         {
@@ -69,8 +69,8 @@ const Teamcodex = () => {
             role: "Competitive Programming Team",
             description:
                 "Part of the competitive programming team, to participate and host coding competitions and practice regularly",
-            insta: "#",
-            github: "#",
+            insta: "",
+            github: "",
             linkdin: "https://www.linkedin.com/in/sravya-patham-b31254247/",
         },
                 {
