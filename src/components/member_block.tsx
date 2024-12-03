@@ -18,7 +18,6 @@ const Member_block = (props: any) => {
             </div>
             <h1>{props.name}</h1>
             <h2>{props.role}</h2>
-            <p>{props.description}</p>
             <div className={styles.ss_media_member_block}>
                 <a href={`${props.insta}`} target={`${"_blank"}`}>
                     <Image

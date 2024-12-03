@@ -2,7 +2,7 @@
     background-image: url(../assets/members/gradient1_2.png);
     color: white;
     text-align: center;
-    padding-top: 150px;
+    padding-top: 50px;
     padding-bottom: 50px;
     font-size: 1.2vw;
 }
@@ -163,6 +163,8 @@
     cursor: pointer;
     position: relative;
     top: 2px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 .member_block_cont h1 {
     text-align: center;
