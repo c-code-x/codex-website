@@ -397,7 +397,7 @@
     background-color: rgb(125, 124, 124);
     border: none;
     font-size: 25px;
-    font-weight: bold;
+    font-weight: 900;
     cursor: pointer;
   }
 
@@ -487,13 +487,14 @@
 
 /*Timeline*/
 .timeline_head_cont {
-    margin-top: 20px;
     text-align: center;
     background-color: black;
     display: flex;
     justify-content: center;
     padding: clamp(0px, 1vw, 5px);
     border-radius: 5px;
+    margin: 0px 20px;
+    margin-top: 20px;
 }
 
 .timeline_head_cont h1 {
@@ -515,14 +516,14 @@
     border-radius: 0.5rem;
     overflow: hidden;
     box-shadow: 0 10px 15px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px -2px rgba(0, 0, 0, 0.05);
-    margin: 0.8rem 1.5vw ;
-    padding: clamp(0.8rem, 1.5vw, 1.75rem);
+    margin: 1rem 1vw ;
+    padding: clamp(0.8rem, 1.5vw, 1.5rem);
 }
 
 .timeline_year_cont {
     font-weight: bold;
     font-size: 1.25rem;
-    font-size: clamp(0.8rem, 2.25vw, 1.25rem);
+    font-size: clamp(0.8rem, 2.25vw, 1.3rem);
     margin-bottom: 0.5rem;
 }
 
