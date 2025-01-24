@@ -1,7 +1,7 @@
 import Member_block from "./member_block";
 import styles from "../styles/members.module.css";
 // import { link } from "fs";
-const Teamcodex = () => {
+const Teamcodex = ({openMemCard}:any) => {
     const data = [
         {
             image: "https://user-images.githubusercontent.com/141537855/258634979-503e83c7-519b-48e4-93f6-6e299f0faeab.png",
@@ -11,6 +11,12 @@ const Teamcodex = () => {
             insta: "https://instagram.com/bad_captain_punith?igshid=YmMyMTA2M2Y=",
             github: "https://github.com/breathecode6365",
             linkdin: "https://www.linkedin.com/in/punithdandluri",
+            timeline: [
+                        {year: "2022", role: "CP Lead"},
+                        {year: "Jan 2023", role: "President"},
+                        {year: "June 2023", role: "Tech Admin"},
+                        {year: "Till Date", role: "Mentor"},
+                      ]
         },
         {
             image: "https://user-images.githubusercontent.com/141537855/258633541-5ab375e5-c53a-4089-a77d-9e13c2bf8285.png",
@@ -20,6 +26,10 @@ const Teamcodex = () => {
             insta: "https://instagram.com/_hououin_kyouma__?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D",
             github: "https://github.com/SaiSantoshPradyumna",
             linkdin: "#",
+            timeline: [
+                        {year: "2022", role: "CP Lead"},
+                        {year:"2023", role: "Non-Tech Admin"}
+                      ]
         },
         {
             image: "https://user-images.githubusercontent.com/141537855/258632478-571f0f9d-dc25-41f1-a92c-fa4e41e66092.png",
@@ -30,6 +40,9 @@ const Teamcodex = () => {
             insta: "https://instagram.com/thisislokeshrm",
             github: "https://github.com/thisislokeshrm",
             linkdin: "https://in.linkedin.com/in/thisislokeshrm",
+            timeline: [
+                        {year: "2022", role: "Media Manager"}
+                      ]
         },
         {
             image: "https://user-images.githubusercontent.com/141537855/260285369-e973ed90-e98a-4c38-8020-ac1655f2f928.png",
@@ -40,16 +53,21 @@ const Teamcodex = () => {
             insta: "https://instagram.com/shannu_19__?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D",
             github: "#",
             linkdin: "https://www.linkedin.com/in/shanmukh-nandhu-9598b524b",
+            timeline: [
+                        {year: "2022", role: "Content Creator"}
+                      ]
         },
         {
             image: "https://user-images.githubusercontent.com/141537855/258630251-feda784c-aec9-42a2-b388-bc4f6302999e.png",
             name: "Parameshwar Madur",
             role: "IOT Developer",
-            description:
-            "The one who innovate and engineer IoT solutions as a developer, leveraging Codex for seamless integration and efficient device communication.",
+            description: "The one who innovate and engineer IoT solutions as a developer, leveraging Codex for seamless integration and efficient device communication.",
             insta: "https://instagram.com/eshwarmadur?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D",
             github: "https://github.com/TOXIC-PLASMA",
             linkdin: "https://www.linkedin.com/in/parameshwar-madur-77434223b",
+            timeline: [
+                        {year: "2022", role: "IOT Developer"}
+                      ]
         },
         {
             image: "https://user-images.githubusercontent.com/141537855/258632318-754bf934-478a-40df-86c3-1689b9dcb6d7.png",
@@ -60,6 +78,9 @@ const Teamcodex = () => {
             insta: "#",
             github: "#",
             linkdin: "#",
+            timeline: [
+                        {year: "2022", role: "Alpha CP"}
+                      ]
         },
         {
             image: "https://user-images.githubusercontent.com/141537855/258641876-a9a46010-3ae8-4963-bc1e-8641cb917724.png",
@@ -70,6 +91,10 @@ const Teamcodex = () => {
             insta: "https://www.instagram.com/p_sravya__75/",
             github: "https://github.com/Sravya1706",
             linkdin: "https://www.linkedin.com/in/sravya-patham-b31254247/",
+            timeline: [
+                        {year: "2022", role: "Delta CP"},
+                        {year:"Till Date", role: "Beta CP"}
+                      ]
         },
         {
             image: "https://user-images.githubusercontent.com/141537855/258631435-2ee7eb1e-e86f-4830-868f-2d3d828c6b87.png",
@@ -80,6 +105,9 @@ const Teamcodex = () => {
             insta: "https://instagram.com/aaron_1.8_?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D",
             github: "https://github.com/AtheeqAhmedMJ",
             linkdin: "https://www.linkedin.com/in/atheeq-ahmed-82193b26a",
+            timeline: [
+                        {year: "2022", role: "Application Developer"}
+                      ]
         },
         {
             image: "https://user-images.githubusercontent.com/105535366/222389458-4d4ec6bf-fea4-4a96-96c7-eccee29786a4.png",
@@ -90,6 +118,9 @@ const Teamcodex = () => {
             insta: "#",
             github: "#",
             linkdin: "#",
+            timeline: [
+                        {year: "2022", role: "Game Development Lead"}
+                      ]
         },
         {
             image: "https://user-images.githubusercontent.com/141537855/258631976-42c14940-aab1-4cea-b4c0-e59b7f77e2f7.png",
@@ -100,6 +131,9 @@ const Teamcodex = () => {
             insta: "#",
             github: "https://github.com/Sreeja88",
             linkdin: "https://www.linkedin.com/in/sreeja-sistla-9a4996255",
+            timeline: [
+                        {year: "2022", role: "Level Design"}
+                      ]
         },
         
     ];
@@ -120,6 +154,8 @@ const Teamcodex = () => {
                             github={item.github}
                             linkdin={item.linkdin}
                             key={index}
+                            timeline={item.timeline}
+                            onClick = {() => openMemCard(item)}
                         />
                     ))}
                 </div>

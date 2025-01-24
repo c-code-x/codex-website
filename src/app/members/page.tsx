@@ -1,14 +1,50 @@
 "use client";
 import Footer from "@/components/Footer";
 import NavBar from "@/components/NavBar";
+import { useState } from 'react';
 import Teamcodex21 from "@/components/proud_alumni";
 import Teamcodex22 from "@/components/team_codex22";
 import Teamcodex23 from "@/components/team_codex23";
 import Teamcodex24 from "@/components/team_codex24";
-import styles from "../../styles/members.module.css";
+import Member_card from '@/components/member_card';
+
+interface TimelineItem {
+    year: string;
+    role: string;
+}
+
+interface MemCard {
+    name: string;
+    role: string;
+    description: string;
+    image: string;
+    insta: string;
+    github: string;
+    linkdin: string;
+    timeline: TimelineItem[];
+}
+
 const members = () => {
+    const [memCard,setMemCard] = useState<MemCard | null>(null);
+
+  const openMemCard = (mem:MemCard) => { setMemCard(mem);};
+  const closeMemCard = () => { setMemCard(null); };
     return (
         <div>
+            {memCard && (
+            <Member_card
+                show={true}
+                handleClose={closeMemCard}
+                name={memCard.name}
+                role={memCard.role}
+                description={memCard.description}
+                img = {memCard.image}
+                smedia = {{insta:memCard.insta,github:memCard.github,linkdin:memCard.linkdin}}
+                timeline = {memCard.timeline}
+            />
+            )
+            }
+
             <div className={"bg-custom-gradient text-center pt-[150px] pb-[50px] text-[1.2vw] text-white"}>
                 <h2 className="text-3xl">Meet our people</h2>
             </div>
@@ -20,16 +56,16 @@ const members = () => {
                 </p>
             </div>
             <div id="batch24">
-                <Teamcodex24 />
+                <Teamcodex24 openMemCard = {openMemCard}/>
             </div>
             <div id="batch23">
-                <Teamcodex23 />
+                <Teamcodex23 openMemCard = {openMemCard}/>
             </div>
             <div id="batch22">
-                <Teamcodex22 />
+                <Teamcodex22 openMemCard = {openMemCard}/>
             </div>
             <div id="batch21">
-                <Teamcodex21 />
+                <Teamcodex21 openMemCard = {openMemCard}/>
             </div>
         </div>
     );
