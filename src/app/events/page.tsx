@@ -1,4 +1,4 @@
-import memory from "../../assets/memories/mem_event1.png";
+import memory from "public/assets/memories/mem_event1.png";
 import Image from "next/image";
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";

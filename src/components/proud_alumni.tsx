@@ -1,6 +1,6 @@
 import Member_block from "./member_block";
 import styles from "../styles/members.module.css";
-const Proud_alumni = () => {
+const Proud_alumni = ({openMemCard}:any) => {
     const data = [
         {
             image: "https://i.ibb.co/qF0v6b6/Ellipse-19.png",
@@ -11,6 +11,10 @@ const Proud_alumni = () => {
             insta: "https://www.instagram.com/_m_a_n_o_j_95/",
             github: "https://github.com/manoj9573",
             linkdin: "http://www.linkedin.com/in/manoj-k-4224941ba",
+            timeline: [
+                {year: "2021", role: "Founder - Codex"},
+                {year: "2022", role: "Non-Tech Admin"}
+              ]
         },
         {
             image: "https://i.ibb.co/LxYNws6/Ellipse-16.png",
@@ -21,6 +25,10 @@ const Proud_alumni = () => {
             insta: "https://instagram.com/c.jai.07",
             github: "https://github.com/Jaideep-C",
             linkdin: "https://www.linkedin.com/in/jaideep-c",
+            timeline: [
+                        {year: "2021", role: "Founder - Codex"},
+                        {year: "2022", role: "Non-Tech Admin"}
+                      ]
         },
         {
             image: "https://i.ibb.co/MSvGCBs/Ellipse-21.png",
@@ -31,6 +39,9 @@ const Proud_alumni = () => {
             insta: "https://www.instagram.com/_isayandutta_/",
             github: "https://github.com/sayand0122",
             linkdin: "https://www.linkedin.com/in/sayan-dutta-117a8a1a8/",
+            timeline: [
+                        {year: "2021", role: "CP Lead"}
+                      ]
         },
         {
             image: "https://i.ibb.co/mH47WZL/Ellipse-16-2.png",
@@ -41,6 +52,9 @@ const Proud_alumni = () => {
             insta: "https://instagram.com/kito__011?igshid=YmJhNjkzNzY=",
             github: "https://github.com/Legend-1125",
             linkdin: "https://www.linkedin.com/in/vishal-sharma-67321b1a4",
+            timeline: [
+                        {year: "2021", role: "Marketing Officer"}
+                      ]
         },
         {
             image: "https://i.ibb.co/9HjBq9R/Ellipse-16-1.png",
@@ -51,6 +65,9 @@ const Proud_alumni = () => {
             insta: "https://instagram.com/sujanaa.reddy",
             github: "https://github.com/sujana-kamasany",
             linkdin: "https://www.linkedin.com/in/sujana--k",
+            timeline: [
+                        {year: "2021", role: "Agent"}
+                      ]
         },
         {
             image: "https://i.ibb.co/VVhgZFp/Ellipse-27.png",
@@ -61,6 +78,9 @@ const Proud_alumni = () => {
             insta: "https://www.instagram.com/sree.nav/",
             github: "https://github.com/navya-005",
             linkdin: "http://www.linkedin.com/in/navya-sree-mallela-b0a4931ba",
+            timeline: [
+                        {year: "2021", role: "Web devoloper"}
+                      ]
         },
         {
             image: "https://i.ibb.co/qMRFTgY/Ellipse-23.png",
@@ -71,6 +91,9 @@ const Proud_alumni = () => {
             insta: "https://www.instagram.com/madhu.akumalla/",
             github: "https://github.com/madhulika01",
             linkdin: "https://www.linkedin.com/in/madhulika-akumalla-a984ab1ba/",
+            timeline: [
+                        {year: "2021", role: "Front End - Lead"}
+                      ]
         },
         {
             image: "https://i.ibb.co/qyq2QKq/Ellipse-25.png",
@@ -81,6 +104,9 @@ const Proud_alumni = () => {
             insta: "https://www.instagram.com/_goalie_7081/",
             github: "https://github.com/Nishitha-Motakatla",
             linkdin: "https://www.linkedin.com/in/nishitha-motakatla-187465193",
+            timeline: [
+                        {year: "2021", role: "Content Writer"}
+                      ]
         },
         {
             image: "https://i.ibb.co/fN1zPCk/Ellipse-16-3.png",
@@ -90,63 +116,16 @@ const Proud_alumni = () => {
             insta: "https://instagram.com/ariefbasha07?igshid=YmJhNjkzNzY=",
             github: "https://github.com/AriefB18",
             linkdin: "https://www.linkedin.com/in/arief-basha-a3b558236",
-        },
-        {
-            image: "https://user-images.githubusercontent.com/105535366/222389442-4b7ec2d0-bfbb-4106-b686-9aa735d6f1bc.png",
-            name: "Bharath",
-            role: "Logistics Officer",
-            description:
-                "Manages all the Logistical requirements and Clerical work along with coordinating and optimizing the movement of goods and resources that's necessary",
-            insta: "https://instagram.com/_.b.h.a.r.a.t.h.__.y.a.d.a.v._?igshid=YmMyMTA2M2Y=",
-            github: "#",
-            linkdin: "#",
-        },
-        {
-            image: "https://user-images.githubusercontent.com/105535366/222389447-89270e64-8ba1-41d8-b982-5999e056fcea.png",
-            name: "Tamana",
-            role: "Public Relations Officer",
-            description:
-                "Craft compelling stories and Be the voice of our CODEX and build meaningful connections.",
-            insta: "https://instagram.com/truly_tamanna?igshid=YmMyMTA2M2Y=",
-            github: "https://www.linkedin.com/in/tamannashaw",
-            linkdin: "#",
-        },
-        {
-            image: "https://user-images.githubusercontent.com/105535366/222389455-99366e0b-67f7-45aa-bf29-c38549b270f7.png",
-            name: "Suhit",
-            role: "Visual Arts Officer",
-            description:
-                "The one responsible for leading and to create visually stunning and technically precise art assets that help in marketing and promotional aspect of CODEX ",
-            insta: "https://instagram.com/suhit_eswar_?igshid=YmMyMTA2M2Y=",
-            github: "https://github.com/suhit123",
-            linkdin: "#",
-        },
-        {
-            image: "https://user-images.githubusercontent.com/105535366/222389435-77dd1d02-3543-4d69-9b4f-c3dfeedeffb6.png",
-            name: "Hilux",
-            role: "Front End - Lead",
-            description:
-                "Incharge of creating intuitive and visually stunning user experiences that immerse the user into the project",
-            insta: "https://www.instagram.com/fokouhilux/",
-            github: "https://github.com/hiluxfnh",
-            linkdin: "https://www.linkedin.com/in/fokou/",
-        },
-        {
-            image: "https://user-images.githubusercontent.com/141537855/258637418-ecd74f81-067a-47af-a737-b9aff33ce430.png",
-            name: "Jasir",
-            role: "Non Tech Admin",
-            description:
-            "Efficiently manage administrative tasks and operations in a non-technical capacity using Codex.",
-            insta: "https://instagram.com/jasirmd33?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D",
-            github: "https://github.com/Jasirmd",
-            linkdin: "https://www.linkedin.com/in/jasir-mohammed-4149ba246",
+            timeline: [
+                        {year: "2021", role: "Visual arts officer"}
+                      ]
         },
     ];
     return (
         <div className={styles.proud_alumni_codex}>
             <div className={styles.team_codex_div}>
                 <h1 className={styles.team_codex_heading}>
-                    Proud Alumni of <span>CODEX</span>
+                    <span>v.1.0</span>
                 </h1>
                 <div className={styles.member_blocks_team_codex}>
                     {data.map((item, index) => (
@@ -159,6 +138,7 @@ const Proud_alumni = () => {
                             github={item.github}
                             linkdin={item.linkdin}
                             key={index}
+                            onClick = {() => openMemCard(item)}
                         />
                     ))}
                 </div>

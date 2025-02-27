@@ -1,10 +1,10 @@
 "use client";
 import React, { useState } from "react";
-import ho from "../assets/calender_img1.png";
+import ho from "public/assets/calender_img1.png";
 import styles2 from "../styles/EventDate.module.css";
-import bg from "../assets/sec2bg.png";
-import icon from "../assets/calendarimg.png";
-import subbar from "../assets/subeventbar.png";
+import bg from "public/assets/sec2bg.png";
+import icon from "public/assets/calendarimg.png";
+import subbar from "public/assets/subeventbar.png";
 import Calendar from "react-calendar";
 import Image from "next/image";
 export default function EventDate() {

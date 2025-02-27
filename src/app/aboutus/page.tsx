@@ -2,13 +2,13 @@
 import React from "react";
 import styles from "../../styles/AboutUs.module.css";
 import Image from "next/image";
-import imagei from "../../assets/instagram.png";
-import imaged from "../../assets/discordlogo.png";
-import image1 from "../../assets/image 4.png";
-import image2 from "../../assets/Cones.jpg";
+import imagei from "public/assets/instagram.png";
+import imaged from "public/assets/discordlogo.png";
+import image1 from "public/assets/image 4.png";
+import image2 from "public/assets/Cones.jpg";
 import SocialMediaCount from "@/components/SocialMediaCount";
-import imagey from "../../assets/youtube.png";
-import abtmem from "../../assets/memories/abtmem.jpg";
+import imagey from "public/assets/youtube.png";
+import abtmem from "public/assets/memories/abtmem.jpg";
 import Link from "next/link";
 import YoutubeAPI from "@/api/Youtube";
 const aboutus = () => {
