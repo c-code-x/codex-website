@@ -1,15 +1,20 @@
-const Discord = require("discord.js");
-const client = new Discord.Client();
-const express = require("express");
-const app = express();
+import axios from "axios";
+import { useState } from "react";
 
-client.login(process.env.DISCORD_API_KEY);
+const INVITE_CODE= "eDMwrkguns";
 
-client.on("ready", () => {
-    console.log(DiscordAPI());
-});
-export default function DiscordAPI() {
-    const guild = client.guilds.cache.first();
-    const memberCount = guild.memberCount;
-    return memberCount;
-}
+const DiscordAPI = () => {
+    const [subCount, setSubCount] = useState(0);
+    axios
+        .get(
+            `https://discord.com/api/v10/invites/${INVITE_CODE}?with_counts=true`
+        )
+        .then((response) => {
+            setSubCount(response.data.items[0].statistics.subscriberCount);
+        })
+        .catch((error) => {
+            setSubCount(50);
+        });
+    return subCount;
+};
+export default DiscordAPI;

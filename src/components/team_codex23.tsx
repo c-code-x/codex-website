@@ -13,7 +13,6 @@ const Teamcodex = ({openMemCard}:any) => {
             linkdin: "https://www.linkedin.com/in/punithdandluri",
             timeline: [
                         {year: "2022", role: "CP Lead"},
-                        {year: "Jan 2023", role: "President"},
                         {year: "June 2023", role: "Tech Admin"},
                         {year: "Till Date", role: "Mentor"},
                       ]
@@ -25,9 +24,9 @@ const Teamcodex = ({openMemCard}:any) => {
             description:"The one who is responsible for the performance managment, Efficiently manages administrative tasks and operation in a non-technical capacity",
             insta: "https://instagram.com/_hououin_kyouma__?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D",
             github: "https://github.com/SaiSantoshPradyumna",
-            linkdin: "#",
+            linkdin: "https://www.linkedin.com/in/sai-santosh-611628222",
             timeline: [
-                        {year: "2022", role: "CP Lead"},
+                        {year: "2022", role: "Tech Lead"},
                         {year:"2023", role: "Non-Tech Admin"}
                       ]
         },
@@ -41,24 +40,25 @@ const Teamcodex = ({openMemCard}:any) => {
             github: "https://github.com/thisislokeshrm",
             linkdin: "https://in.linkedin.com/in/thisislokeshrm",
             timeline: [
-                        {year: "2022", role: "Media Manager"}
+                        {year: "2022", role: "Media Manager"},
                       ]
         },
         {
-            image: "https://user-images.githubusercontent.com/141537855/260285369-e973ed90-e98a-4c38-8020-ac1655f2f928.png",
+            image: "https://drive.google.com/uc?export=view&id=1yEx7ocffHKK2PWk_QBckj8hdI-vHdBTN",
             name: "Shanmukh",
-            role: "Content Creator",
+            role: "Public Relations Officer",
             description:
             "The one who supports CODEX by being the Incharge of documentation and the content creatives in the club.",
             insta: "https://instagram.com/shannu_19__?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D",
-            github: "#",
+            github: "https://github.com/c-code-x",
             linkdin: "https://www.linkedin.com/in/shanmukh-nandhu-9598b524b",
             timeline: [
-                        {year: "2022", role: "Content Creator"}
+                        {year: "2022", role: "Content Creator"},
+                        {year: "2023",role: "Public Relations Officer"}
                       ]
         },
         {
-            image: "https://user-images.githubusercontent.com/141537855/258630251-feda784c-aec9-42a2-b388-bc4f6302999e.png",
+            image: "https://drive.google.com/uc?export=view&id=1yN6WUNQvY6yLCAMvVffHz3BAVEQH2nbl",
             name: "Parameshwar Madur",
             role: "IOT Developer",
             description: "The one who innovate and engineer IoT solutions as a developer, leveraging Codex for seamless integration and efficient device communication.",
@@ -66,7 +66,7 @@ const Teamcodex = ({openMemCard}:any) => {
             github: "https://github.com/TOXIC-PLASMA",
             linkdin: "https://www.linkedin.com/in/parameshwar-madur-77434223b",
             timeline: [
-                        {year: "2022", role: "IOT Developer"}
+                        {year: "2023", role: "IOT Developer"}
                       ]
         },
         {
@@ -75,11 +75,11 @@ const Teamcodex = ({openMemCard}:any) => {
             role: "Alpha Competitive Programmer",
             description:
                 "The one who push the boundaries of competitive programming with alpha-level skills, leveraging Codex for strategic coding excellence.",
-            insta: "#",
-            github: "#",
-            linkdin: "#",
+            insta: "https://www.instagram.com/codex_gitam/",
+            github: "https://github.com/c-code-x",
+            linkdin: "https://www.linkedin.com/in/sahasra-sagiraju-750262216",
             timeline: [
-                        {year: "2022", role: "Alpha CP"}
+                        {year: "2023", role: "Alpha CP"}
                       ]
         },
         {
@@ -92,13 +92,13 @@ const Teamcodex = ({openMemCard}:any) => {
             github: "https://github.com/Sravya1706",
             linkdin: "https://www.linkedin.com/in/sravya-patham-b31254247/",
             timeline: [
-                        {year: "2022", role: "Delta CP"},
+                        {year: "2023", role: "Delta CP"},
                         {year:"Till Date", role: "Beta CP"}
                       ]
         },
         {
-            image: "https://user-images.githubusercontent.com/141537855/258631435-2ee7eb1e-e86f-4830-868f-2d3d828c6b87.png",
-            name: "Atheeq",
+            image: "https://drive.google.com/uc?export=view&id=1yGfLo-wdGxB2FSTJxsrA4Ufxo1Ai45q-",
+            name: "Atheeq Mohammed",
             role: "Application Developer",
             description:
                 "The one who Build versatile applications as an application developer, looks for innovative development.",
@@ -106,20 +106,21 @@ const Teamcodex = ({openMemCard}:any) => {
             github: "https://github.com/AtheeqAhmedMJ",
             linkdin: "https://www.linkedin.com/in/atheeq-ahmed-82193b26a",
             timeline: [
-                        {year: "2022", role: "Application Developer"}
+                        {year: "2023", role: "Application Developer"}
                       ]
         },
         {
             image: "https://user-images.githubusercontent.com/105535366/222389458-4d4ec6bf-fea4-4a96-96c7-eccee29786a4.png",
-            name: "Surya",
+            name: "Surya Teja",
             role: "Game Development Lead",
             description:
                 "The one who is responsible for creating interactive and entertaining vedio games.",
-            insta: "#",
-            github: "#",
-            linkdin: "#",
+            insta: "https://www.instagram.com/codex_gitam/",
+            github: "https://github.com/c-code-x",
+            linkdin: "https://www.linkedin.com/in/surya-teja-pallapu",
             timeline: [
-                        {year: "2022", role: "Game Development Lead"}
+                        {year: "2022", role: "Finance officer"},
+                        {year: "2023", role: "Game Development Lead"}
                       ]
         },
         {
@@ -128,11 +129,51 @@ const Teamcodex = ({openMemCard}:any) => {
             role: "Level Design",
             description:
             "The one who is responsible for art of creating a game levels,which makes challenging experience for players.",
-            insta: "#",
+            insta: "https://www.instagram.com/codex_gitam/",
             github: "https://github.com/Sreeja88",
             linkdin: "https://www.linkedin.com/in/sreeja-sistla-9a4996255",
             timeline: [
-                        {year: "2022", role: "Level Design"}
+                        {year: "2023", role: "Level Design"}
+                      ]
+        },
+        {
+            image: "https://user-images.githubusercontent.com/141537855/258637629-aba65ad3-ffb4-4706-aabb-4bdf85efc990.png",
+            name: "Tushar Dhar",
+            role: "Cyber Guardians Lead",
+            description: "The one who formulates and executes robust cyber security strategies and safeguard cyber initiatives.",
+            insta: "https://www.instagram.com/codex_gitam/",
+            github: "https://github.com/c-code-x",
+            linkdin: "www.linkedin.com/in/hellotushaar",
+            timeline: [
+                        {year: "2022", role: "Backend - Lead"},
+                        {year: "2023", role: "Cyber Guardians Lead"}
+                      ]
+        },
+        {
+            image: "https://user-images.githubusercontent.com/105535366/222389455-99366e0b-67f7-45aa-bf29-c38549b270f7.png",
+            name: "Suhit Eshwar",
+            role: "Wed Dev Lead",
+            description:
+            "The one who is responsible for leading and to create visually stunning and technically precise art assets that help in marketing and promotional aspect of CODEX",
+            insta: "https://instagram.com/_.msk.official_01?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D",
+            github: "https://github.com/mskmsd0108",
+            linkdin: "https://www.linkedin.com/in/mokshasai-kandimalla-780845261",
+            timeline: [
+                        {year: "2022", role: "Visual Arts Lead"},
+                        {year: "2023", role: "Wed Dev Lead"}
+                      ]
+        },
+        {
+            image: "https://drive.google.com/uc?export=view&id=1yHNOnKLZp0MqiYKq25P53xz7MiRROLf7",
+            name: "Aditya Rajesh",
+            role: "Logistics Officer",
+            description:
+            "The one who manages all the Logistical requirements and Clerical work along with coordinating and optimizing the movement of goods and resources that's necessary",
+            insta: "https://www.instagram.com/itzz_aadxthya1301/",
+            github: "https://github.com/aadithya1301",
+            linkdin: "https://www.linkedin.com/in/aadithya-rajesh",
+            timeline: [
+                        {year: "2023", role: "Logistics Officer"}
                       ]
         },
         

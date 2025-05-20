@@ -1,7 +1,7 @@
 import Member_block from "./member_block";
 import styles from "../styles/members.module.css";
 
-const Teamcodex24 = ({openMemCard}:any) => {
+const Teamcodex25 = ({openMemCard}:any) => {
     const data = [
         {
             image: "https://drive.google.com/uc?export=view&id=1aBrpRJjXpI70rguzlv6pgRpEShXMPM3A",
@@ -13,7 +13,19 @@ const Teamcodex24 = ({openMemCard}:any) => {
             linkdin: "https://www.linkedin.com/in/amit-sabnis2004/",
             timeline: [
                         {year: "2023", role: "Media Manager"},
-                        {year: "2024", role: "Tech Admin"}
+                        {year: "Till Date", role: "Tech Admin"}
+                      ]
+        },
+        {
+            image: "https://drive.google.com/uc?export=view&id=1ud-eYntIkQir7XN24FPwTPlva8QkRT_A",
+            name: "Rohini Reddy",
+            role: "Non-Tech Admin",
+            description:"The one who is responsible for the performance managment, Efficiently manages administrative tasks and operation in a non-technical capacity",
+            insta: "https://www.instagram.com/rohinireddy.murali/",
+            github: "https://github.com/Rohinireddie",
+            linkdin: "https://www.linkedin.com/in/gudibandi-rohini-reddy-566426296",
+            timeline: [
+                        {year: "Till date", role: "Non-Tech Admin"}
                       ]
         },
         {
@@ -24,11 +36,12 @@ const Teamcodex24 = ({openMemCard}:any) => {
                 "Incharge of creating intuitive and visually stunning user experiences that immerse the user into the project",
             insta: "https://www.instagram.com/anu_8807_/",
             github: "https://github.com/anudra",
-            linkdin: "#",
+            linkdin: "https://www.linkedin.com/in/codex-gitam-9866a1290",
             timeline: [
-                        {year: "2024", role: "Front End - Lead"}
+                        {year: "Till Date", role: "Front End - Lead"}
                       ]
         },
+        
         {
             image: "https://user-images.githubusercontent.com/141537855/258641876-a9a46010-3ae8-4963-bc1e-8641cb917724.png",
             name: "Sravya",
@@ -40,20 +53,20 @@ const Teamcodex24 = ({openMemCard}:any) => {
             linkdin: "https://www.linkedin.com/in/sravya-patham-b31254247/",
             timeline: [
                         {year:"2023", role: "Delta CP"},
-                        {year: "2024", role: "Beta CP"}
+                        {year: "Till Date", role: "Beta CP"}
                       ]
         },
         {
-            image: "https://drive.google.com/uc?export=view&id=1ud-eYntIkQir7XN24FPwTPlva8QkRT_A",
-            name: "Rohini Reddy",
+            image: "https://drive.google.com/uc?export=view&id=1-1GebXFSJHjfluM6G9Y1tP1ckYkHMEYt",
+            name: "Sudeep Reddy",
             role: "Back End - Dev",
             description:
                 "Part of the Back End Dev Development Team on the mission of handling the backbone of the project, the database and server",
-            insta: "https://www.instagram.com/rohinireddy.murali/",
-            github: "https://github.com/Rohinireddie",
-            linkdin: "https://www.linkedin.com/in/gudibandi-rohini-reddy-566426296",
+            insta: "https://www.instagram.com/codex_gitam/",
+            github: "https://github.com/alwayssudeepreddy/",
+            linkdin: "https://www.linkedin.com/in/sudeep-reddy-kurmai/",
             timeline: [
-                        {year: "2024", role: "Back End - Dev"}
+                        {year: "Till Date", role: "Back End - Dev"}
                       ]
         },
         {
@@ -66,7 +79,7 @@ const Teamcodex24 = ({openMemCard}:any) => {
             github: "https://github.com/Sahithi932",
             linkdin: "https://www.linkedin.com/in/sahithi-g-865545293/",
             timeline: [
-                        {year: "2024", role: "Logistics Officer"}
+                        {year: "Till Date", role: "Logistics Officer"}
                       ]
         },
         {
@@ -79,15 +92,16 @@ const Teamcodex24 = ({openMemCard}:any) => {
             github: "https://github.com/Maruthiraam",
             linkdin: "https://www.linkedin.com/in/hare-shri-raam-n-b24b7031b/",
             timeline: [
-                        {year: "2024", role: "PR & Marketing Officer"}
+                        {year: "Till Date", role: "PR & Marketing Officer"}
                       ]
         },
     ];
 
     return (
-        <div className={styles.team_codex_div}>
+        <div className={styles.proud_alumni_codex}>
+             <div className={styles.team_codex_div}>
             <h1 className={styles.team_codex_heading}>
-                <span>v.4.0</span>
+                <span>v.5.0</span>
             </h1>
             <div className={styles.member_blocks_team_codex}>
                 {data.map((item, index) => (
@@ -105,6 +119,8 @@ const Teamcodex24 = ({openMemCard}:any) => {
                 ))}
             </div>
         </div>
+    </div>
+       
     );
 };
-export default Teamcodex24;
+export default Teamcodex25;
