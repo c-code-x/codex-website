@@ -13,6 +13,7 @@ const Teamcodex24 = ({openMemCard}:any) => {
             linkdin: "https://www.linkedin.com/in/amit-sabnis2004/",
             timeline: [
                         {year: "2023", role: "Media Manager"},
+                        {year: "2023", role: "Competitive Programming Team"},
                         {year: "2024", role: "Tech Admin"}
                       ]
         },
