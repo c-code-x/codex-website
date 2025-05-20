@@ -18,7 +18,7 @@ export const meta: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
     const pathname = usePathname() as string; // Add type assertion here
-    const noLayoutPaths = ["/underconstruction"];
+    const noLayoutPaths = ["/underconstruction","/login"];
     const shouldApplyLayout = !noLayoutPaths.includes(pathname);
 
     return (
