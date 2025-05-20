@@ -11,8 +11,8 @@ import SocialMediaCount from "@/components/SocialMediaCount";
 import imagey from "public/assets/youtube.png";
 import abtmem from "public/assets/memories/abtmem.jpg";
 import Link from "next/link";
-import YoutubeAPI from "@/api/Youtube";
-import DiscordAPI from "@/api/Discord";
+import YoutubeAPI from "@/app/api/socialMedia/Youtube";
+import DiscordAPI from "@/app/api/socialMedia/Discord";
 const aboutus = () => {
     const subscribers = YoutubeAPI();
     const discordMemCount = DiscordAPI();
