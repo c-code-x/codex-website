@@ -6,13 +6,16 @@ import imagei from "public/assets/instagram.png";
 import imaged from "public/assets/discordlogo.png";
 import image1 from "public/assets/image 4.png";
 import image2 from "public/assets/Cones.jpg";
+import PicsThing from "@/components/picdata";
 import SocialMediaCount from "@/components/SocialMediaCount";
 import imagey from "public/assets/youtube.png";
 import abtmem from "public/assets/memories/abtmem.jpg";
 import Link from "next/link";
 import YoutubeAPI from "@/api/Youtube";
+import DiscordAPI from "@/api/Discord";
 const aboutus = () => {
     const subscribers = YoutubeAPI();
+    const discordMemCount = DiscordAPI();
     return (
         <div className={styles.abtpagecontainer}>
             <div className={"flex flex-col bg-custom-gradient w-screen h-[25vh]"}>
@@ -29,8 +32,8 @@ const aboutus = () => {
             </div>
             <div className={styles.ssmdiv}>
                 <SocialMediaCount count={subscribers} type="Subscribers" image={imagey} />
-                <SocialMediaCount count="600" type="Followers" image={imagei} />
-                <SocialMediaCount count="550" type="members" image={imaged} />
+                <SocialMediaCount count="1020" type="Followers" image={imagei} />
+                <SocialMediaCount count={discordMemCount} type="members" image={imaged} />
             </div>
             <div className={styles.aboutus}>
                 <div className={"flex flex-col"}>
@@ -56,7 +59,7 @@ const aboutus = () => {
                             <Image
                                 alt="mem img"
                                 className={styles.abtmem}
-                                src={abtmem}
+                                src={PicsThing()}
                                 width={300}
                                 height={300}
                             />

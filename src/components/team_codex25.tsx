@@ -58,7 +58,7 @@ const Teamcodex25 = ({openMemCard}:any) => {
         },
         {
             image: "https://drive.google.com/uc?export=view&id=1-1GebXFSJHjfluM6G9Y1tP1ckYkHMEYt",
-            name: "Sudeep reddy",
+            name: "Sudeep Reddy",
             role: "Back End - Dev",
             description:
                 "Part of the Back End Dev Development Team on the mission of handling the backbone of the project, the database and server",
@@ -98,7 +98,8 @@ const Teamcodex25 = ({openMemCard}:any) => {
     ];
 
     return (
-        <div className={styles.team_codex_div}>
+        <div className={styles.proud_alumni_codex}>
+             <div className={styles.team_codex_div}>
             <h1 className={styles.team_codex_heading}>
                 <span>v.5.0</span>
             </h1>
@@ -118,6 +119,8 @@ const Teamcodex25 = ({openMemCard}:any) => {
                 ))}
             </div>
         </div>
+    </div>
+       
     );
 };
 export default Teamcodex25;
