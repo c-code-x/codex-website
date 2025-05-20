@@ -1,6 +1,6 @@
 "use client";
 import styles from "../styles/Glimpse.module.css";
-import saly from "../assets/Saly-10_1.png";
+import saly from "public/assets/Saly-10_1.png";
 import Image from "next/image";
 import Calender from "@/components/Calender";
 import { MutableRefObject, useRef } from "react";

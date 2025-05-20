@@ -1,8 +1,8 @@
 .meetourpeople {
-    background-image: url(../assets/members/gradient1_2.png);
+    background-image: url(../../public/assets/members/gradient1_2.png);
     color: white;
     text-align: center;
-    padding-top: 150px;
+    padding-top: 50px;
     padding-bottom: 50px;
     font-size: 1.2vw;
 }
@@ -163,6 +163,8 @@
     cursor: pointer;
     position: relative;
     top: 2px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 .member_block_cont h1 {
     text-align: center;
@@ -353,4 +355,184 @@
         height: 6vw;
         margin: 5px;
     }
+}
+
+
+/*member_card*/
+.memcardBg {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.7);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+  }
+  
+  .memcard {
+    width: auto;
+    height: auto;
+    max-width: 682px;
+    max-height: 700px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: 10px;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out, visibility 0.3s ease-in-out;
+  }
+  
+  .memcard_header {
+    display: flex;
+    align-items: right;
+    justify-content: flex-end;
+    margin-top: 5px;
+    margin-right: 10px;
+  }
+
+  .closeBtn {
+    background-color: rgb(125, 124, 124);
+    border: none;
+    font-size: 25px;
+    font-weight: 900;
+    cursor: pointer;
+  }
+
+  .memcard_head_cont {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: clamp(1rem, 5vw, 3rem);
+    padding: clamp(0px, 1.25vw, 5px) clamp(0px, 1.75vw, 25px);
+  }
+
+  .memcard_img_cont img {
+    margin-left: clamp(0px, 2.25vw, 2px);
+    margin-top: 10px;
+    width: clamp(75px, 15vw, 120px);
+    height: clamp(75px, 15vw, 120px);
+    min-width: 75px;
+    cursor: pointer;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.5);
+  }
+
+  .memcard_details_cont {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: -10px;
+  }
+  
+  .memcard_role_cont {
+    border-radius: 10%;
+    background-color: #34C5E1;
+    backdrop-filter: blur(5px); 
+  }
+
+  .memcard_role_cont h1 {
+    padding: 10px 20px;
+    padding: clamp(0px, 1.3vw, 10px) clamp(0px, 3vw, 20px);
+    color : white;
+    font-size: 18px;
+    font-size: clamp(8px, 3.8vw, 18px);
+    z-index: 0;
+  }
+
+  .memcard_name_cont {
+    margin-top: 9px;
+    border-radius: 10%;
+    background-color: #ffffff; 
+  }
+
+  .memcard_name_cont h1 {
+    padding: clamp(0px, 1.3vw, 7px) 0px;
+    color : rgb(0, 0, 0);
+    font-size: clamp(0px, 5vw, 21px);
+  }
+
+  .memcard_desc_cont {
+    max-width:330px;
+    margin-top: 10px;
+  }
+
+  .memcard_desc_cont p {
+    /*padding: 0px 15px;
+    margin-right: 140px;*/
+    font-size: 17px;
+    font-size: clamp(11.5px, 3.5vw, 17px);
+    color : rgb(0, 0, 0);
+    line-height : 1.5 0;
+  }
+
+  .memcard_smedia_cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 2.5vw;
+}
+
+.memcard_smedia_img {
+    max-width: 35px;
+    max-height: 35px;
+    width:6vw;
+    height:6vw;
+    margin: 10px clamp(0px, 1vw, 50px);
+}
+
+/*Timeline*/
+.timeline_head_cont {
+    text-align: center;
+    color: black;
+    border: 1px solid black;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    display: flex;
+    justify-content: center;
+    padding: clamp(0px, 1vw, 5px);
+    border-radius: 5px;
+    margin: 0px 20px;
+    margin-top: 20px;
+}
+
+.timeline_head_cont h1 {
+    color: black;
+    font-size: clamp(0.7rem, 2vw, 1.5rem);
+    font-weight: bold;
+    padding: clamp(0px, 0.5vw, 2px) clamp(0px, 0.5vw, 4px);
+    margin: clamp(0px, 0.25vw, 2px);
+}
+
+.timeline_data_cont {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+}
+
+.timeline_block {
+    max-width: 16rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 10px 15px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px -2px rgba(0, 0, 0, 0.05);
+    margin: 1rem 1vw ;
+    padding: clamp(0.8rem, 1.5vw, 1.5rem);
+}
+
+.timeline_year_cont {
+    font-weight: bold;
+    font-size: 1.25rem;
+    font-size: clamp(0.8rem, 2.25vw, 1.3rem);
+    margin-bottom: 0.5rem;
+}
+
+.timeline_role_cont {
+    color: #4a5568;
+    font-size: 1rem;
+    font-size: clamp(0.7rem, 2vw, 1rem);
 }

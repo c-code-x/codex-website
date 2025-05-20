@@ -1,7 +1,7 @@
 "use client";
-import send from "../assets/send_buttonfeed.png";
+import send from "public/assets/send_buttonfeed.png";
 import styles from "../styles/Feedback.module.css";
-import mail from "../assets/gmail.png";
+import mail from "public/assets/gmail.png";
 import Image from "next/image";
 import React, { useState } from "react";
 import axios from "axios";

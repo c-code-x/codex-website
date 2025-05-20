@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import styles from "../styles/event.module.css";
 import Image from "next/image";
-import imag1 from "../assets/events/event_img1.jpg";
+import imag1 from "public/assets/events/event_img1.jpg";
 const Event_curosel = () => {
     const [detailedeventcontainer, setDetailedeventcontainer] = useState(products[0]);
     console.log(detailedeventcontainer);
