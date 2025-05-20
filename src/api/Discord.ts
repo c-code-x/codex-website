@@ -1,13 +1,11 @@
 import axios from "axios";
 import { useState } from "react";
 
-const INVITE_CODE= "eDMwrkguns";
-
 const DiscordAPI = () => {
     const [subCount, setSubCount] = useState(0);
     axios
         .get(
-            `https://discord.com/api/v10/invites/${INVITE_CODE}?with_counts=true`
+            `https://discord.com/api/v10/invites/${process.env.INVITE_CODE}?with_counts=true`
         )
         .then((response) => {
             setSubCount(response.data.items[0].statistics.subscriberCount);

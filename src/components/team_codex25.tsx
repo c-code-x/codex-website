@@ -42,21 +42,7 @@ const Teamcodex25 = ({openMemCard}:any) => {
                         {year: "Till Date", role: "Front End - Lead"}
                       ]
         },
-        
-        {
-            image: "https://user-images.githubusercontent.com/141537855/258641876-a9a46010-3ae8-4963-bc1e-8641cb917724.png",
-            name: "Sravya",
-            role: "Beta Competitive Programmer",
-            description:
-            "Elevates competitive programming with beta-level expertise, employing Codex for strategic coding and problem-solving.",
-            insta: "https://www.instagram.com/p_sravya__75/",
-            github: "https://github.com/Sravya1706",
-            linkdin: "https://www.linkedin.com/in/sravya-patham-b31254247/",
-            timeline: [
-                        {year:"2023", role: "Delta CP"},
-                        {year: "Till Date", role: "Beta CP"}
-                      ]
-        },
+
         {
             image: "https://drive.google.com/uc?export=view&id=1-1GebXFSJHjfluM6G9Y1tP1ckYkHMEYt",
             name: "Sudeep Reddy",
