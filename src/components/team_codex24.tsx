@@ -13,19 +13,7 @@ const Teamcodex24 = ({openMemCard}:any) => {
             linkdin: "https://www.linkedin.com/in/amit-sabnis2004/",
             timeline: [
                         {year: "2023", role: "Media Manager"},
-                        {year: "Till Date", role: "Tech Admin"}
-                      ]
-        },
-        {
-            image: "https://drive.google.com/uc?export=view&id=10fpY6M_6no4BrfqYDoM4OyoA-s7twXNc",
-            name: "V Ghayini",
-            role: "Non-Tech Admin",
-            description:"The one who is responsible for the performance managment, Efficiently manages administrative tasks and operation in a non-technical capacity",
-            insta: "https://www.instagram.com/noble_05_innocent/",
-            github: "https://github.com/Honeyworld-19",
-            linkdin: "https://www.linkedin.com/in/ghayini-v-8b2239293/",
-            timeline: [
-                        {year: "Till Date", role: "Non-Tech Admin"}
+                        {year: "2024", role: "Tech Admin"}
                       ]
         },
         {
@@ -38,20 +26,7 @@ const Teamcodex24 = ({openMemCard}:any) => {
             github: "https://github.com/anudra",
             linkdin: "#",
             timeline: [
-                        {year: "Till Date", role: "Front End - Lead"}
-                      ]
-        },
-        {
-            image: "https://drive.google.com/uc?export=view&id=1YSxWVy-0CF5yGG59px4_7IZiPSOrBECy",
-            name: "Siddarth",
-            role: "Alpha Competitive Programmer",
-            description:
-                "The one who push the boundaries of competitive programming with alpha-level skills, leveraging Codex for strategic coding excellence.",
-            insta: "https://www.instagram.com/kvsiddarth99913/",
-            github: "https://github.com/Siddarth116",
-            linkdin: "https://www.linkedin.com/in/venkata-siddarth-karri-53354a293/",
-            timeline: [
-                        {year: "Till Date", role: "Alpha CP"}
+                        {year: "2024", role: "Front End - Lead"}
                       ]
         },
         {
@@ -65,20 +40,7 @@ const Teamcodex24 = ({openMemCard}:any) => {
             linkdin: "https://www.linkedin.com/in/sravya-patham-b31254247/",
             timeline: [
                         {year:"2023", role: "Delta CP"},
-                        {year: "Till Date", role: "Beta CP"}
-                      ]
-        },
-        {
-            image: "https://drive.google.com/uc?export=view&id=1U7eyfyLtllpTgPZUXaflBU2jyeH0zg41",
-            name: "Ujwal P",
-            role: "Front End - Dev",
-            description:
-                "Part of the From End Dev Development Team on the mission of creating intuitive and visually stunning user experiences that immerse the user into the project",
-            insta: "https://www.instagram.com/ujwalp31/",
-            github: "https://github.com/ujwalp198",
-            linkdin: "https://www.linkedin.com/in/ujwal-p-88834b289/",
-            timeline: [
-                        {year: "Till Date", role: "Front End - Dev"}
+                        {year: "2024", role: "Beta CP"}
                       ]
         },
         {
@@ -91,7 +53,7 @@ const Teamcodex24 = ({openMemCard}:any) => {
             github: "https://github.com/Rohinireddie",
             linkdin: "https://www.linkedin.com/in/gudibandi-rohini-reddy-566426296",
             timeline: [
-                        {year: "Till Date", role: "Back End - Dev"}
+                        {year: "2024", role: "Back End - Dev"}
                       ]
         },
         {
@@ -99,12 +61,12 @@ const Teamcodex24 = ({openMemCard}:any) => {
             name: "Sahithi",
             role: "Logistics Officer",
             description:
-                "The one who manages all the Logistical requirements and Clerical work along with coordinating and optimizing the movement of goods and resources that's necessary",
+            "The one who manages all the Logistical requirements and Clerical work along with coordinating and optimizing the movement of goods and resources that's necessary",
             insta: "https://www.instagram.com/sahi_thi.06/",
             github: "https://github.com/Sahithi932",
             linkdin: "https://www.linkedin.com/in/sahithi-g-865545293/",
             timeline: [
-                        {year: "Till Date", role: "Logistics Officer"}
+                        {year: "2024", role: "Logistics Officer"}
                       ]
         },
         {
@@ -117,7 +79,7 @@ const Teamcodex24 = ({openMemCard}:any) => {
             github: "https://github.com/Maruthiraam",
             linkdin: "https://www.linkedin.com/in/hare-shri-raam-n-b24b7031b/",
             timeline: [
-                        {year: "Till Date", role: "PR & Marketing Officer"}
+                        {year: "2024", role: "PR & Marketing Officer"}
                       ]
         },
     ];

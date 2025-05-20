@@ -6,6 +6,7 @@ import Teamcodex21 from "@/components/proud_alumni";
 import Teamcodex22 from "@/components/team_codex22";
 import Teamcodex23 from "@/components/team_codex23";
 import Teamcodex24 from "@/components/team_codex24";
+import Teamcodex25 from "@/components/team_codex25";
 import Member_card from '@/components/member_card';
 
 interface TimelineItem {
@@ -50,10 +51,14 @@ const members = () => {
             </div>
             <div className="text-right text-[1.2vw] text-black items-flex justify-center py-5 px-5">
                 <p>
+                    <button className="bg-custom-gradient hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full m-2" onClick={() => document.getElementById('batch24')?.scrollIntoView({ behavior: 'smooth' })}>v.4.0</button>
                     <button className="bg-custom-gradient hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full m-2" onClick={() => document.getElementById('batch23')?.scrollIntoView({ behavior: 'smooth' })}>v.3.0</button>
                     <button className="bg-custom-gradient hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full m-2" onClick={() => document.getElementById('batch22')?.scrollIntoView({ behavior: 'smooth' })}>v.2.0</button>
                     <button className="bg-custom-gradient hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full m-2" onClick={() => document.getElementById('batch21')?.scrollIntoView({ behavior: 'smooth' })}>v.1.0</button>
                 </p>
+            </div>
+            <div id="batch25">
+                <Teamcodex25 openMemCard = {openMemCard}/>
             </div>
             <div id="batch24">
                 <Teamcodex24 openMemCard = {openMemCard}/>

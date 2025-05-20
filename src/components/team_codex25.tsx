@@ -17,19 +17,6 @@ const Teamcodex25 = ({openMemCard}:any) => {
                       ]
         },
         {
-            image: "https://drive.google.com/uc?export=view&id=1PIO3KB60NLBRX5PpaUc9E646k8BRgWsZ",
-            name: "Sai Anudra",
-            role: "Front End - Lead",
-            description:
-                "Incharge of creating intuitive and visually stunning user experiences that immerse the user into the project",
-            insta: "https://www.instagram.com/anu_8807_/",
-            github: "https://github.com/anudra",
-            linkdin: "#",
-            timeline: [
-                        {year: "Till Date", role: "Front End - Lead"}
-                      ]
-        },
-        {
             image: "https://drive.google.com/uc?export=view&id=1ud-eYntIkQir7XN24FPwTPlva8QkRT_A",
             name: "Rohini Reddy",
             role: "Non-Tech Admin",
@@ -41,6 +28,20 @@ const Teamcodex25 = ({openMemCard}:any) => {
                         {year: "Till date", role: "Non-Tech Admin"}
                       ]
         },
+        {
+            image: "https://drive.google.com/uc?export=view&id=1PIO3KB60NLBRX5PpaUc9E646k8BRgWsZ",
+            name: "Sai Anudra",
+            role: "Front End - Lead",
+            description:
+                "Incharge of creating intuitive and visually stunning user experiences that immerse the user into the project",
+            insta: "https://www.instagram.com/anu_8807_/",
+            github: "https://github.com/anudra",
+            linkdin: "https://www.linkedin.com/in/codex-gitam-9866a1290",
+            timeline: [
+                        {year: "Till Date", role: "Front End - Lead"}
+                      ]
+        },
+        
         {
             image: "https://user-images.githubusercontent.com/141537855/258641876-a9a46010-3ae8-4963-bc1e-8641cb917724.png",
             name: "Sravya",
@@ -56,14 +57,14 @@ const Teamcodex25 = ({openMemCard}:any) => {
                       ]
         },
         {
-            image: "#",
+            image: "https://drive.google.com/uc?export=view&id=1-1GebXFSJHjfluM6G9Y1tP1ckYkHMEYt",
             name: "Sudeep reddy",
             role: "Back End - Dev",
             description:
                 "Part of the Back End Dev Development Team on the mission of handling the backbone of the project, the database and server",
-            insta: "#",
-            github: "#",
-            linkdin: "#",
+            insta: "https://www.instagram.com/codex_gitam/",
+            github: "https://github.com/alwayssudeepreddy/",
+            linkdin: "https://www.linkedin.com/in/sudeep-reddy-kurmai/",
             timeline: [
                         {year: "Till Date", role: "Back End - Dev"}
                       ]
