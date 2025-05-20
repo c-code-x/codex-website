@@ -4,6 +4,7 @@ import "../app/globals.css";
 import { usePathname } from "next/navigation";
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
+import { SessionProvider } from "next-auth/react";
 
 //meta tags
 export const meta: Metadata = {
@@ -23,15 +24,17 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     return (
         <html lang="en">
             <body>
-                {shouldApplyLayout ? (
-                    <>
-                        <NavBar />
-                        {children}
-                        <Footer />
-                    </>
-                ) : (
-                    <>{ children }</>
-                )}
+                <SessionProvider>
+                    {shouldApplyLayout ? (
+                        <>
+                            <NavBar />
+                            {children}
+                            <Footer />
+                        </>
+                    ) : (
+                        <>{children}</>
+                    )}
+                </SessionProvider>
             </body>
         </html>
     );
