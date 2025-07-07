@@ -141,6 +141,14 @@ export default function Navbar() {
               </button>
               {dropdownOpen && (
                 <div className="absolute right-0 mt-2 w-40 bg-white text-black rounded shadow-lg z-50">
+                  <a
+                    className={`mx-3 ${
+                      usePathname() === "/user-dashboard" ? "border-b-2 border-b-white" : ""
+                    } hover:border-b-2 hover:border-b-white`}
+                    href="/user-dashboard"
+                  >
+                    Your Profile
+                  </a>
                   <button
                     onClick={() => signOut({ callbackUrl: "/" })}
                     className="block w-full text-left px-4 py-2 hover:bg-gray-100"
