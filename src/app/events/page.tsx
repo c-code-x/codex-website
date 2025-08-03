@@ -162,13 +162,11 @@ export default function EventsPage() {
       {/* Main Content */}
       <div className="max-w-6xl mx-auto px-4 py-8">
         {/* Upcoming Events Carousel */}
-        {upcomingEvents.length > 0 && (
-          <UpcomingEventsCarousel
+        <UpcomingEventsCarousel
             events={upcomingEvents}
             registeredEvents={registeredEvents}
             onRegister={handleRegister}
           />
-        )}
 
         {/* Past Events Section with Admin Controls */}
         <div className="mb-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">

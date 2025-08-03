@@ -28,8 +28,36 @@ export default function UpcomingEventsCarousel({
 
   if (!events.length) {
     return (
-      <div className="bg-white rounded-lg shadow-sm p-8 text-center mb-8">
-        <p className="text-gray-600">No upcoming events found.</p>
+      <div className="bg-white rounded-lg shadow-sm mb-8 overflow-hidden">
+        {/* header */}
+        <div className="bg-sky-500 text-white text-center py-3">
+          <h2 className="text-lg font-semibold">Upcoming Event</h2>
+        </div>
+
+        {/* No events message */}
+        <div className="p-4 text-center">
+          <div className="flex flex-col items-center justify-center py-4">
+            {/* Image placeholder */}
+            <svg className="w-10 h-10 text-gray-400 mb-2"
+              xmlns="http://www.w3.org/2000/svg" fill="none" 
+              viewBox="0 0 24 24" stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+                d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 00-2 2v12a2 2 0 002 2z"
+              />
+            </svg>
+            <h2 className="text-xl font-semibold text-gray-700 mb-4">
+              No Upcoming Events Yet
+            </h2>
+            <h4 className="text-gray-500 text-sm mb-1">
+              Keep looking for more updates. We're planning new things!
+            </h4>
+            <h4 className="text-cyan-600 text-sm font-medium">
+              Dive through our past events for inspiration
+            </h4>
+          </div>
+        </div>
       </div>
     );
   }

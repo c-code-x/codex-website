@@ -35,16 +35,19 @@ export default function Footer() {
                             <Link href="/underconstruction">Domains</Link>
                         </div>
                         <div>
-                            <Link href="/underconstruction">members</Link>
+                            <Link href="/members">members</Link>
                         </div>
                         <div>
-                            <Link href="/underconstruction">Resources</Link>
+                            <Link href="/events">Events</Link>
+                        </div>
+                        <div>
+                            <Link href="/resources">Resources</Link>
                         </div>
                     </div>
                     <div className="middle box">
                         <div className="topic">Services</div>
                         <div>
-                            <Link href="/underconstruction">Resources</Link>
+                            <Link href="/resources/cp">Competitive Programming</Link>
                         </div>
                         <div>
                             <Link href="/underconstruction">Practice typing</Link>
