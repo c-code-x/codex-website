@@ -2,7 +2,7 @@ import { useState } from "react";
 import Image from "next/image";
 
 interface Event {
-  event_id: number;
+  event_id: string;
   event_name: string;
   event_date: string;
   duration: number;
@@ -21,8 +21,8 @@ export default function UpcomingEventsCarousel({
   onRegister,
 }: {
   events: Event[];
-  registeredEvents: number[];
-  onRegister: (event_id: number, event_name: string) => void;
+  registeredEvents: string[];
+  onRegister: (event_id: string, event_name: string) => void;
 }) {
   const [currentIndex, setCurrentIndex] = useState(0);
 

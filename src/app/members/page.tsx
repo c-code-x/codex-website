@@ -49,13 +49,13 @@ const members = () => {
             <div className={"bg-custom-gradient text-center pt-[150px] pb-[50px] text-[1.2vw] text-white"}>
                 <h2 className="text-3xl">Meet our people</h2>
             </div>
-            <div className="text-right text-[1.2vw] text-black items-flex justify-center py-5 px-5">
-                <p>
-                    <button className="bg-custom-gradient hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full m-2" onClick={() => document.getElementById('batch24')?.scrollIntoView({ behavior: 'smooth' })}>v.4.0</button>
-                    <button className="bg-custom-gradient hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full m-2" onClick={() => document.getElementById('batch23')?.scrollIntoView({ behavior: 'smooth' })}>v.3.0</button>
-                    <button className="bg-custom-gradient hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full m-2" onClick={() => document.getElementById('batch22')?.scrollIntoView({ behavior: 'smooth' })}>v.2.0</button>
-                    <button className="bg-custom-gradient hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full m-2" onClick={() => document.getElementById('batch21')?.scrollIntoView({ behavior: 'smooth' })}>v.1.0</button>
-                </p>
+            <div className="text-right py-5 px-5">
+                <div className="w-full flex flex-wrap justify-end items-center py-5 px-5 gap-2">
+                    <button className="bg-custom-gradient hover:bg-blue-700 text-white font-bold py-1 px-3 sm:py-2 sm:px-4 text-xs sm:text-sm md:text-base rounded-full transition-all" onClick={() => document.getElementById('batch24')?.scrollIntoView({ behavior: 'smooth' })}>v.4.0</button>
+                    <button className="bg-custom-gradient hover:bg-blue-700 text-white font-bold py-1 px-3 sm:py-2 sm:px-4 text-xs sm:text-sm md:text-base rounded-full transition-all" onClick={() => document.getElementById('batch23')?.scrollIntoView({ behavior: 'smooth' })}>v.3.0</button>
+                    <button className="bg-custom-gradient hover:bg-blue-700 text-white font-bold py-1 px-3 sm:py-2 sm:px-4 text-xs sm:text-sm md:text-base rounded-full transition-all" onClick={() => document.getElementById('batch22')?.scrollIntoView({ behavior: 'smooth' })}>v.2.0</button>
+                    <button className="bg-custom-gradient hover:bg-blue-700 text-white font-bold py-1 px-3 sm:py-2 sm:px-4 text-xs sm:text-sm md:text-base rounded-full transition-all" onClick={() => document.getElementById('batch21')?.scrollIntoView({ behavior: 'smooth' })}>v.1.0</button>
+                </div>
             </div>
             <div id="batch25">
                 <Teamcodex25 openMemCard = {openMemCard}/>

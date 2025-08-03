@@ -4,11 +4,11 @@ import { useRouter } from "next/navigation";
 import UpcomingEventsCarousel from "@/components/UpEventsCarousel";
 import PastEventsList from "@/components/PastEventsList";
 import AdminEventControls from "@/components/AdminEventControls";
-import memory from "public/assets/memories/mem_event1.png";
+//import memory from "public/assets/memories/mem_event1.png";
 import Image from "next/image";
 
 interface Event {
-  event_id: number;
+  event_id: string;
   event_name: string;
   event_date: string;
   duration: number;
@@ -21,7 +21,7 @@ interface Event {
 
 export default function EventsPage() {
   const [events, setEvents] = useState<Event[]>([]);
-  const [registeredEvents, setRegisteredEvents] = useState<number[]>([]);
+  const [registeredEvents, setRegisteredEvents] = useState<string[]>([]);
   const [isAdmin, setIsAdmin] = useState(false);
   const [loading, setLoading] = useState(true);
   const router = useRouter();
@@ -91,7 +91,7 @@ export default function EventsPage() {
   }, []);
 
   // Handle event registration
-  const handleRegister = async (event_id: number, event_name: string) => {
+  const handleRegister = async (event_id: string, event_name: string) => {
     try {
       const response = await fetch("/api/event-registration", {
         method: "POST",
@@ -104,7 +104,7 @@ export default function EventsPage() {
         alert("Registration successful!");
       } else if(response.status === 401) {
         if (window.confirm("Not logged in..!! Please log in to register for events. Click OK to go to login.")) {
-          router.push("/");
+          router.push("/login");
         }
       } else {
         alert("Registration failed. Please try again.");
@@ -133,7 +133,7 @@ export default function EventsPage() {
     return (
       <div className="bg-sky-50 min-h-screen">
         <div className="relative w-full h-65 md:h-56">
-            <Image src={memory} alt="Events Memory" fill style={{ objectFit: "cover" }} className="z-0"/>
+            <Image src="/assets/memories/mem_event1.png" alt="Events Memory" fill style={{ objectFit: "cover" }} className="z-0"/>
             <div className="absolute inset-0 bg-black bg-opacity-40 flex flex-col items-center justify-center z-10">
                 <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">All Events</h1>
             </div>
@@ -152,7 +152,7 @@ export default function EventsPage() {
     <div className="bg-sky-50 min-h-screen">
       {/* Header */}
         <div className="relative w-full h-65 md:h-56">
-            <Image src={memory} alt="Events Memory" fill style={{ objectFit: "cover" }} className="z-0"/>
+            <Image src="/assets/memories/mem_event1.png" alt="Events Memory" fill style={{ objectFit: "cover" }} className="z-0"/>
             <div className="absolute inset-0 bg-black bg-opacity-40 flex flex-col items-center justify-center z-10">
                 <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">All Events</h1>
                 <p className="text-white text-lg opacity-90">Discover and join our exciting events</p>

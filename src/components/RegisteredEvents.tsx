@@ -22,8 +22,9 @@ export default function RegisteredEvents() {
       try {
         const res = await fetch("/api/event-registration");
         const data = await res.json();
+        const now = new Date();
         const events = (data.events || [])
-          .filter((event: any) => event.visibility === true)
+          .filter((event: any) => event.visibility === true && new Date(event.event_date) >= now)
           .map((event: any) => ({
             event_id: event.event_id,
             event_name: event.event_name,

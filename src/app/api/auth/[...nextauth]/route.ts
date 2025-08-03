@@ -60,10 +60,15 @@ export const authOptions: NextAuthOptions = {
           session.user.rollNo = rows[0].roll_no;
           session.user.semester = rows[0].semester;
           session.user.branch = rows[0].branch;
+          session.user.image=rows[0].profile_pic;
         }
       }
       return session;
     },
+  },
+  pages: {
+    // after any sign-in / sign-up error, redirect here:
+    error: "/auth/error",
   },
   secret: process.env.NEXTAUTH_SECRET,
 };
