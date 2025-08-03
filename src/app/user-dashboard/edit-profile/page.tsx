@@ -48,23 +48,27 @@ export default function EditProfile() {
     semester: "",
     branch: "",
     college_name: "",
-    profile_pic: "/Default.svg", // default
+    profile_pic: "/Default.svg",
   });
 
+  const [initialData, setInitialData] = useState({});
+  const [hasChanges, setHasChanges] = useState(false);
   const [showAvatarSelector, setShowAvatarSelector] = useState(false);
   const [loading, setLoading] = useState(true);
 
+  // Data Fetching Effect
   useEffect(() => {
     const fetchData = async () => {
       try {
         const res = await fetch("/api/user-profile", { cache: "no-store" });
         if (!res.ok) throw new Error("Failed to fetch");
         const data = await res.json();
-        setFormData((prev) => ({
-          ...prev,
+        const profileData = {
           ...data,
           profile_pic: data.profile_pic || "avater/default.svg",
-        }));
+        };
+        setFormData(profileData);
+        setInitialData(profileData);
       } catch (err) {
         console.error("Failed to fetch profile data", err);
       } finally {
@@ -75,7 +79,17 @@ export default function EditProfile() {
     fetchData();
   }, []);
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  // Change Detection Effect
+  useEffect(() => {
+    if (JSON.stringify(formData) !== JSON.stringify(initialData)) {
+      setHasChanges(true);
+    } else {
+      setHasChanges(false);
+    }
+  }, [formData, initialData]);
+
+  // Event Handlers
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
     setFormData((prev) => ({
       ...prev,
       [e.target.name]: e.target.value,
@@ -83,6 +97,8 @@ export default function EditProfile() {
   };
 
   const handleSubmit = async () => {
+    if (!hasChanges) return;
+
     try {
       const updatedData = {
         user_name: formData.user_name,
@@ -95,18 +111,13 @@ export default function EditProfile() {
 
       const res = await fetch("/api/user-profile", {
         method: "PUT",
-        headers: {
-          "Content-Type": "application/json",
-        },
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify(updatedData),
       });
 
       if (!res.ok) throw new Error("Update failed");
-
       await update?.();
-
       alert("Profile updated successfully!");
-
       router.push("/user-dashboard");
     } catch (err) {
       console.error(err);
@@ -119,6 +130,7 @@ export default function EditProfile() {
     setShowAvatarSelector(false);
   };
 
+  // SECTION: Loading State UI
   if (loading) {
     return (
       <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-indigo-50 flex items-center justify-center">
@@ -130,8 +142,10 @@ export default function EditProfile() {
     );
   }
 
+  // SECTION: Main Component
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-indigo-50 font-inter overflow-x-hidden">
+      
       {/* Background decoration */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-20 left-20 w-72 h-72 bg-blue-100/60 rounded-full blur-3xl"></div>
@@ -239,25 +253,36 @@ export default function EditProfile() {
 
                 <div className="space-y-2">
                   <label className="text-gray-500 text-sm font-semibold uppercase tracking-wider">Branch</label>
-                  <input
-                    type="text"
+                  <select
                     name="branch"
                     value={formData.branch}
                     onChange={handleChange}
                     className="w-full px-4 py-3 rounded-xl border border-gray-200 bg-white hover:border-sky-300 focus:border-sky-400 focus:ring-2 focus:ring-sky-100 transition-all duration-200 font-medium"
-                    placeholder="Enter your branch"
-                  />
+                    required
+                  >
+                    <option value="" disabled>Select your branch</option>
+                    <option value="CSE">CSE</option>
+                    <option value="ECE">ECE</option>
+                    <option value="MECH">MECH</option>
+                    <option value="EEE">EEE</option>
+                    <option value="CIVIL">CIVIL</option>
+                    <option value="IT">Business</option>
+                    <option value="Other">Humanities</option>
+                    <option value="Other">Science</option>
+                  </select>
                 </div>
 
                 <div className="space-y-2">
                   <label className="text-gray-500 text-sm font-semibold uppercase tracking-wider">Semester</label>
                   <input
-                    type="text"
+                    type="number"
                     name="semester"
                     value={formData.semester}
                     onChange={handleChange}
                     className="w-full px-4 py-3 rounded-xl border border-gray-200 bg-white hover:border-sky-300 focus:border-sky-400 focus:ring-2 focus:ring-sky-100 transition-all duration-200 font-medium"
                     placeholder="Enter your semester"
+                    min="1"
+                    max="8"
                   />
                 </div>
 
@@ -290,7 +315,8 @@ export default function EditProfile() {
                 <button
                   type="button"
                   onClick={handleSubmit}
-                  className="px-8 py-3 bg-gradient-to-r from-sky-300 to-cyan-300 hover:from-sky-400 hover:to-cyan-300 text-white font-semibold rounded-xl transition-all duration-200 transform hover:scale-105 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl"
+                  disabled={!hasChanges}
+                  className="px-8 py-3 bg-gradient-to-r from-sky-300 to-cyan-300 hover:from-sky-400 hover:to-cyan-300 text-white font-semibold rounded-xl transition-all duration-200 transform hover:scale-105 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl disabled:opacity-60 disabled:cursor-not-allowed"
                 >
                   <Image src="/save.svg" alt="Save" width={17} height={17} />
                   Save Profile
@@ -300,6 +326,6 @@ export default function EditProfile() {
           </div>
         </div>
       </div>
-    </div>
+      </div>
   );
 }
