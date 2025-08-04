@@ -2,7 +2,7 @@ import { useState } from "react";
 import Image from "next/image";
 
 interface Event {
-  event_id: number;
+  event_id: string;
   event_name: string;
   event_date: string;
   duration: number;

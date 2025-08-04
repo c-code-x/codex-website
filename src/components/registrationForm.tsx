@@ -10,7 +10,8 @@ type RegistrationFormProps = {
   username: string;
   collegename: string;
   error?: string;
-  onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
+  // FIX: Updated type to allow for select elements
+  onChange: (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => void;
   handleSubmit: (event: React.FormEvent<HTMLFormElement>) => void;
 };
 
@@ -95,23 +96,36 @@ export default function RegistrationForm({
                 className="w-full py-4 px-5 mb-5 text-base text-gray-900 bg-gray-200 rounded-lg border-2 border-white focus:border-blue-500 outline-none"
                 required
               />
+              {/* CHANGE: Semester input is now type="number" */}
               <input
-                type="text"
+                type="number"
                 name="semester"
                 placeholder="Semester"
                 value={semester}
                 onChange={onChange}
                 className="w-full py-4 px-5 mb-5 text-base text-gray-900 bg-gray-200 rounded-lg border-2 border-white focus:border-blue-500 outline-none"
+                min="1"
+                max="8"
                 required
               />
-              <input
-                type="text"
+              {/* CHANGE: Branch input is now a dropdown */}
+              <select
                 name="branch"
-                placeholder="Branch"
                 value={branch}
                 onChange={onChange}
                 className="w-full py-4 px-5 mb-5 text-base text-gray-900 bg-gray-200 rounded-lg border-2 border-white focus:border-blue-500 outline-none"
-              />
+                required
+              >
+                <option value="" disabled>Select your branch</option>
+                <option value="CSE">CSE</option>
+                <option value="ECE">ECE</option>
+                <option value="MECH">MECH</option>
+                <option value="EEE">EEE</option>
+                <option value="CIVIL">CIVIL</option>
+                <option value="IT">Business</option>
+                <option value="Other">Humanities</option>
+                <option value="Other">Science</option>
+              </select>
               <input
                 type="text"
                 name="college"

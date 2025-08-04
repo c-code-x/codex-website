@@ -6,7 +6,7 @@ const Teamcodex24 = ({openMemCard}:any) => {
         {
             image: "https://drive.google.com/uc?export=view&id=1aBrpRJjXpI70rguzlv6pgRpEShXMPM3A",
             name: "Amit Sabnis",
-            role: "Tech Admin",
+            role: "Non-Tech Admin",
             description:"The one responsible for managing the team, provides technical guaidance and support to the team",
             insta: "https://www.instagram.com/amit.sabnis/",
             github: "https://github.com/amitsabnis2004",
@@ -14,34 +14,35 @@ const Teamcodex24 = ({openMemCard}:any) => {
             timeline: [
                         {year: "2023", role: "Media Manager"},
                         {year: "2023", role: "Competitive Programming Team"},
-                        {year: "2024", role: "Tech Admin"}
+                        {year: "2024", role: "Tech Admin"},
+                        {year: "Till Date", role: "Non-Tech Admin"}
                       ]
         },
         {
             image: "https://drive.google.com/uc?export=view&id=1PIO3KB60NLBRX5PpaUc9E646k8BRgWsZ",
             name: "Sai Anudra",
-            role: "Front End - Lead",
+            role: "Tech Admin",
             description:
                 "Incharge of creating intuitive and visually stunning user experiences that immerse the user into the project",
             insta: "https://www.instagram.com/anu_8807_/",
             github: "https://github.com/anudra",
             linkdin: "#",
             timeline: [
-                        {year: "2024", role: "Front End - Lead"}
+                        {year: "2024", role: "Front End - Lead"},
+                        {year: "Till Date", role: "Tech Admin"}
                       ]
         },
         {
-            image: "https://user-images.githubusercontent.com/141537855/258641876-a9a46010-3ae8-4963-bc1e-8641cb917724.png",
-            name: "Sravya",
-            role: "Beta Competitive Programmer",
+            image: "https://drive.google.com/uc?export=view&id=1-1GebXFSJHjfluM6G9Y1tP1ckYkHMEYt",
+            name: "Sudeep Reddy",
+            role: "Back End - Dev",
             description:
-            "Elevates competitive programming with beta-level expertise, employing Codex for strategic coding and problem-solving.",
-            insta: "https://www.instagram.com/p_sravya__75/",
-            github: "https://github.com/Sravya1706",
-            linkdin: "https://www.linkedin.com/in/sravya-patham-b31254247/",
+                "Part of the Back End Dev Development Team on the mission of handling the backbone of the project, the database and server",
+            insta: "https://www.instagram.com/codex_gitam/",
+            github: "https://github.com/alwayssudeepreddy/",
+            linkdin: "https://www.linkedin.com/in/sudeep-reddy-kurmai/",
             timeline: [
-                        {year:"2023", role: "Delta CP"},
-                        {year: "2024", role: "Beta CP"}
+                        {year: "Till Date", role: "Back End - Dev"}
                       ]
         },
         {

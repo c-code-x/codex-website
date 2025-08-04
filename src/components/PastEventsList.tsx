@@ -4,7 +4,7 @@ import FilterSection from "./FilterSection";
 import Pagination from "./Pagination";
 
 interface Event {
-  event_id: number;
+  event_id: string;
   event_name: string;
   event_date: string;
   duration: number;
@@ -19,7 +19,7 @@ interface Event {
 
 interface PastEventsListProps {
   events: Event[];
-  registeredEvents: number[];
+  registeredEvents: string[];
 }
 
 export default function PastEventsList({ events, registeredEvents }: PastEventsListProps) {

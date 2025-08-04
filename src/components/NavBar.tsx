@@ -13,7 +13,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
-  const sidebarRef = useRef(null);
+  const sidebarRef = useRef<HTMLDivElement>(null);
 
   const toggleSidebar = () => {
     setOpen((prevOpen) => !prevOpen);
@@ -33,7 +33,8 @@ export default function Navbar() {
 
   const handleClickOutside = (event: MouseEvent) => {
     const navbarButton = document.querySelector(".navbar-button");
-    if (navbarButton && !navbarButton.contains(event.target as Node)) {
+    if (navbarButton && !navbarButton.contains(event.target as Node) &&
+        sidebarRef.current && !sidebarRef.current.contains(event.target as Node)) {
       setOpen(false);
     }
   };
@@ -249,6 +250,13 @@ export default function Navbar() {
                 </button>
                 {dropdownOpen && (
                   <div className="mt-2 bg-white text-black rounded shadow-lg">
+                    <a
+                      href="/user-dashboard"
+                      className="block w-full text-left px-4 py-2 hover:bg-gray-200"
+                      onClick={() => setOpen(false)}
+                    >
+                      Your Profile
+                    </a>
                     <button
                       onClick={() => {
                         signOut({ callbackUrl: "/" });

@@ -113,7 +113,7 @@ export default function FilterSection({
         <div className="flex items-center w-full sm:w-auto">
           <input
             type="text"
-            placeholder="Search events..."
+            placeholder="Search past events..."
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
             className="flex-1 sm:w-64 px-3 py-2 border text-gray-800 border-gray-300 rounded-l-md text-sm focus:outline-none focus:ring-2 focus:ring-blue-300 hover:shadow-lg"

@@ -19,9 +19,7 @@
         "bcrypt": "^5.1.0",
         "codex-website": "file:",
         "cors": "^2.8.5",
-        "cypress": "^13.11.0",
         "discord.js": "^14.7.1",
-        "dotenv": "^16.0.3",
         "exceljs": "^4.4.0",
         "joi": "^17.9.1",
         "jsonwebtoken": "^9.0.0",
@@ -42,6 +40,8 @@
         "styled-components.macro": "^1.0.0"
     },
     "devDependencies": {
+        "@cypress/react": "^9.0.1",
+        "@cypress/webpack-dev-server": "^4.1.1",
         "@types/bcrypt": "^5.0.0",
         "@types/cors": "^2.8.17",
         "@types/cypress": "^1.1.3",
@@ -55,6 +55,8 @@
         "@types/uuid": "^10.0.0",
         "@typescript-eslint/eslint-plugin": "^5.57.1",
         "autoprefixer": "^10.4.19",
+        "cypress": "^14.5.3",
+        "dotenv": "^17.2.1",
         "eslint": "^8.37.0",
         "eslint-config-next": "13.1.2",
         "postcss": "^8.4.38",
