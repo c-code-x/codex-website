@@ -4,19 +4,19 @@ import RegistrationForm from '../../src/components/registrationForm';
 // A stateful wrapper to test the controlled component
 const StatefulRegistrationForm = () => {
   const [form, setForm] = React.useState({
-    rollNo: '',
+    roll_no: '',
     semester: '',
     branch: '',
-    username: '',
+    user_name: '',
   });
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
   return (
     <RegistrationForm
-      {...form} collegename="GITAM" onChange={handleChange} handleSubmit={() => {}}
+      {...form} college_name="GITAM" onChange={handleChange} handleSubmit={() => {}}
     />
   );
 };
@@ -25,32 +25,30 @@ const StatefulRegistrationForm = () => {
 describe('<RegistrationForm /> Component Tests', () => {
   
   it('should render all input fields with the provided values', () => {
-    // ... existing code ...
     const props = {
-      rollNo: '12345',
+      roll_no: '12345',
       semester: '5',
       branch: 'CSE',
-      username: 'testuser',
-      collegename: 'GITAM',
+      user_name: 'testuser',
+      college_name: 'GITAM',
       onChange: () => {},
       handleSubmit: () => {},
     };
 
     cy.mount(<RegistrationForm {...props} />);
 
-    cy.get('input[name="username"]').should('have.value', 'testuser');
-    cy.get('input[name="rollNo"]').should('have.value', '12345');
+    cy.get('input[name="user_name"]').should('have.value', 'testuser');
+    cy.get('input[name="roll_no"]').should('have.value', '12345');
+    cy.get('select[name="branch"]').should('have.value', 'CSE');
     cy.contains('button', 'Complete Profile').should('be.visible');
   });
 
-  // This is the corrected test
-  it('should allow a user to type into the input fields', () => {
+  it('should allow a user to type into the input fields and select from dropdown', () => {
     cy.mount(<StatefulRegistrationForm />);
 
-    // Now Cypress can type and the state will update, changing the input's value
-    cy.get('input[name="username"]').type('new_user').should('have.value', 'new_user');
-    cy.get('input[name="rollNo"]').type('54321').should('have.value', '54321');
+    cy.get('input[name="user_name"]').type('new_user').should('have.value', 'new_user');
+    cy.get('input[name="roll_no"]').type('54321').should('have.value', '54321');
     cy.get('input[name="semester"]').type('6').should('have.value', '6');
-    cy.get('input[name="branch"]').type('ECE').should('have.value', 'ECE');
+    cy.get('select[name="branch"]').select('ECE').should('have.value', 'ECE');
   });
 });

@@ -49,7 +49,7 @@ export async function PUT(req: NextRequest) {
       `UPDATE users
        SET user_name = $1, roll_no = $2, semester = $3, branch = $4, college_name = $5, profile_pic = $6
        WHERE user_email = $7`,
-      [user_name, roll_no, semester, branch, college_name, profile_pic, session.user.email]
+      [user_name, roll_no, semester, branch, "GITAM", profile_pic, session.user.email]
     );
 
     // Check if the user existed and was updated

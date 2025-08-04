@@ -154,11 +154,11 @@ export default function EditProfile() {
 
       <div className="relative z-10 px-4 sm:px-6 py-6 sm:py-10 w-full max-w-full">
         {/* Header */}
-        <div className="text-left mb-6 sm:mb-8">
+        <div className="text-left mb-6 sm:mb-8 mt-10">
           <h1 className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4 text-3xl sm:text-5xl font-bold text-gray-900 mb-2">
             <span>Edit Profile</span>
             <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-r from-sky-300 to-cyan-300 rounded-xl flex items-center justify-center shadow-lg">
-              <Image src="/person.svg" alt="Person Icon" width={20} height={20} className="filter invert sm:w-6 sm:h-6" />
+              <Image src="/person.svg" alt="Person Icon" width={20} height={20} className="sm:w-6 sm:h-6" />
             </div>
           </h1>
           <p className="text-gray-600 text-base sm:text-lg font-medium">
@@ -292,9 +292,8 @@ export default function EditProfile() {
                     type="text"
                     name="college_name"
                     value={formData.college_name}
-                    onChange={handleChange}
+                    disabled
                     className="w-full px-4 py-3 rounded-xl border border-gray-200 bg-white hover:border-sky-300 focus:border-sky-400 focus:ring-2 focus:ring-sky-100 transition-all duration-200 font-medium"
-                    placeholder="Enter your college name"
                   />
                 </div>
               </div>
@@ -316,7 +315,7 @@ export default function EditProfile() {
                   type="button"
                   onClick={handleSubmit}
                   disabled={!hasChanges}
-                  className="px-8 py-3 bg-gradient-to-r from-sky-300 to-cyan-300 hover:from-sky-400 hover:to-cyan-300 text-white font-semibold rounded-xl transition-all duration-200 transform hover:scale-105 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl disabled:opacity-60 disabled:cursor-not-allowed"
+                  className="px-8 py-3 bg-custom-gradient hover:from-sky-400 text-white font-semibold rounded-xl transition-all duration-200 transform hover:scale-105 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl disabled:opacity-60 disabled:cursor-not-allowed"
                 >
                   <Image src="/save.svg" alt="Save" width={17} height={17} />
                   Save Profile

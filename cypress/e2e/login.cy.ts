@@ -1,3 +1,5 @@
+export {}
+
 describe('Login Page UI', () => {
   beforeEach(() => {
     cy.visit('/login');

@@ -1,3 +1,5 @@
+export {}
+
 describe('Events Page - Regular User Flow', () => {
   // --- Mock Data ---
   const futureDate = new Date();

@@ -1,3 +1,5 @@
+export {}
+
 describe('API Route: /api/user-profile', () => {
   const regularUserEmail = 'test.user@example.com';
 
