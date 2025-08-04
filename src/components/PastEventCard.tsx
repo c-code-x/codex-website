@@ -86,7 +86,7 @@ export default function PastEventCard({
               className={`px-4 py-1.5 rounded-full text-sm font-medium transition-colors whitespace-nowrap ${
                 isExpanded
                   ? "bg-gray-200 text-gray-800 hover:bg-gray-300"
-                  : "bg-cyan-400 text-white hover:bg-cyan-500"
+                  : "bg-custom-gradient opacity-75 text-white hover:bg-cyan-100"
               }`}
             >
               {isExpanded ? "Hide Details" : "Know More"}

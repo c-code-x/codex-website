@@ -11,12 +11,16 @@ const PicsThing = () => {
   const [imageIndex, setImageIndex] = useState(0);
 
   useEffect(() => {
-    setInterval(() => {
+    const intervalId = setInterval(() => {
       setImageIndex(prev => (
         prev === images.length - 1 ? 0 : prev + 1
       ));
     }, 3000);
-  },[])
+    // Return a cleanup function
+    return () => {
+      clearInterval(intervalId);
+    };
+  },[images.length]);
   return (
     images[imageIndex]
   );

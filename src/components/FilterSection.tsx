@@ -52,7 +52,7 @@ export default function FilterSection({
     <div className="relative">
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="bg-cyan-400 text-white font-semibold px-4 py-2 rounded-md text-sm hover:shadow-lg transition-colors flex items-center gap-2 min-w-32"
+        className="bg-custom-gradient opacity-80 text-white font-semibold px-4 py-2 rounded-md text-sm hover:shadow-lg transition-colors flex items-center gap-2 min-w-32"
       >
         <span className="truncate">
           {options.find(opt => opt.value === value)?.label || placeholder}
@@ -87,7 +87,7 @@ export default function FilterSection({
   );
 
   return (
-    <div className="bg-white rounded-lg shadow-sm p-4 mb-6">
+    <div className="bg-white rounded-lg shadow-md p-4 mb-6">
       <div className="flex flex-col sm:flex-row gap-4 items-start sm:items-center justify-between">
         {/* Left side - Filters */}
         <div className="flex flex-wrap gap-3">
@@ -118,8 +118,8 @@ export default function FilterSection({
             onChange={(e) => setSearchTerm(e.target.value)}
             className="flex-1 sm:w-64 px-3 py-2 border text-gray-800 border-gray-300 rounded-l-md text-sm focus:outline-none focus:ring-2 focus:ring-blue-300 hover:shadow-lg"
           />
-          <button className="bg-gray-100 border border-l-0 border-gray-300 rounded-r-md px-3 py-2 hover:bg-gray-200 transition-colors">
-            <svg className="w-4 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <button className="bg-cyan-700 opacity-80 border border-l-0 border-gray-300 rounded-r-md px-3 py-2 hover:bg-cyan-600 transition-colors">
+            <svg className="w-4 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
             </svg>
           </button>

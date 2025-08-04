@@ -30,7 +30,7 @@ export default function UpcomingEventsCarousel({
     return (
       <div className="bg-white rounded-lg shadow-sm mb-8 overflow-hidden">
         {/* header */}
-        <div className="bg-sky-500 text-white text-center py-3">
+        <div className="bg-custom-gradient text-white text-center py-3">
           <h2 className="text-lg font-semibold">Upcoming Event</h2>
         </div>
 
@@ -51,7 +51,7 @@ export default function UpcomingEventsCarousel({
               No Upcoming Events Yet
             </h2>
             <h4 className="text-gray-500 text-sm mb-1">
-              Keep looking for more updates. We're planning new things!
+              Keep looking for more updates. We&apos;re planning new things!
             </h4>
             <h4 className="text-cyan-600 text-sm font-medium">
               Dive through our past events for inspiration
@@ -70,7 +70,7 @@ export default function UpcomingEventsCarousel({
   return (
     <div className="bg-white rounded-lg shadow-sm mb-8 overflow-hidden">
       {/* header */}
-      <div className="bg-sky-500 text-white text-center py-3">
+      <div className="bg-custom-gradient text-white text-center py-3">
         <h2 className="text-lg font-semibold">Upcoming Event</h2>
       </div>
 
@@ -136,17 +136,17 @@ export default function UpcomingEventsCarousel({
               Venue: {currentEvent.venue}
             </div>
             <p className="text-sm/6 text-gray-800 mb-4 line-clamp-3 italic">
-              " {currentEvent.event_description} "
+              &quot; {currentEvent.event_description} &quot;
             </p>
 
             {/* Registration Button */}
             {registeredEvents.includes(currentEvent.event_id) ? (
-              <span className="inline-block bg-green-100 text-green-700 px-4 py-2 rounded-full text-sm font-semibold">
+              <span className="inline-block bg-cyan-100 text-cyan-800 px-4 py-2 rounded-full text-sm font-semibold">
                 ✓ Registered
               </span>
             ) : (
               <button
-                className="bg-cyan-400 text-white px-6 py-2 rounded-full hover:bg-cyan-500 transition-colors font-semibold"
+                className="bg-cyan-700 text-white px-6 py-2 rounded-full hover:bg-cyan-500 transition-colors font-semibold"
                 onClick={() => onRegister(currentEvent.event_id, currentEvent.event_name)}
               >
                 Register Now
