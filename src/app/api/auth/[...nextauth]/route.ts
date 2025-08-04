@@ -22,7 +22,7 @@ export const authOptions: NextAuthOptions = {
   callbacks: {
     async signIn({ user }) {
       const email = user.email?.toLowerCase() ?? "";
-      if (!email.endsWith("@gitam.in")) {
+      if (!email.endsWith("@gitam.in") || !email.endsWith("@student.gitam.edu")) {
         return false;
       }
       try {
