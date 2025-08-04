@@ -1,9 +1,9 @@
 import styles from "../styles/resources.module.css";
-import back from "../assets/backendimg.png";
-import competitive from "../assets/runningimg.png";
-import cone from "../assets/Cones.jpg";
-import wand from "../assets/Wands.jpg";
-import rec from "../assets/Rectangle 33.png";
+import back from "public/assets/backendimg.png";
+import competitive from "public/assets/runningimg.png";
+import cone from "public/assets/Cones.jpg";
+import wand from "public/assets/Wands.jpg";
+import rec from "public/assets/Rectangle 33.png";
 import Resource from "./Resource";
 import Image from "next/image";
 export default function Resources() {

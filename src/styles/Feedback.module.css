@@ -74,7 +74,7 @@
     position: relative;
     border-radius: 0px 14px 14px 0px;
     width: 35%;
-    background-image: url(../assets/gradient143.png);
+    background-image: url(../../public/assets/gradient143.png);
     background-size: cover;
     color: white;
 }
@@ -286,7 +286,7 @@
         position: relative;
         border-radius: 0px 14px 14px 0px;
         width: 45%;
-        background-image: url(../assets/gradient143.png);
+        background-image: url(../../public/assets/gradient143.png);
         background-size: cover;
         color: white;
     }

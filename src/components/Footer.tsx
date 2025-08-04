@@ -2,10 +2,10 @@
 import logo from "../../public/codex_full.png";
 import { useRouter } from "next/router";
 import Image from "next/image";
-import git from "../assets/github-white-svg.svg";
-import disc from "../assets/discord-svg.svg";
-import insta from "../assets/instagram-svg.svg";
-import utube from "../assets/youtube-svg.svg";
+import git from "public/assets/github-white-svg.svg";
+import disc from "public/assets/discord-svg.svg";
+import insta from "public/assets/instagram-svg.svg";
+import utube from "public/assets/youtube-svg.svg";
 import Link from "next/link";
 export default function Footer() {
     const goToTop = () => {
@@ -35,16 +35,19 @@ export default function Footer() {
                             <Link href="/underconstruction">Domains</Link>
                         </div>
                         <div>
-                            <Link href="/underconstruction">members</Link>
+                            <Link href="/members">members</Link>
                         </div>
                         <div>
-                            <Link href="/underconstruction">Resources</Link>
+                            <Link href="/events">Events</Link>
+                        </div>
+                        <div>
+                            <Link href="/resources">Resources</Link>
                         </div>
                     </div>
                     <div className="middle box">
                         <div className="topic">Services</div>
                         <div>
-                            <Link href="/underconstruction">Resources</Link>
+                            <Link href="/resources/cp">Competitive Programming</Link>
                         </div>
                         <div>
                             <Link href="/underconstruction">Practice typing</Link>
