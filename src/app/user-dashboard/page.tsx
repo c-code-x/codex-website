@@ -39,7 +39,7 @@ export default function ProfilePage() {
       setLoading(false);
       router.push("/");
     }
-  }, [status, session]);
+  }, [status, session, router]);
 
   if (status === "loading" || loading) {
     return (
