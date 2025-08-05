@@ -1,3 +1,5 @@
+export {}
+
 describe('Events Page - Admin Flow', () => {
   // --- Mock Data ---
   const futureDate = new Date();
