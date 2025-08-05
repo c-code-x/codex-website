@@ -51,7 +51,7 @@ export const authOptions: NextAuthOptions = {
     async session({ session }) {
       if (session.user?.email) {
         const { rows } = await pool.query(
-          "SELECT USER_NAME, ROLL_NO, SEMESTER, BRANCH FROM USERS WHERE USER_EMAIL = $1",
+          "SELECT USER_NAME, ROLL_NO, SEMESTER, BRANCH, PROFILE_PIC FROM USERS WHERE USER_EMAIL = $1",
           [session.user.email]
         );
         if (rows[0]) {

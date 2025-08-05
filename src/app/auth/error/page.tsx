@@ -1,11 +1,11 @@
 "use client";
 
 import { useSearchParams, useRouter } from "next/navigation";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, Suspense } from "react";
 
 export const dynamic = "force-dynamic";
 
-export default function AuthErrorPage() {
+function ErrorHandler() {
   const params = useSearchParams();
   const error = params?.get("error") || "Unknown";
   const router = useRouter();
@@ -23,4 +23,12 @@ export default function AuthErrorPage() {
   }, [router, error]);
   
   return null;
+}
+
+export default function AuthErrorPage() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <ErrorHandler />
+    </Suspense>
+  );
 }
