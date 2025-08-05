@@ -11,7 +11,6 @@ type RegistrationFormProps = {
   user_name: string;
   college_name: string;
   error?: string;
-  // FIX: Updated type to allow for select elements
   onChange: (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => void;
   handleSubmit: (event: React.FormEvent<HTMLFormElement>) => void;
 };

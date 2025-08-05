@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getServerSession, Session } from "next-auth";
-import { authOptions } from "@/app/api/auth/[...nextauth]/route"; // Ensure this path is correct
+import { authOptions } from "@/lib/auth";
 import { Pool } from "pg";
 import { v4 as uuidv4 } from "uuid";
 import { getSession } from '@/lib/session';
