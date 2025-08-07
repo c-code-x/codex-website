@@ -24,7 +24,7 @@ interface MemCard {
     timeline: TimelineItem[];
 }
 
-const members = () => {
+const Members = () => {
     const [memCard,setMemCard] = useState<MemCard | null>(null);
 
   const openMemCard = (mem:MemCard) => { setMemCard(mem);};
@@ -71,4 +71,4 @@ const members = () => {
         </div>
     );
 };
-export default members;
+export default Members;

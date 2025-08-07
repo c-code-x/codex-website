@@ -1,5 +1,5 @@
 import { getServerSession, Session } from "next-auth";
-import { authOptions } from "@/app/api/auth/[...nextauth]/route";
+import { authOptions } from "@/lib/auth";
 import { NextRequest } from "next/server";
 
 // --- Test-only helper to get a session ---

@@ -1,3 +1,5 @@
+export {}
+
 describe('Events Page - UI and Interaction Flow', () => {
   // --- Mock Data ---
   const pastDate1 = new Date();

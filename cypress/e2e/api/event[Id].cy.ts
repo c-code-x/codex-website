@@ -1,3 +1,5 @@
+export {}
+
 describe('API Route: /api/events/[eventId]', () => {
   const adminUserEmail = 'admin.user@example.com';
   const regularUserEmail = 'test.user@example.com';
