@@ -292,9 +292,8 @@ export default function EditProfile() {
                     type="text"
                     name="college_name"
                     value={formData.college_name}
-                    onChange={handleChange}
+                    disabled
                     className="w-full px-4 py-3 rounded-xl border border-gray-200 bg-white hover:border-sky-300 focus:border-sky-400 focus:ring-2 focus:ring-sky-100 transition-all duration-200 font-medium"
-                    placeholder="Enter your college name"
                   />
                 </div>
               </div>

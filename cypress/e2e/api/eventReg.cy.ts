@@ -1,3 +1,5 @@
+export {}
+
 describe('API Route: /api/event-registration', () => {
   const testUserEmail = 'test.user@example.com';
   const nonExistentUserEmail = 'ghost@example.com';

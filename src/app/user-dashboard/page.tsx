@@ -39,7 +39,7 @@ export default function ProfilePage() {
       setLoading(false);
       router.push("/");
     }
-  }, [status, session]);
+  }, [status, session, router]);
 
   if (status === "loading" || loading) {
     return (
@@ -138,7 +138,9 @@ export default function ProfilePage() {
                   
                   <div className="space-y-2 min-w-0">
                     <p className="text-gray-500 text-xs sm:text-sm font-semibold uppercase tracking-wider">College Name</p>
-                    <p className="text-gray-900 text-base sm:text-lg font-medium break-words">Gitam</p>
+                    <p className="text-gray-900 text-base sm:text-lg font-medium break-words">
+                      {userData?.college_name || "N/A"}
+                    </p>
                   </div>
                   
                   <div className="space-y-2 min-w-0">
